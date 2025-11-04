@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/src/Components/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 500;
+}
+
+/*  TOP BAR SECTION */
+
+.top-bar {
+  background-color: #f8f9fa;
+  color: #333;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 50px;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+  font-family: "Archivo", sans-serif;
+  height: 28px;
+  font-weight: 500;
+  position: sticky !important;
+  top: 0;
+  z-index: 1100;
+}
+
+.top-bar-left,
+.top-bar-center,
+.top-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.top-bar-center {
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+}
+
+.flag-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* 🔹 TopBar Responsive */
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+  .top-bar {
+    padding: 4px 40px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  .top-bar {
+    padding: 4px 30px;
+    font-size: 11px;
+    flex-direction: column;
+    height: auto;
+    gap: 4px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .top-bar {
+    flex-direction: column;
+    padding: 6px 20px;
+    text-align: center;
+    height: auto;
+    font-size: 10px;
+    gap: 5px;
+  }
+
+  .top-bar-center {
+    margin: 3px 0;
+  }
+}
+
+/* ============= 🔹 NAVBAR SECTION 🔹 ============= */
+
+.navbar {
+  position: sticky;
+  top: 28px; /* below top-bar */
+  z-index: 1000;
+  background: #fff;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.logo-img {
+  height: 60px;
+  width: auto;
+  margin-left: -10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-links a:hover {
+  color: #9cb3d4;
+}
+
+/* BUTTON */
+.btn-nav {
+  border: 1.5px solid #000;
+  color: #000;
+  background-color: transparent;
+  padding: 0.6rem 0.8rem;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-nav:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* ============= 🔹 RESPONSIVENESS 🔹 ============= */
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  .navbar .container {
+    width: 95%;
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .nav-links a {
+    font-size: 0.95rem;
+  }
+
+  .btn-nav {
+    padding: 0.55rem 0.8rem;
+    font-size: 0.95rem;
+  }
+
+  .logo-img {
+    height: 55px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 600px) {
+  .navbar .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .btn-nav {
+    padding: 0.5rem 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .logo-img {
+    height: 50px;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+  .navbar .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  .nav-links a {
+    font-size: 0.85rem;
+  }
+
+  .btn-nav {
+    padding: 0.45rem 0.6rem;
+    font-size: 0.85rem;
+  }
+
+  .logo-img {
+    height: 45px;
+  }
+}

@@ -1,13 +1,14 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./LandingPage/Pages/Home";
-import About from "./LandingPage/Pages/About";
-import Portfolio from "./LandingPage/Pages/Portfolio";
-import Career from "./LandingPage/Pages/Career";
-import Blog from "./LandingPage/Pages/Blog";
-import Services from "./LandingPage/Pages/Services";
-import Navbar from "./LandingPage/Navbar";
-import Footer from "./LandingPage/Footer";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Portfolio from "./Pages/Portfolio";
+import Career from "./Pages/Career";
+import Blog from "./Pages/Blog";
+import Services from "./Pages/Services";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+
 
 function App() {
   return (
