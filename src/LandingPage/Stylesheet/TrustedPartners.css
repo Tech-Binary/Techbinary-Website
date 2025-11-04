@@ -1,0 +1,82 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+/* ====== SECTION WRAPPER ====== */
+.trusted-partners {
+  text-align: center;
+padding: 0px 40px 55px;
+  background-color: #fff;
+}
+
+/* ====== TITLE ====== */
+.trusted-title {
+  font-size: 2rem;
+  color: #001f3f; 
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+/* ====== SLIDER WRAPPER ====== */
+.slider-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* ====== EACH SLIDE ====== */
+.partner-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ====== LOGO STYLING ====== */
+.partner-logo {
+  width: 110px;
+  opacity: 0.5;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.partner-logo:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: scale(1.08);
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 1024px) {
+  .partner-logo {
+    width: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .partner-logo {
+    width: 70px;
+  }
+
+  .trusted-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .partner-logo {
+    width: 60px;
+  }
+
+  .trusted-title {
+    font-size: 1.4rem;
+  }
+}
+
+/* ====== REMOVE DEFAULT SLICK DOTS/ARROWS ====== */
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.slick-slide {
+  outline: none;
+}

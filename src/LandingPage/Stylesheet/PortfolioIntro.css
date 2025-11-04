@@ -1,0 +1,104 @@
+/* Reset and structure */
+.portfoliointro-banner {
+  position: relative;
+  width: 100%;
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+/* Content styling */
+.portfoliointro-banner-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  max-width: 90%;
+}
+
+/* Heading */
+.portfoliointro-banner-content h1 {
+  font-size: 63px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+/* 📱 Responsive Breakpoints */
+
+/* 📱 Responsive Breakpoints */
+
+/* Large screens (up to 1200px) */
+@media (max-width: 1200px) {
+  .portfoliointro-banner {
+    min-height: 45vh;
+  }
+
+  .portfoliointro-banner-content h1 {
+    font-size: 2.8rem;
+  }
+}
+
+/* Tablets (up to 992px) */
+@media (max-width: 992px) {
+  .portfoliointro-banner {
+    min-height: 40vh;
+    padding: 2rem 1rem;
+  }
+
+  .portfoliointro-banner-content {
+    padding: 1.5rem;
+    max-width: 95%;
+  }
+
+  .portfoliointro-banner-content h1 {
+    font-size: 2.2rem;
+    line-height: 1.3;
+  }
+}
+
+/* Small tablets (up to 768px) */
+@media (max-width: 768px) {
+  .portfoliointro-banner {
+    min-height: 35vh;
+    background-position: center top;
+    padding: 1.5rem 1rem;
+  }
+
+  .portfoliointro-banner-content h1 {
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+}
+
+/* Mobile (up to 576px) */
+@media (max-width: 576px) {
+  .portfoliointro-banner {
+    min-height: 14vh;
+    padding: 1rem;
+  }
+
+  .portfoliointro-banner-content {
+    padding: 0.8rem;
+  }
+
+  .portfoliointro-banner-content h1 {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+  .portfolio-section h2 {
+    font-size: 15px !important;
+    margin-bottom: 6px !important;
+    margin-top: -62px;
+  }
+  .portfolio-card {
+    width: 319px !important;
+  }
+}

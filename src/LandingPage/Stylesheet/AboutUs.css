@@ -1,0 +1,295 @@
+* {
+  font-family: "Archivo";
+}
+
+.about {
+  padding: 100px 0;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.about-tag {
+  position: relative;
+  display: inline-block;
+  color: #229dd6;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  z-index: 2;
+}
+.line-img {
+  width: 29px;
+  height: auto;
+  margin-right: 14px;
+}
+
+
+
+/* Watermark BACKGROUND TEXT */
+.about::before {
+  content: "ABOUT US";
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  font-size: 120px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.04);
+  letter-spacing: 5px;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.05) 25%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Main layout */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+
+  flex-wrap: wrap;
+}
+
+/* LEFT IMAGE SECTION */
+.about-image {
+  flex: 0 0 50%;
+  position: relative;
+  max-width: 50%;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center; 
+}
+/* Single main image */
+.about-image img {
+  width: 100%;
+  margin-right: 150px;
+}
+
+/* RIGHT CONTENT SECTION */
+.about-content {
+  flex: 1;
+  z-index: 2;
+}
+
+.section-tag {
+  color: #229dd6;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.section-tag::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background: #229dd6;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.about-content h2 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.3;
+
+  margin-bottom: 20px;
+}
+
+.about-content .highlight {
+  color: #229dd6;
+}
+
+.about-content p {
+  font-family: "Roboto Flex", sans-serif;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.btn-out {
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: fit-content;
+  width: 154px;
+  padding: 15px 20px;
+  border: 1.5px solid #000;
+  border-radius: 50px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  font-size: small;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-outline:hover {
+  background: #229dd6;
+  border-color: #229dd6;
+  color: #fff;
+}
+
+/* Responsive */
+
+/*  Large tablets / small desktops (1000px - 1200px) */
+@media (max-width: 1200px) and (min-width: 1000px) {
+  .about::before {
+    font-size: 100px;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .about-container {
+    max-width: 1100px;
+    padding: 0 40px;
+  }
+
+  .about-content h2 {
+    font-size: 34px;
+  }
+
+  .about-content p {
+    font-size: 15px;
+  }
+
+  .about-image img {
+    width: 90%;
+    margin-right: 100px;
+  }
+
+  .btn-out {
+    width: 150px;
+    height: 42px;
+    font-size: 13px;
+  }
+}
+
+/*  Tablets (600px - 800px) */
+@media (max-width: 800px) and (min-width: 600px) {
+  .about {
+    padding: 80px 0;
+  }
+
+  .about::before {
+    font-size: 80px;
+    top: 427px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 0 40px;
+  }
+
+  .about-image {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .about-image img {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .about-content h2 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+
+  .about-content p {
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto 15px;
+  }
+
+  .about-content {
+    text-align: center; /* center all content if needed */
+  }
+
+  .btn-out {
+    margin: 0 auto; /* centers button horizontally */
+    display: inline-flex; /* keep flex properties if you want icon + text */
+    justify-content: center;
+  }
+}
+
+/*  Mobile devices (300px - 600px) */
+@media (max-width: 600px) and (min-width: 300px) {
+  .about {
+    padding: 60px 0;
+  }
+
+  .about::before {
+    font-size: 60px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    gap: 35px;
+  }
+
+  .about-image {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .about-image img {
+    width: 95%;
+    margin: 0;
+  }
+
+  .about-content h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .about-content p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .btn-out {
+    margin: 0 auto; /* centers button horizontally */
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .about-tag {
+    font-size: 12px;
+  }
+}

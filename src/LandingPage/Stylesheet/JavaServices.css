@@ -1,0 +1,115 @@
+.java-services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  gap: 60px;
+  background: #fff;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+}
+
+/* LEFT SECTION */
+.java-services-left {
+  flex: 1 1 45%;
+}
+
+.java-services-left h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.java-services-left p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.java-points {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.java-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.check-icon {
+  color: #3b82f6;
+  background: #e0ebff;
+  border-radius: 50%;
+  padding: 6px;
+  flex-shrink: 0;
+}
+
+.java-point h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.java-point p {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.java-btn {
+  margin-top: 30px;
+  padding: 10px 24px;
+  border: 1px solid #000;
+  border-radius: 50px;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.java-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* RIGHT SECTION */
+.java-services-right {
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.java-group-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .java-services {
+    flex-direction: column;
+    padding: 60px 40px;
+    text-align: center;
+  }
+
+  .java-services-left,
+  .java-services-right {
+    flex: 1 1 100%;
+  }
+
+  .java-group-img {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  .java-point {
+    justify-content: center;
+  }
+}

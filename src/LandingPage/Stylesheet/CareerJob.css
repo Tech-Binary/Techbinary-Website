@@ -1,0 +1,137 @@
+.jobs-section {
+  width: 90%;
+  margin: 80px auto;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.jobs-heading {
+  font-size: 2.2rem;
+  color: rgba(0, 32, 70, 1);
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  justify-content: center;
+}
+
+.job-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 30px 25px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.job-top {
+  display: flex;
+  justify-content: space-between;
+  /* border-bottom: 1px solid #eee; */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.job-meta {
+  font-size: 0.85rem;
+  color: rgba(12, 46, 130, 1);
+  line-height: 1.5;
+}
+
+.job-body {
+  margin-bottom: 20px;
+}
+
+.job-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.job-title h3 {
+  font-size: 1.1rem;
+  color: rgba(11, 43, 130, 1);
+  font-weight: 600;
+}
+
+.job-icon {
+  width: 52px;
+  height: 41px;
+  object-fit: contain;
+}
+
+.job-desc {
+  color: rgba(61, 88, 155, 1);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.job-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+  font-size: 0.9rem;
+}
+
+.job-location {
+  color: rgba(61, 88, 155, 1);
+}
+
+.job-link {
+  color: #002046;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.2s;
+}
+
+.job-link:hover {
+  color: rgba(12, 46, 130, 1);
+}
+
+.view-more {
+  margin-top: 40px;
+}
+
+.view-more button {
+  background: transparent;
+  border: 1px solid #002046;
+  color: rgba(55, 52, 53, 1);
+  border-radius: 30px;
+  padding: 9px 13px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-more button:hover {
+  background: #002046;
+  color: #fff;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1024px) {
+  .jobs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .jobs-grid {
+    grid-template-columns: 1fr;
+  }
+}

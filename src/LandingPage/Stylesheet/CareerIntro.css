@@ -1,0 +1,83 @@
+/* Reset and structure */
+.career-banner {
+  position: relative;
+  width: 100%;
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+
+/* Content styling */
+.career-banner-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  max-width: 90%;
+}
+
+/* Heading */
+.career-banner-content h1 {
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 1.4;
+  /* margin-bottom: 20px; */
+}
+
+
+/* Large screens (up to 1200px) */
+@media (max-width: 1200px) {
+  .career-banner {
+    min-height: 50vh;
+  }
+}
+
+/* Tablets (up to 992px) */
+@media (max-width: 992px) {
+  .career-banner-content {
+    padding: 1.5rem;
+  }
+
+  .career-banner-content h1 {
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+  }
+}
+
+/* Small tablets (up to 768px) */
+@media (max-width: 768px) {
+  .career-banner {
+    min-height: 60vh;
+    background-position: center top;
+  }
+
+  .career-banner-content h1 {
+    font-size: clamp(1.4rem, 4vw, 2rem);
+  }
+}
+
+/* Mobile (up to 576px) */
+@media (max-width: 576px) {
+  .career-banner {
+    min-height: 4vh;
+    padding: 1rem;
+  }
+
+  .career-banner-content {
+    padding: 1rem;
+  }
+
+  .career-banner-content h1 {
+    font-size: 1.4rem;
+  }
+
+  
+}
+

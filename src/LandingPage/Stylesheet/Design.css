@@ -1,0 +1,291 @@
+.phase-section {
+  text-align: center;
+  padding: 80px;
+  background: #f8fbfe;
+  font-family: "Poppins", sans-serif;
+}
+
+.phase-title {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #0a1a2f;
+  margin-bottom: 60px;
+}
+
+.phase-title span {
+  color: #229dd6;
+}
+
+/* ---------- Layout ---------- */
+.phase-container {
+  position: relative;
+}
+
+.phase-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  position: relative;
+}
+.bottom-row {
+  width: 90%;
+  margin-left: 100px;
+}
+.top-row {
+  margin-bottom: 70px;
+  width: 90%;
+}
+
+/* ---------- Cards ---------- */
+.phase-card {
+  background: #fff;
+  width: 30%;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* .phase-card:hover {
+  transform: translateY(-5px);
+} */
+.down span {
+  height: 5px;
+  background-color: black;
+  display: flex;
+  width: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: -2px;
+  right: -2px;
+}
+.up span {
+  height: 5px;
+  background-color: black;
+  display: flex;
+  width: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 31px;
+  right: -2px;
+  right: -2px;
+}
+.icon {
+  width: 95px;
+  height: 95px;
+  margin-bottom: 15px;
+  margin-left: -20px;
+  margin-top: -28px;
+}
+
+.phase-card h3 {
+  font-size: 1.1rem;
+  color: #0a1a2f;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.phase-card p {
+  font-size: 0.9rem;
+  color: #5a5a5a;
+  line-height: 1.5;
+}
+
+.step-number {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgba(0, 32, 70, 0.14);
+}
+
+/* ---------- Dashed Connectors ---------- */
+.connector-line {
+  position: absolute;
+  left: 13%;
+  right: 17%;
+  top: 52%;
+  border-top: 2px dashed rgba(10, 26, 47, 71%);
+  z-index: 1;
+}
+
+/* Vertical dashed lines connecting cards */
+.vertical-line {
+  position: absolute;
+  left: 47%;
+  /* transform: translateX(-57%); */
+  width: 0;
+  border-left: 2px dashed rgb(10 26 47 / 95%);
+  height: 35px;
+  z-index: 1;
+}
+
+.top-row .phase-card .vertical-line.down {
+  bottom: -35px;
+}
+
+.bottom-row .phase-card .vertical-line.up {
+  top: -34px;
+  height: 36px;
+}
+
+/* Make the top of the card (icon + title) a flex row */
+.phase-card-header {
+  display: flex;
+  align-items: center; /* vertically center icon and title */
+  gap: 15px; /* space between icon and title */
+  margin-bottom: 15px; /* space between header and description */
+}
+
+.phase-card-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: rgba(0, 32, 70, 1);
+  font-weight: 600;
+  margin-top: -42px;
+}
+.break-line {
+  display: block;
+}
+
+/* 💻 1000px – 1200px */
+@media (max-width: 1200px) and (min-width: 1000px) {
+  .phase-section {
+    padding: 70px;
+  }
+
+  .phase-title {
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+
+  .phase-row {
+    gap: 25px;
+  }
+
+  .phase-card {
+    padding: 25px 20px;
+  }
+
+  .phase-card h3 {
+    font-size: 1rem;
+  }
+
+  .phase-card p {
+    font-size: 0.85rem;
+  }
+
+  .step-number {
+    font-size: 1.8rem;
+  }
+}
+
+/* 💻 800px – 600px (Tablet) */
+@media (max-width: 1000px) and (min-width: 600px) {
+  .phase-section {
+    padding: 60px 20px;
+  }
+
+  .phase-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .phase-row {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .phase-card {
+    width: 70%;
+    padding: 20px 15px;
+  }
+
+  .phase-card h3 {
+    font-size: 0.95rem;
+  }
+
+  .phase-card p {
+    font-size: 0.8rem;
+  }
+
+  .step-number {
+    font-size: 1.5rem;
+    top: 15px;
+    right: 20px;
+  }
+  .top-row {
+    margin-bottom: 70px;
+    width: 100%;
+}
+ .bottom-row {
+    width:100%;
+   margin-left :0;
+  } 
+  .connector-line,
+  .vertical-line {
+    display: none;
+  }
+}
+
+/* 📱 600px – 300px (Mobile) */
+@media (max-width: 600px) and (min-width: 300px) {
+  .phase-section {
+    padding: 50px 15px;
+  }
+
+  .phase-title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .phase-row {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .phase-card {
+    width: 90%;
+    padding: 18px 12px;
+  }
+
+  .phase-card h3 {
+    font-size: 0.9rem;
+  }
+
+  .phase-card p {
+    font-size: 0.75rem;
+  }
+
+  .step-number {
+    font-size: 1.2rem;
+    top: 10px;
+    right: 15px;
+  }
+
+  .connector-line,
+  .vertical-line {
+    display: none;
+  }
+
+  .bottom-row {
+    margin-left: 0;
+  }
+
+  .down span,
+  .up span {
+    top: auto;
+    bottom: 5px;
+    right: 5px;
+    width: 4px;
+    height: 4px;
+  }
+}

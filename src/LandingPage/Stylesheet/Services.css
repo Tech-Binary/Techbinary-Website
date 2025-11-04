@@ -1,0 +1,379 @@
+.services-section {
+  position: relative;
+  background: #f9f9f9;
+  padding-bottom: 5rem;
+}
+.services-header h2,
+.service-card h3 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+}
+.services-header h5 {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 10px;
+  gap: 13px;
+  margin-left: 109px;
+}
+
+.services-banner {
+  /* background: linear-gradient(135deg, #001f47, #031835); */
+  background: rgba(0, 36, 73, 1);
+  color: #fff;
+  padding: 5rem 5rem 8rem 5rem;
+  position: relative;
+  overflow: hidden;
+  height: 257px;
+}
+
+.services-header {
+  position: relative;
+  /* z-index: 2; */
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  margin-left: 104px;
+}
+
+.services-subtext {
+  color: #eee;
+  font-size: 15px;
+  margin-bottom: 1rem;
+  width: 500px;
+  line-height: 24px;
+}
+
+.services-watermark {
+  position: absolute;
+  top: 0%;
+  left: 4%;
+  font-size: 6rem;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  /* Gradient text effect */
+  background: linear-gradient(180deg, #ffffff 0%, rgba(118, 97, 16, 0) 109.13%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* Optional: subtle opacity if you want a faint watermark look */
+  opacity: 0.2;
+}
+
+.services-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -5rem;
+  position: relative;
+  z-index: 3;
+  width: 80%;
+  justify-self: center;
+}
+
+.services-cards-slider {
+  width: 80%;
+  justify-self: center;
+}
+.service-card {
+  height: 378px;
+  background: #fff;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 2rem 1.5rem;
+  color: #7b8492;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  flex: 1 1 250px;
+  max-width: 290px;
+  transition: 0.4s ease-in-out;
+  text-align: left;
+  font-size: 15px;
+  position: relative;
+  font-family: "Roboto Flex";
+  --hover-color: #e1f1ec;
+  z-index: 1;
+}
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  left: 1.5rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transform: scale(0);
+  opacity: 0.4;
+  transition: transform 0.5s ease-out, opacity 0.4s ease-out;
+  z-index: 0;
+}
+
+.service-card:hover::before {
+  transform: scale(20);
+  opacity: 1;
+}
+.service-card:hover {
+  background: var(--hover-color);
+}
+.service-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.service-card .icon-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-card .icon-circle img {
+  width: 30px;
+  height: 30px;
+}
+
+.service-card h3 {
+  font-size: 1.3rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.service-card p {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.6;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.service-card .arrow {
+  display: inline-block;
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  color: #0a5dd986;
+  transition: 0.3s;
+}
+
+.service-card:hover .arrow {
+  color: #fff;
+}
+
+.service-card:hover .arrow {
+  transform: translateX(6px);
+}
+
+.btn-outline {
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: fit-content;
+  width: 182px;
+  height: 46px;
+  padding: 17px 27px;
+  border: 1.5px solid #fefefe;
+  border-radius: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  font-size: small;
+  font-family: "Montserrat", sans-serif;
+}
+/* Arrow icon in bottom right */
+.service-card .card-arrow {
+  position: absolute;
+  bottom: -19px;
+  right: -10px;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/*  Large tablets / small desktops (1000px - 1200px) */
+@media (max-width: 1200px) and (min-width: 1000px) {
+  .services-banner {
+    padding: 4rem 3rem 6rem 3rem;
+    height: 240px;
+  }
+
+  .services-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .services-subtext {
+    width: 420px;
+    font-size: 0.95rem;
+  }
+
+  .services-watermark {
+    font-size: 5rem;
+    left: 6%;
+  }
+
+  .services-cards {
+    width: 85%;
+    gap: 1.5rem;
+  }
+
+  .service-card {
+    max-width: 260px;
+    height: 350px;
+  }
+}
+
+/*  Tablets (600px - 800px) */
+@media (max-width: 800px) and (min-width: 600px) {
+  .services-banner {
+    padding: 4rem 2rem 6rem 2rem;
+    height: auto;
+    text-align: center;
+  }
+
+  .services-header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .services-header h2 {
+    font-size: 2rem;
+  }
+
+  .services-subtext {
+    width: 90%;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .services-watermark {
+    font-size: 4rem;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .services-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 90%;
+    margin-top: -3rem;
+  }
+
+  .service-card {
+    flex: 1 1 45%;
+    max-width: 320px;
+    height: auto;
+    padding: 1.8rem 1.2rem;
+  }
+
+  .service-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+  }
+
+  .service-card .card-arrow {
+    width: 50px;
+    height: 50px;
+    bottom: -15px;
+    right: -8px;
+  }
+}
+
+/*  Mobile devices (300px - 600px) */
+@media (max-width: 600px) and (min-width: 300px) {
+  .services-banner {
+    padding: 3rem 1.5rem 5rem 1.5rem;
+    height: auto;
+    text-align: center;
+  }
+
+  .services-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .services-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .services-subtext {
+    width: 100%;
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .services-watermark {
+    font-size: 3rem;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.15;
+  }
+
+  .services-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: -2.5rem;
+    width: 90%;
+  }
+
+  .service-card {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    padding: 1.5rem 1rem;
+  }
+
+  .service-card h3 {
+    font-size: 1rem;
+  }
+
+  .service-card p {
+    font-size: 0.85rem;
+  }
+
+  .service-card .icon-circle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .service-card .icon-circle img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .service-card .card-arrow {
+    width: 45px;
+    height: 45px;
+    bottom: -12px;
+    right: -8px;
+  }
+  .services-header h5 {
+    margin-left: 3px;
+  }
+}
