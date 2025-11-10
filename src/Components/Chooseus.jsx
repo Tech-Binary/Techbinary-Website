@@ -7,7 +7,7 @@ const Chooseus = () => {
     <section className="why-choose-us">
       {/* Left Section */}
       <div className="why-left">
-        <img src="/images/chosseus.png" alt="Why Choose Us" className="main-img" />
+        <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/About%20US/Why%20Choose%20Us.png" alt="Why Choose Us" className="main-img" />
       </div>
 
       {/* Right Section */}

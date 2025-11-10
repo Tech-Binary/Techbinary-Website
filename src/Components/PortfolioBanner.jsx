@@ -5,7 +5,7 @@ const PortfolioBanner = () => {
   return (
     <section
       className="portfolio-banner"
-      style={{ backgroundImage: `url(/images/portfoliobanner.png)` }}
+      style={{ backgroundImage: `url(https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/Ready%20to%20make%20your%20brand%20legendary_.png)` }}
     >
       <div
   className="portfolio-banner"

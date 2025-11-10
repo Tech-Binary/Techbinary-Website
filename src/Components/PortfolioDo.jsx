@@ -7,7 +7,7 @@ const PortfolioDo = () => {
     <section className="portfolio-do">
       {/* Left Section */}
       <div className="portfolio-do-left">
-        <img src="/images/portfoliodo.png" alt="Portfolio Illustration" className="portfolio-do-img" />
+        <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/What%20we%20do.png" alt="Portfolio Illustration" className="portfolio-do-img" />
       </div>
 
       {/* Right Section */}

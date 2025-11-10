@@ -8,25 +8,25 @@ import "../Stylesheet/Blog.css";
 const BlogSection = () => {
   const blogs = [
     {
-      img: "/images/Blog1.png",
+      img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Blogs%201.png",
       tag: "EVENTS",
       date: "19 October 2023",
       desc: "Lorem ipsum is a dummy or placeholder text commonly used in graphic design.",
     },
     {
-      img: "/images/blog2.png",
+      img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Blogs%202.png",
       tag: "PRODUCT UPDATES",
       date: "19 October 2023",
       desc: "Lorem ipsum is a dummy or placeholder text commonly used in graphic design.",
     },
     {
-      img: "/images/Blog3.png",
+      img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Blogs%203.png",
       tag: "INDUSTRY NEWS",
       date: "19 October 2023",
       desc: "Lorem ipsum is a dummy or placeholder text commonly used in graphic design.",
     },
     {
-      img: "/images/Blog2.png",
+      img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Blogs%202.png",
       tag: "INSIGHTS",
       date: "22 October 2023",
       desc: "Latest updates and analysis of enterprise trends in software and tech.",

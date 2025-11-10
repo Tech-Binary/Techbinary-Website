@@ -12,7 +12,7 @@ const Hero = () => {
           backgroundImage: `
             linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
             linear-gradient(270deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.66) 74.72%, #000000 100%),
-            url("/images/DesktopBanner.gif")`
+            url("https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Desktop%20Banner.gif")`
         }}
       ></div>
 

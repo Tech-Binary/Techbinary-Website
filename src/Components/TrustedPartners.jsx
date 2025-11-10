@@ -8,12 +8,12 @@ import "../Stylesheet/TrustedPartners.css";
 
 const TrustedPartners = () => {
   const partners = [
-    { id: 1, img: "/images/cmmb.png", alt: "CMMB" },
+    { id: 1, img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/Frame%2019.png", alt: "CMMB" },
     { id: 2, img: "/images/XFAM.png", alt: "OXFAM" },
     { id: 3, img:"/images/WWF.png" , alt: "WWF" },
     { id: 4, img: "/images/Lafarge.png", alt: "LAFARGE" },
     { id: 5, img: "/images/msc.png" , alt: "MSC" },
-    { id: 6, img: "/images/cmmb.png", alt: "CMMB" },
+    { id: 6, img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/Frame%2019.png", alt: "CMMB" },
     { id: 7, img: "/images/XFAM.png", alt: "OXFAM" },
     { id: 8, img: "/images/WWF.png", alt: "WWF" },
   ];

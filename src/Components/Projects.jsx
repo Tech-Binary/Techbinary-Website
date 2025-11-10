@@ -18,21 +18,21 @@ const Projects = () => {
 
       <div className="projects-grid">
         <div className="project-card">
-          <img src="/images/project1.png" alt="Project 1" />
+          <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/About%20US/our%20projects%201.png" alt="Project 1" />
           <div className="overlayer">
             <p>Project Name</p>
           </div>
         </div>
 
         <div className="project-card">
-          <img src="/images/project2.png" alt="Project 2" />
+          <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/About%20US/our%20projects%202.png" alt="Project 2" />
           <div className="overlayer">
             <p>Project Name</p>
           </div>
         </div>
 
         <div className="project-card">
-          <img src="/images/project3.png" alt="Project 3" />
+          <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/About%20US/our%20projects%203.png" alt="Project 3" />
           <div className="overlayer">
             <p>Project Name</p>
           </div>

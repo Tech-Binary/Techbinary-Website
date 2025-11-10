@@ -8,7 +8,7 @@ const CareerLife = () => {
       {/* Left Section */}
       <div className="careerlife-left">
         <img
-          src="/images/careerlife.png"
+          src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Life%20at%20Techbinary.png"
           alt="Career Life Illustration"
           className="careerlife-img"
         />

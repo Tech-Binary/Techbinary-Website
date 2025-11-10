@@ -7,7 +7,7 @@ const AboutUs = () => {
     <section className="about">
       <div className="about-container">
         <div className="about-image">
-          <img src="/images/about.png" alt="img" />
+          <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/About%20Us.png" alt="img" />
         </div>
 
         {/* Right Side - Content */}
