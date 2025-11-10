@@ -56,7 +56,7 @@ const CareerLife = () => {
         <a href="#" className="careerlife-btn">
           View More Gallery
           <img
-            src="/images/Frame.png"
+            src="/images/Arrow2.png"
             alt="arrow"
             className="careerlife-arrow"
           />

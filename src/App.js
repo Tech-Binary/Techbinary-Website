@@ -8,7 +8,7 @@ import Blog from "./Pages/Blog";
 import Services from "./Pages/Services";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-
+import GetInTouch from "./Pages/GetInTouch";
 import ServiceInnerAndroid from "./Pages/ServiceInnerAndroid";
 import ServiceInnerCloud from "./Pages/ServiceInnerCloud";
 import ServiceInnerDev from "./Pages/ServiceInnerDev";
@@ -41,7 +41,7 @@ function App() {
         <Route path="Service-inner-testing" element={<ServiceInnerTesting />}></Route>
         <Route path="Service-inner-ui" element={<ServiceInnerUI />}></Route>
         <Route path="Service-inner-web" element={<ServiceInnerWeb />}></Route>
-        
+         <Route path="/Get-In-Touch" element={<GetInTouch />} />
       </Routes>
       <Footer />
     </BrowserRouter>

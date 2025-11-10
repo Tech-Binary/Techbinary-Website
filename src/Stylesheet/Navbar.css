@@ -39,8 +39,8 @@
 }
 
 .flag-icon {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
 }
 
 /* 🔹 TopBar Responsive */
@@ -97,9 +97,9 @@
 }
 
 .logo-img {
-  height: 60px;
+  height: 61px;
   width: auto;
-  margin-left: -10px;
+  margin-left: -27px;
 }
 
 .nav-links {
