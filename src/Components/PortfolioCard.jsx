@@ -6,42 +6,42 @@ const portfolioItems = [
     title: "Education LMS",
     description:
       "Empowering universities with an interactive learning management system that simplifies teaching and boosts student engagement.",
-    image: "/images/card1.png",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/Education%20LMS.png",
     tags: ["Angular", ".NET", "Azure"],
   },
   {
     title: "E-Commerce Platform",
     description:
       "A scalable and intelligent retail solution that enhances shopping experiences through data-driven insights and automation.",
-    image: "/images/card2.png",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/E-Commerce%20Platform.png",
     tags: ["Angular", ".NET", "Azure"],
   },
   {
     title: "FinTech Mobile App",
     description:
       "Transforming digital banking with AI-powered analytics for smarter financial decisions and personalized customer experiences.",
-    image: "/images/card3.png",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/FinTech%20Mobile%20App.png",
     tags: ["Angular", ".NET", "Azure"],
   },
   {
     title: "IoT Smart Platform",
     description:
       "Empowering enterprises with smart monitoring systems that simplify operations and boost performance efficiency.",
-    image: "/images/card4.png",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/IoT%20Smart%20Platform.png",
     tags: ["Go", "Docker", "Flutter"],
   },
   {
     title: "AI Analytics Suite",
     description:
       "A scalable and intelligent analytics suite that enhances insights through data visualization and AI automation.",
-    image: "/images/card5.png",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/AI%20Analytics%20Suite.png",
     tags: ["React", "TensorFlow", "GCP"],
   },
   {
     title: "Blockchain Exchange",
     description:
       "Transforming digital trading with AI-powered analytics for smarter financial decisions and personalized customer experiences.",
-    image: "/images/card6.png",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/Blockchain%20Exchange.png",
     tags: ["Solidity", "Web3", "Ethereum"],
   },
 ];

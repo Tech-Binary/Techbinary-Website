@@ -5,7 +5,7 @@ const AboutBanner = () => {
   return (
     <section
       className="about-banner"
-      style={{ backgroundImage: `url(/images/aboutbanner.png)` }}
+      style={{ backgroundImage: `url(https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/About%20US/Better%20IT%20Solutions%20&%20Services%20at%20your%20Fingertips.png)` }}
     >
       <div className="about-banner-overlay"></div>
 

@@ -6,7 +6,7 @@ const BlogIntro = () => {
     <section
       className="career-banner"
       style={{
-        backgroundImage: `url(/images/career.png")`,
+        backgroundImage: `url("https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/banner.png")`,
       }}
     >
       <div className="career-banner-content">

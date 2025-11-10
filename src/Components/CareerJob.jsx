@@ -7,42 +7,42 @@ import { TbArrowUpRight} from "react-icons/tb";
 
 const jobs = [
   {
-    icon: "/images/j1.png",
+    icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Wordpress.png",
     title: "Digital Marketer",
     type: "FULL TIME",
     salary: "₹20K–₹30K",
     location: "Jaipur, Rajasthan, India",
   },
   {
-    icon:"/images/j2.png",
+    icon:"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/App%20store.png",
     title: "Lead Product Designer",
     type: "FULL TIME",
     salary: "₹20K–₹30K",
     location: "Jaipur, Rajasthan, India",
   },
   {
-    icon: "/images/j3.png",
+    icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Slack.png",
     title: "Full-Stack Developer",
     type: "FULL TIME",
     salary: "₹20K–₹30K",
     location: "Jaipur, Rajasthan, India",
   },
   {
-    icon:  "/images/j4.png",
+    icon:  "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Figma.png",
     title: "UI/UX Designer",
     type: "FULL TIME",
     salary: "₹20K–₹30K",
     location: "Jaipur, Rajasthan, India",
   },
   {
-    icon: "/images/j5.png",
+    icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Marketing%20&%20Communication.png",
     title: "Marketing & Communication",
     type: "FULL TIME",
     salary: "₹20K–₹30K",
     location: "Jaipur, Rajasthan, India",
   },
   {
-    icon: "/images/j6.png",
+    icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Finance%20Management.png",
     title: "Finance Management",
     type: "FULL TIME",
     salary: "₹20K–₹30K",

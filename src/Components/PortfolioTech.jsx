@@ -16,34 +16,34 @@ const PortfolioTech = () => {
           <h3>Technologies</h3>
           <div className="portfolio-tech-grid">
             <div className="portfolio-tech-item">
-              <img src="/images/T1.png" alt="React" />
+              <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/React.png" alt="React" />
               <p>React</p>
             </div>
             <div className="portfolio-tech__divider"></div>
             <div className="portfolio-tech-item">
-              <img src="/images/T2.png" alt="Node.js" />
+              <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/Node.js.png" alt="Node.js" />
               <p>Node.js</p>
             </div>
             <div className="portfolio-tech__divider"></div>
 
             <div className="portfolio-tech-item">
-              <img src="/images/T3.png" alt="Python" />
+              <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/Python.png" alt="Python" />
               <p>Python</p>
             </div>
             <div className="portfolio-tech__divider"></div>
 
             <div className="portfolio-tech-item">
-              <img src="/images/T4.png" alt="AWS" />
+              <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/AWS.png" alt="AWS" />
               <p>AWS</p>
             </div>
             <div className="portfolio-tech-item">
-              <img src="/images/T5.png" alt="MongoDB" />
+              <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/MongoDB.png" alt="MongoDB" />
               <p>MongoDB</p>
             </div>
             <div className="portfolio-tech__divider"></div>
 
             <div className="portfolio-tech-item">
-              <img src="/images/T6.png" alt="Blockchain" />
+              <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/Blockchain.png" alt="Blockchain" />
               <p>Blockchain</p>
             </div>
           </div>
@@ -54,36 +54,36 @@ const PortfolioTech = () => {
           <h3>Industries</h3>
           <div className="portfolio-tech-grid">
             <div className="portfolio-tech-item">
-              <img src="/images/T7.png" alt="Healthcare" />
+              <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/Healthcare.png" alt="Healthcare" />
               <p>Healthcare</p>
             </div>
             <div className="portfolio-tech__divider"></div>
 
             <div className="portfolio-tech-item">
-              <img src="/images/T8.png" alt="Education" />
+              <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/Education.png" alt="Education" />
               <p>Education</p>
             </div>
             <div className="portfolio-tech__divider"></div>
 
             <div className="portfolio-tech-item">
-              <img src="/images/T9.png" alt="FinTech" />
+              <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/FinTech.png" alt="FinTech" />
               <p>FinTech</p>
             </div>
             <div className="portfolio-tech__divider"></div>
 
             <div className="portfolio-tech-item">
-              <img src="/images/T10.png" alt="Retail" />
+              <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/Retail.png" alt="Retail" />
               <p>Retail</p>
             </div>
 
             <div className="portfolio-tech-item">
-              <img src="/images/T11.png" alt="Logistics" />
+              <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/Logistics.png" alt="Logistics" />
               <p>Logistics</p>
             </div>
             <div className="portfolio-tech__divider"></div>
 
             <div className="portfolio-tech-item">
-              <img src="/images/T12.png" alt="Smart Cities" />
+              <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/Smart%20Cities.png" alt="Smart Cities" />
               <p>Smart Cities</p>
             </div>
           </div>

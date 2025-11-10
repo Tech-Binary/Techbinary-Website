@@ -1,0 +1,160 @@
+.devprocess-section {
+  width: 100%;
+  background-color: #f5f9fc;
+  padding: 80px 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+/* Header */
+.devprocess-header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #002147;
+  margin-bottom: 15px;
+}
+
+.devprocess-header p {
+  font-size: 17px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+
+/* Steps Wrapper */
+.devprocess-steps {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 60px;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+/* Dotted line between icons */
+.devprocess-steps::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 21%;
+  right: 19%;
+  border-top: 2px dashed #002046;
+  z-index: 0;
+}
+
+/* Step Card */
+.devprocess-step {
+  background: transparent;
+  width: 240px;
+  z-index: 1;
+  text-align: center;
+}
+
+.devprocess-icon {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.devprocess-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.devprocess-step h4 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #001e3c;
+  margin-bottom: 8px;
+}
+
+.devprocess-step p {
+  font-size: 13px;
+  color: #7b8492;
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.devprocess-cta {
+  background: linear-gradient(90deg, #2563eb, #06b6d4);
+  border-radius: 16px;
+  height: 155px;
+  width: 48%;
+  margin: 0 auto;
+  padding: 40px 36px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.devprocess-cta-text h3 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.devprocess-cta-text p {
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto Flex";
+  
+}
+
+.cta-btn {
+  background: #fff;
+  color: #002147;
+  border: none;
+  border-radius: 50px;
+  padding: 11px 15px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 519px;
+  display: block;
+  font-family: "Montserrat";
+  transform: translateY(-52px);
+}
+.cta-btn span {
+  margin-left: 6px;
+}
+
+.cta-btn:hover {
+  background: #002147;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .devprocess-steps {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .devprocess-steps::before {
+    display: none;
+  }
+
+  .devprocess-cta {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .devprocess-cta-text {
+    width: 100%;
+  }
+}

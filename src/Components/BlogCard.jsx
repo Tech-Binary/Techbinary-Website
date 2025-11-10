@@ -8,7 +8,7 @@ import "../Stylesheet/BlogCard.css";
 
 const blogPosts = [
   {
-    image: "/images/B1.png",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781.png",
     title: "Digital Transformation in Accounting",
     description:
       "Discover how AI and automation are reshaping accounting workflows, reducing human error, and enabling smarter business decisions.",
@@ -16,7 +16,7 @@ const blogPosts = [
     date: "June 28, 2025",
   },
   {
-    image:"/images/B2.png",
+    image:"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-1.png",
     title: "The Future of Export Trade",
     description:
       "Learn how data-driven traceability and sustainable sourcing are redefining the global spice export market.",
@@ -24,7 +24,7 @@ const blogPosts = [
     date: "June 28, 2025",
   },
   {
-    image:"/images/B3.png",
+    image:"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-2.png",
     title: "Building Trust with Financial Transparency",
     description:
       "Explore how clear documentation and audit readiness can strengthen client confidence and business credibility.",
@@ -32,7 +32,7 @@ const blogPosts = [
     date: "June 28, 2025",
   },
   {
-    image: "/images/B4.png",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-3.png",
     title: "Why UI Design Matters for Your Brand",
     description:
       "Great design isn’t just aesthetics—it drives engagement, builds trust, and turns visitors into loyal customers.",
@@ -40,7 +40,7 @@ const blogPosts = [
     date: "June 28, 2025",
   },
   {
-    image: "/images/B5.png",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-4.png",
     title: "How Digital Strategy Drives Business Growth",
     description:
       "Understand how integrating data analytics, automation, and digital tools can accelerate your company’s performance and profitability.",
@@ -48,7 +48,7 @@ const blogPosts = [
     date: "June 28, 2025",
   },
   {
-    image:"/images/B6.png",
+    image:"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-5.png",
     title: "The Power of Minimalist UI Design",
     description:
       "Learn why simplicity in design improves usability, enhances focus, and creates a timeless digital experience for your audience.",
@@ -57,7 +57,7 @@ const blogPosts = [
   },
 
   {
-    image: "/images/B7.png",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-6.png",
     title: "The Power of Minimalist UI Design",
     description:
       "Learn why simplicity in design improves usability, enhances focus, and creates a timeless digital experience for your audience.",
@@ -65,7 +65,7 @@ const blogPosts = [
     date: "June 28, 2025",
   },
   {
-    image:"/images/B8.png",
+    image:"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-7.png",
     title: "The Power of Minimalist UI Design",
     description:
       "Learn why simplicity in design improves usability, enhances focus, and creates a timeless digital experience for your audience.",
@@ -73,7 +73,7 @@ const blogPosts = [
     date: "June 28, 2025",
   },
   {
-    image: "/images/B9.png",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-8.png",
     title: "The Power of Minimalist UI Design",
     description:
       "Learn why simplicity in design improves usability, enhances focus, and creates a timeless digital experience for your audience.",

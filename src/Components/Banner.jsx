@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div className="banner">
       {/* Background Image */}
-      <img src="/images/banner.png" alt="Banner" className="banner-img" />
+      <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/You%C2%A0share%20your%20idea%E2%80%A8We%20get%20it%20done.png" alt="Banner" className="banner-img" />
 
       <div className="banner-content">
         {/* Left Side Text */}

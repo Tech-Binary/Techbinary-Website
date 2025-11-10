@@ -29,7 +29,7 @@ const CareerPartners = () => {
       img: "/images/msc.png"
     },
     {
-      img: "/images/cmmb.png"
+      img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/Frame%2019.png"
     },
     {
       img:  "/images/XFAM.png"
@@ -44,7 +44,7 @@ const CareerPartners = () => {
       img: "./images/msc.png"
     },
     {
-      img: "/images/cmmb.png"
+      img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/icons/Frame%2019.png"
     },
     {
       img:  "/images/XFAM.png"
