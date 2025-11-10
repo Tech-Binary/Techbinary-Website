@@ -44,10 +44,10 @@ const Chooseus = () => {
           </ul>
         </div>
 
-        <a href="#" className="contact-btn">
+        <a href="/Get-In-Touch" className="contact-btn">
           Get In Touch
           <img
-            src="/images/Frame.png"
+            src="/images/Arrow2.png"
             alt="arrow"
             className="btn-arrow"
           />

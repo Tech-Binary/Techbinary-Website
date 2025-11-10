@@ -47,7 +47,7 @@ const Navbar = () => {
           </nav>
 
           {/* CTA Button */}
-          <a href="#" className="btn-nav">
+          <a href="/Get-In-Touch" className="btn-nav">
             Get In Touch
             <img src="/images/arrow2.png" alt="arrow" className="btn-navbar" />
           </a>

@@ -46,7 +46,7 @@ const PortfolioDo = () => {
 
        
 
-        <a href="#" className="portfolio-do-btn">
+        <a href="/Get-In-Touch" className="portfolio-do-btn">
           Get In Touch
           <img
             src="/images/arrow2.png"

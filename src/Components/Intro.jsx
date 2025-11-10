@@ -25,7 +25,7 @@ const Intro = () => {
         />
       </div>
 
-      <a href="#" className="btn-intro">
+      <a href="/Get-In-Touch" className="btn-intro">
         Get In Touch{" "}
         <img
           src="/images/arrow2.png"

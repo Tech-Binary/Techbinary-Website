@@ -52,9 +52,6 @@ const CareerPartners = () => {
     {
       img: "/images/WWF.png"
     },
-    {
-      img: "/images/Lafarge.png"
-    },
     
   ];
 
