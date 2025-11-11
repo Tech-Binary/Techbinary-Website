@@ -93,7 +93,7 @@
   margin-bottom: 20px;
   padding: 2rem 1.5rem;
   color: #7b8492;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  /* box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08); */
   flex: 1 1 250px;
   max-width: 290px;
   transition: 0.4s ease-in-out;
@@ -109,27 +109,63 @@
   background-repeat: no-repeat;
 }
 
+.service-card {
+  position: relative;
+  transition: 0.4s ease-in-out;
+  font-family: "Roboto Flex";
+  z-index: 1;
+}
+
+/* The ripple effect is created using a pseudo-element with a masked area */
 .service-card::before {
   content: "";
   position: absolute;
-  top: 2rem;
-  left: 1.5rem;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  transform: scale(0);
-  opacity: 0.4;
-  transition: transform 0.5s ease-out, opacity 0.4s ease-out;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: var(--icon-bg, #e1f1ec);
+  clip-path: circle(0% at 60px 60px); 
+  transition: clip-path 0.6s ease-out;
   z-index: 0;
+  opacity: 0.7;
 }
 
+/* Ripple expands inside the card only */
 .service-card:hover::before {
-  transform: scale(20);
-  opacity: 1;
+  clip-path: circle(150% at 60px 60px);
 }
+
+/* Keep all content above the ripple */
+.service-card > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Card hover styles */
 .service-card:hover {
-  background: var(--hover-color);
+  color: #000;
+  transform: translateY(-3px);
 }
+
+/* Card arrow free-floating (not affected by ripple) */
+.service-card .card-arrow {
+  position: absolute;
+  bottom: -19px;
+  right: -10px;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  z-index: 5; /* stays above everything */
+}
+
+
+
+
+
 .service-card > * {
   position: relative;
   z-index: 1;

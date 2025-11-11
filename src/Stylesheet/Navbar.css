@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Montserrat";
-  src: url("/src/Components/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+  src: url("/src/Components/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
   font-weight: 500;
 }
 
@@ -17,7 +18,7 @@
   border-bottom: 1px solid #ddd;
   flex-wrap: wrap;
   font-family: "Archivo", sans-serif;
-  height: 28px;
+  height: 31px;
   font-weight: 500;
   position: sticky !important;
   top: 0;
@@ -30,6 +31,9 @@
   display: flex;
   align-items: center;
   gap: 6px;
+}
+.top-bar-left {
+  margin-left: 8px;
 }
 
 .top-bar-center {
@@ -99,7 +103,8 @@
 .logo-img {
   height: 61px;
   width: auto;
-  margin-left: -27px;
+  margin-left: -25px;
+  margin-top: 2px;
 }
 
 .nav-links {
@@ -112,6 +117,7 @@
   text-decoration: none;
   color: #333;
   font-weight: 500;
+  font-size: 15px;
   transition: 0.3s;
   font-family: "Montserrat", sans-serif;
 }
@@ -125,7 +131,7 @@
   border: 1.5px solid #000;
   color: #000;
   background-color: transparent;
-  padding: 0.6rem 0.8rem;
+  padding: 9px 19px;
   text-decoration: none;
   border-radius: 50px;
   font-weight: 600;
@@ -136,6 +142,7 @@
   gap: 8px;
   transition: all 0.3s ease;
   cursor: pointer;
+  margin-right: -30px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -154,7 +161,6 @@
 .btn-nav:hover img {
   filter: brightness(0) invert(1); /* Turns white on hover */
 }
-
 
 /* ============= 🔹 RESPONSIVENESS 🔹 ============= */
 

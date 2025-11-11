@@ -9,7 +9,6 @@
   overflow: hidden;
 }
 
-
 .about-tag {
   position: relative;
   display: inline-block;
@@ -27,16 +26,14 @@
   margin-right: 14px;
 }
 
-
-
 /* Watermark BACKGROUND TEXT */
 .about::before {
   content: "ABOUT US";
   position: absolute;
   top: 50px;
-  left: 50%;
+  left: 54%;
   font-size: 120px;
-  font-weight: 700;
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.04);
   letter-spacing: 5px;
   z-index: 0;
@@ -60,7 +57,7 @@
   max-width: 1300px;
   margin: 0 auto;
   position: relative;
-
+  gap: 69px;
   flex-wrap: wrap;
 }
 
@@ -71,12 +68,12 @@
   max-width: 50%;
   margin-top: -40px;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 /* Single main image */
 .about-image img {
-  width: 100%;
-  margin-right: 150px;
+  width: 115%;
+  margin-right: 46px;
 }
 
 /* RIGHT CONTENT SECTION */
@@ -146,15 +143,14 @@
 }
 
 .btn-out:hover {
-  background-color: #229DD6;
+  background-color: #229dd6;
   color: #fff;
-  border-color: #229DD6; 
+  border-color: #229dd6;
 }
-
 
 .btn-out:hover img,
 .btn-out:hover svg {
-  filter: brightness(0) invert(1); 
+  filter: brightness(0) invert(1);
   transform: translateX(5px);
   transition: all 0.3s ease;
 }
