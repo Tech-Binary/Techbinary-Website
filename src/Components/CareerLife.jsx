@@ -53,14 +53,7 @@ const CareerLife = () => {
           </p>
         </div>
 
-        <a href="#" className="careerlife-btn">
-          View More Gallery
-          <img
-            src="/images/Arrow2.png"
-            alt="arrow"
-            className="careerlife-arrow"
-          />
-        </a>
+    
       </div>
     </section>
   );

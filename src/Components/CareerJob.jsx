@@ -1,9 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Stylesheet/CareerJob.css";
 import { CiLocationOn } from "react-icons/ci";
-import { TbArrowUpRight} from "react-icons/tb";
-
-
+import { TbArrowUpRight } from "react-icons/tb";
 
 const jobs = [
   {
@@ -48,15 +46,51 @@ const jobs = [
     salary: "₹20K–₹30K",
     location: "Jaipur, Rajasthan, India",
   },
+  {
+    icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Slack.png",
+    title: "Full-Stack Developer",
+    type: "FULL TIME",
+    salary: "₹20K–₹30K",
+    location: "Jaipur, Rajasthan, India",
+  },
+  {
+    icon:  "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Figma.png",
+    title: "UI/UX Designer",
+    type: "FULL TIME",
+    salary: "₹20K–₹30K",
+    location: "Jaipur, Rajasthan, India",
+  },
+  {
+    icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Marketing%20&%20Communication.png",
+    title: "Marketing & Communication",
+    type: "FULL TIME",
+    salary: "₹20K–₹30K",
+    location: "Jaipur, Rajasthan, India",
+  },
+  {
+    icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Finance%20Management.png",
+    title: "Finance Management",
+    type: "FULL TIME",
+    salary: "₹20K–₹30K",
+    location: "Jaipur, Rajasthan, India",
+  },
 ];
 
 const CareerJob = () => {
+  const [visibleCount, setVisibleCount] = useState(6);
+
+  const handleViewMore = () => {
+    setVisibleCount((prevCount) =>
+      prevCount === 6 ? jobs.length : 6
+    );
+  };
+
   return (
     <section className="jobs-section">
       <h2 className="jobs-heading">Latest Jobs Post</h2>
 
       <div className="jobs-grid">
-        {jobs.map((job, index) => (
+        {jobs.slice(0, visibleCount).map((job, index) => (
           <div className="job-card" key={index}>
             <div className="job-top">
               <div className="job-meta-box">
@@ -106,7 +140,9 @@ const CareerJob = () => {
       </div>
 
       <div className="view-more">
-        <button>View More</button>
+        <button onClick={handleViewMore}>
+          {visibleCount === 6 ? "View More" : "View Less"}
+        </button>
       </div>
     </section>
   );

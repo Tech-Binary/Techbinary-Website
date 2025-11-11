@@ -61,8 +61,8 @@
 }
 
 .about-banner-btn:hover {
-  background: #fff;
-  color: #000;
+  background: #229DD6;
+  color: #fff;
   transform: scale(1.05);
 }
 
@@ -72,9 +72,6 @@
   transition: transform 0.3s ease;
 }
 
-.about-banner-btn:hover .btn-arrow {
-  transform: translateX(5px);
-}
 
 /* 📱 Responsive Breakpoints */
 

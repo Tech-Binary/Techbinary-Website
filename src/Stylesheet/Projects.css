@@ -100,10 +100,14 @@
 }
 
 .view-more-btn:hover {
-  background: #0078c4;
+  background: #229DD6;
   color: #fff;
-  border-color: #0078c4;
+  border-color: #229DD6;
   transform: translateY(-2px);
+}
+.view-more-btn:hover img {
+  filter: brightness(0) invert(1); /* keeps arrow white */
+  transform: translateX(5px); /* optional: arrow slides right */
 }
 
 .arrow-icon {
@@ -111,6 +115,8 @@
   height: auto;
   margin-left: 8px;
 }
+
+
 
 /* Responsive Design */
 @media (max-width: 992px) {

@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <a href="#" className="view-more-btn">
+      <a href="/Portfolio" className="view-more-btn">
         View More <img src="/images/arrow2.png" alt="arrow" className="arrow-icon" />
       </a>
     </section>

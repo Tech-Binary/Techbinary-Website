@@ -90,12 +90,12 @@ const GetInTouch = () => {
         </div>
 
         <div className="map">
-          <iframe
-            title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.136972409742!2d80.94615957517815!3d26.867712576668023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be2a46d8e1b3d%3A0x3a8ce3d6dc520469!2sLucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1716543212345!5m2!1sen!2sin"
-            allowFullScreen=""
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.0067076848154!2d75.76093827522287!3d26.87152797667177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db559a3fb433f%3A0x48c05229cdb243fd!2sTechbinary!5e0!3m2!1sen!2sin!4v1762841870939!5m2!1sen!2sin"
+           allowFullScreen=""
             loading="lazy"
           ></iframe>
+         
         </div>
       </div>
     </section>

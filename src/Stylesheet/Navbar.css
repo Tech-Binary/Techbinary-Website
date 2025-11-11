@@ -140,9 +140,21 @@
 }
 
 .btn-nav:hover {
-  background-color: #000;
+  background-color: #229dd6;
   color: #fff;
+  border-color: #229dd6;
 }
+
+/* Arrow image color change on hover */
+.btn-nav img {
+  filter: brightness(0) invert(0); /* Normal (original color) */
+  transition: filter 0.3s ease;
+}
+
+.btn-nav:hover img {
+  filter: brightness(0) invert(1); /* Turns white on hover */
+}
+
 
 /* ============= 🔹 RESPONSIVENESS 🔹 ============= */
 

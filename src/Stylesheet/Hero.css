@@ -101,7 +101,14 @@
 }
 
 .btn-hero:hover {
-  background: rgba(255, 255, 255, 0.2); /* slightly brighter on hover */
+  background-color: #229dd6;
+  color: #fff;
+  border-color: #229dd6;
+}
+
+.btn-hero:hover .arow {
+  transform: translateX(5px);
+  filter: brightness(0) invert(1);
 }
 
 .arow {
@@ -109,15 +116,27 @@
   transition: transform 0.3s ease;
 }
 
-.btn-hero:hover .arow {
-  transform: translateX(5px); /* arrow moves slightly right on hover */
+.hero-logo {
+  position: absolute;
+  bottom: 43px;
+  right: 94px;
+  height: 150px;
+  width: auto;
+  z-index: 3;
+  opacity: 0.95;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  animation: rotateLogo 27s linear infinite;
+}
+.hero-hh {
+    position: absolute;
+    bottom: 302px;
+    right: 47px;
+    height: 215px;
+    width: auto;
+    z-index: 3;
+    opacity: 0.95;
 }
 
-/* Optional hover effect */
-.btn-outline:hover {
-  background: rgba(255, 255, 255, 0.4);
-  color: #000; /* example: change text color on hover */
-}
 
 /* ===== Floating Logo ===== */
 .hero-logo {
@@ -129,7 +148,7 @@
   z-index: 3;
   opacity: 0.95;
   transition: transform 0.3s ease, opacity 0.3s ease;
-    animation: rotateLogo 6s linear infinite;
+    animation: rotateLogo 30s linear infinite;
 }
 
 /* Define keyframes for rotation */

@@ -47,6 +47,7 @@ const Hero = () => {
 
       {/* Floating logo image */}
       <img src="/images/circlelogo.png" alt="TechBinary Logo" className="hero-logo" />
+       <img src="/images/hh.png" alt="TechBinary Logo" className="hero-hh" />
     </section>
   );
 };

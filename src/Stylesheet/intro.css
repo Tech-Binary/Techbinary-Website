@@ -83,9 +83,9 @@
   position: absolute;
   right: 80px;
   bottom: 92px;
-  border: 1.5px solid #000;
-  color: #000;
-  background-color: #fff;
+  border: 1.5px solid #fefefe;
+  color: #ffffff;
+  background-color: transparent;
   padding: 0.6rem 0.9rem;
   text-decoration: none;
   border-radius: 50px;
@@ -102,9 +102,23 @@
   z-index: 3;
 }
 
+.btn-intro img {
+  width: 16px;
+  height: 16px;
+  transition: all 0.3s ease;
+  filter: brightness(0) invert(1); /* makes arrow white */
+}
+
+/* Hover effect — same as .btn-outline */
 .btn-intro:hover {
-  background-color: #000;
+  background-color: #229DD6;
   color: #fff;
+  border-color: #229DD6;
+}
+
+.btn-intro:hover img {
+  filter: brightness(0) invert(1); /* keeps arrow white */
+  transform: translateX(5px); /* optional: arrow slides right */
 }
 
 /* ====== Responsive ====== */

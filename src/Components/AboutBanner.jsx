@@ -14,7 +14,7 @@ const AboutBanner = () => {
           Better IT Solutions & Services at <br /> your Fingertips
         </h1>
 
-        <a href="#" className="about-banner-btn">
+        <a href="/Get-In-Touch" className="about-banner-btn">
           Get In Touch
           <img src="/images/arrow.png" alt="arrow" className="btn-arrow" />
         </a>

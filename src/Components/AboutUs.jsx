@@ -34,7 +34,7 @@ const AboutUs = () => {
             digital experiences.
           </p>
 
-          <a href="#" className="btn-out">
+          <a href="/about-us" className="btn-out">
             Read More
             <img src="/images/arrow2.png" alt="arrow" className="btn-arrow" />
           </a>

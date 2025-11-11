@@ -6,7 +6,6 @@ const Career = () => {
   return (
     <>
       <ServicesIntro />
-
       <ServicesCard />
     </>
   );

@@ -131,9 +131,7 @@
   color: #0078c4;
 }
 
-/* =============================
-   BUTTON
-============================= */
+/*BUTTON*/
 .contact-btn {
   display: inline-flex;
   align-items: center;
@@ -156,15 +154,17 @@
 }
 
 .contact-btn:hover {
-  background: #0078c4;
+  background: #229DD6;
   color: #fff;
-  border-color: #0078c4;
+  border-color: #229DD6;
   transform: translateY(-2px);
 }
+.contact-btn:hover img {
+  filter: brightness(0) invert(1); 
+  transform: translateX(5px); 
+}
 
-/* =============================
-   RESPONSIVE BREAKPOINTS
-============================= */
+/* RESPONSIVE BREAKPOINTS */
 
 /* --- Large Screens (max-width: 1200px) --- */
 @media (max-width: 1200px) {

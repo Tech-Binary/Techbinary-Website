@@ -29,6 +29,7 @@
 }
 
 .job-card:hover {
+
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
@@ -119,8 +120,9 @@
 }
 
 .view-more button:hover {
-  background: #002046;
+   background: #0078c4;
   color: #fff;
+   border-color: #0078c4;
 }
 
 /* RESPONSIVE DESIGN */

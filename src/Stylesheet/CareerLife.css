@@ -76,39 +76,7 @@
   font-family: "Roboto Flex", sans-serif;
 }
 
-/* BUTTON */
-.careerlife-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
-  padding: 0.8rem 1.6rem;
-  border: 1.5px solid #000;
-  border-radius: 50px;
-  color: #000;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: clamp(0.8rem, 1vw, 0.9rem);
-  font-family: "Montserrat", sans-serif;
-  transition: all 0.3s ease;
-}
 
-.careerlife-arrow {
-  width: 14px;
-  height: auto;
-}
-
-.careerlife-btn:hover {
-  background: #0078c4;
-  color: #fff;
-  border-color: #0078c4;
-  transform: translateY(-2px);
-}
-.job-meta {
-  font-size: 0.85rem 13.6px;
-  color: rgba(12, 46, 130, 1);
-  line-height: 1.5;
-}
 
 /* RESPONSIVE BREAKPOINTS */
 

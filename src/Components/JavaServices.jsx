@@ -2,63 +2,49 @@ import React from "react";
 import "../Stylesheet/JavaServices.css";
 import { Check } from "lucide-react";
 
+const JavaServices = ({ data }) => {
+  if (!data || data.length === 0) return null; // Safety check
 
-const JavaServices = () => {
+  const { title, description, image, buttonText, points } = data[0];
+
   return (
     <section className="java-services">
       {/* Left Content Section */}
       <div className="java-services-left">
-        <h2>Why Choose Our Java Development Services?</h2>
-        <p>
-          With over 10 years of experience in the Java ecosystem, we deliver
-          enterprise-grade solutions that scale with your business. Our team
-          specializes in modern Java frameworks and cloud-native architectures.
-        </p>
+        <h2>{title}</h2>
+        <p>{description}</p>
 
         <div className="java-points">
-          <div className="java-point">
-            <Check className="check-icon" />
-            <div>
-              <h4>Enterprise-Grade Security</h4>
-              <p>
-                Implement robust security measures and best practices for your
-                applications.
-              </p>
+          {points.map((point, index) => (
+            <div className="java-point" key={index}>
+              <Check className="check-icon" />
+              <div>
+                <h4>{point.title}</h4>
+                <p>{point.desc}</p>
+              </div>
             </div>
-          </div>
-
-          <div className="java-point">
-            <Check className="check-icon" />
-            <div>
-              <h4>Scalable Architecture</h4>
-              <p>
-                Design systems that grow with your business needs and handle
-                increasing loads.
-              </p>
-            </div>
-          </div>
-
-          <div className="java-point">
-            <Check className="check-icon" />
-            <div>
-              <h4>24/7 Support &amp; Maintenance</h4>
-              <p>
-                Continuous monitoring and support to ensure optimal performance.
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
+           
 
-        <button className="java-btn">
-          Get In Touch <span className="arrow">→</span>
-        </button>
+            <a href="/Get-In-Touch" className="portfolio-do-btn">
+          Get In Touch
+          <img
+            src="/images/arrow2.png"
+            alt="arrow"
+            className="portfolio-do-arrow"
+          />
+        </a>
+        {/* <button className="java-btn">
+          {buttonText} <span className="arrow"></span>
+        </button> */}
       </div>
 
-      {/* Right Side - One Grouped Image */}
+      {/* Right Side - Image Section */}
       <div className="java-services-right">
         <img
-          src="/images/Javapage.png"
-          alt="Java Development Team"
+          src={image}
+          alt={title}
           className="java-group-img"
         />
       </div>
