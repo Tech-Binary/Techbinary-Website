@@ -68,8 +68,9 @@
 }
 
 .portfolio-banner-btn:hover {
-  background: #fff;
-  color: #000;
+  background: #0078c4;
+  color: #fff;
+   border-color: #0078c4;
   transform: scale(1.05);
 }
 

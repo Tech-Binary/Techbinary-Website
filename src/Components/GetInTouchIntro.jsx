@@ -10,7 +10,7 @@ const GetInTouchIntro = () => {
       }}
     >
       <div className="career-banner-content">
-        <h1>Blog</h1>
+        <h1>Get In Touch</h1>
       </div>
     </section>
   );

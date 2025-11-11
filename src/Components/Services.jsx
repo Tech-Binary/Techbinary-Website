@@ -113,7 +113,7 @@ const Services = () => {
               There are many variations of passages of Lorem Ipsum available,
               but the majority simply free text now have suffered alteration.
             </p>
-            <a href="#" className="btn-outline">
+            <a href="/Services" className="btn-outline">
               Discover More
               <img
                 src="/images/arrow.png"

@@ -115,7 +115,7 @@ const ServiceInnerTesting = () => {
 
   return (
     <>
-      <PageIntro title={"Java"} BGimage={"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Banner%20Description.png"} />
+      <PageIntro title={"Java"} bgImage={"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Banner%20Description.png"} />
       <JavaServices data={javaData} />
       <ServiceBenefit data={serviceData} />
       <Frameworks data={frameworkData} />

@@ -19,7 +19,7 @@ const PortfolioBanner = () => {
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown <br/>printer took a galley of type and scrambled it to make a type specimen book.
     </p>
 
-    <a href="#" className="portfolio-banner-btn">
+    <a href="/Get-In-Touch" className="portfolio-banner-btn">
       Let's Talk
       <img
         src="/images/arrow.png"

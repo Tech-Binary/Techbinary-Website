@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 100px;
+  padding: 80px 184px;
   gap: 60px;
   background: #fff;
   flex-wrap: wrap;
@@ -41,9 +41,9 @@
 }
 
 .check-icon {
-  color: #3b82f6;
+  color: #2563EB;
   background: #e0ebff;
-  border-radius: 50%;
+  border-radius: 27%;
   padding: 6px;
   flex-shrink: 0;
 }
@@ -72,8 +72,9 @@
 }
 
 .java-btn:hover {
-  background: #000;
+  background-color: #229DD6;
   color: #fff;
+  border-color: #229DD6; 
 }
 
 /* RIGHT SECTION */
