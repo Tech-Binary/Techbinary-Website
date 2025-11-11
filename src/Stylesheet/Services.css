@@ -205,10 +205,10 @@
   transform: translateY(-2px);
 }
 .btn-outline:hover img {
-  filter: brightness(0) invert(1); /* keeps arrow white */
-  transform: translateX(5px); /* optional: arrow slides right */
+  filter: brightness(0) invert(1); 
+  transform: translateX(5px); 
 }
-/* Arrow icon in bottom right */
+
 .service-card .card-arrow {
   position: absolute;
   bottom: -19px;
