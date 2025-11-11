@@ -79,6 +79,7 @@
   z-index: 3;
   width: 80%;
   justify-self: center;
+ 
 }
 
 .services-cards-slider {
@@ -102,6 +103,10 @@
   font-family: "Roboto Flex";
   --hover-color: #e1f1ec;
   z-index: 1;
+   background-image: url("/public/images/servicebg.png");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .service-card::before {
@@ -191,6 +196,17 @@
   transition: 0.3s;
   font-size: small;
   font-family: "Montserrat", sans-serif;
+}
+
+.btn-outline:hover {
+  background: #229DD6;
+  color: #fff;
+  border-color: #229DD6;
+  transform: translateY(-2px);
+}
+.btn-outline:hover img {
+  filter: brightness(0) invert(1); /* keeps arrow white */
+  transform: translateX(5px); /* optional: arrow slides right */
 }
 /* Arrow icon in bottom right */
 .service-card .card-arrow {
