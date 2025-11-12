@@ -7,7 +7,26 @@ const Chooseus = () => {
     <section className="why-choose-us">
       {/* Left Section */}
       <div className="why-left">
-        <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/About%20US/Why%20Choose%20Us.png" alt="Why Choose Us" className="main-img" />
+        <div className="image-wrapper">
+          <img
+            src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/About%20US/Why%20Choose%20Us.png"
+            alt="Why Choose Us"
+            className="main-img"
+          />
+
+          {/* Overlay Object */}
+          <div className="image-overlay">
+            <img
+              src="/images/clients-icon.png"
+              alt="clients"
+              className="overlay-icon"
+            />
+            <div className="overlay-text">
+              <h4>2,000+</h4>
+              <p>Satisfied Clients</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Right Section */}
@@ -23,10 +42,10 @@ const Chooseus = () => {
         </h2>
 
         <p className="section-desc">
-          At <strong>Techbinary</strong>, we believe technology is more than just code —
-          it’s the foundation of growth and innovation. We are a passionate team of
-          developers, designers, and strategists dedicated to creating powerful websites,
-          user-friendly apps, and custom IT solutions that transform businesses.
+          At <strong>Techbinary</strong>, we believe technology is more than just code — it’s
+          the foundation of growth and innovation. We are a passionate team of developers,
+          designers, and strategists dedicated to creating powerful websites, user-friendly
+          apps, and custom IT solutions that transform businesses.
         </p>
 
         <div className="features">
@@ -46,11 +65,7 @@ const Chooseus = () => {
 
         <a href="/Get-In-Touch" className="contact-btn">
           Get In Touch
-          <img
-            src="/images/Arrow2.png"
-            alt="arrow"
-            className="btn-arrow"
-          />
+          <img src="/images/Arrow2.png" alt="arrow" className="btn-arrow" />
         </a>
       </div>
     </section>
