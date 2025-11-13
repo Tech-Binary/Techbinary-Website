@@ -160,9 +160,9 @@
 /*  Large tablets / small desktops (1000px - 1200px) */
 @media (max-width: 1200px) and (min-width: 1000px) {
   .about::before {
-    font-size: 100px;
-    top: 40px;
-    left: 50%;
+    font-size: 79px;
+    top: 50px;
+    left: 77%;
     transform: translateX(-50%);
   }
 
@@ -180,8 +180,8 @@
   }
 
   .about-image img {
-    width: 90%;
-    margin-right: 100px;
+    width: 113%;
+    margin-right: 0px;
   }
 
   .btn-out {

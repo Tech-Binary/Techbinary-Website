@@ -41,7 +41,7 @@
 .blog-header-right {
   max-width: 500px;
   text-align: left;
-  align-self: center;  
+  align-self: center;
 }
 
 .blog-header-right p {
@@ -56,8 +56,6 @@
   padding: 80px 0;
   /* background: #f9f9f9; */
 }
-
-
 
 .blog-header h2 {
   font-size: 2.2rem;
@@ -132,9 +130,8 @@
   line-height: 1.5;
 }
 
-
 .slick-dots li button:before {
-  color: #229DD6 !important;
+  color: #229dd6 !important;
 }
 .line2-img {
   width: 29px;
@@ -142,18 +139,16 @@
   margin-left: 118px;
 }
 
-
-
 .blog-slider {
   position: relative;
 }
 
 .blog-slider .slick-dots {
   position: absolute;
-  bottom: -40px; 
+  bottom: -40px;
   left: 50%;
   transform: translateX(-50%);
-  width: max-content; 
+  width: max-content;
 }
 
 .blog-slider .slick-dots li {
@@ -161,30 +156,45 @@
 }
 
 .blog-slider .slick-dots li button:before {
-  color: #229DD6 !important;
+  color: #229dd6 !important;
 }
-
-
-
-
 
 /*  MEDIA QUERIES  */
 
-/*  1000px – 1200px */
 @media (max-width: 1200px) and (min-width: 1000px) {
   .blog-header {
     padding: 0 80px;
     gap: 20px;
+    align-items: center; 
   }
 
-  .blog-header h5 {
+  .blog-header-left {
+    flex: 1;
+  }
+
+  .blog-header-right {
+    flex: 1;
+    text-align: right; 
+    align-self: center; 
+  }
+
+  .blog-header-right p {
+    max-width: 420px;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: right;
+    margin-right: 41px;
+  }
+
+  .blog-header-left h5 {
     font-size: 0.85rem;
-    margin-left: 90px;
+    margin-left: -57px;
   }
 
-  .blog-header h2 {
-    font-size: 2rem;
-    margin-left: 85px;
+  .blog-header-left h2 {
+    font-size: 29px;
+    margin-left: 57px;
   }
 
   .blog-slider {
@@ -195,43 +205,6 @@
   .blog-card img {
     height: 200px;
   }
-}
-
-/* === Decorative Line beside BLOGS heading === */
-.blog-header-left {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.blog-header-left h5 {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* space between line and text */
-  font-weight: 600;
-  letter-spacing: 2px;
-  font-size: 0.9rem;
-  color: #000;
-  margin-bottom: 10px;
-}
-
-/* Line image beside the heading */
-.line-img {
-  width: 30px; /* adjust size as per your design */
-  height: auto;
-  margin-right: 10px;
-}
-
-/* place line and heading text horizontally */
-.blog-header-left h5 {
-  display: flex;
-  align-items: center;
-}
-
-/* remove old pseudo line before h5 */
-.blog-header h5::before {
-  content: none;
 }
 
 /*  800px – 600px (Tablets) */
@@ -286,17 +259,17 @@
   }
 
   .blog-header-left h2 {
-           font-size: 1.5rem;
-        margin-left: 0;
+    font-size: 1.5rem;
+    margin-left: 0;
   }
 
   .blog-header-right p {
     font-size: 0.85rem;
     text-align: center;
   }
-.blog-header-left {
+  .blog-header-left {
     width: 100%;
-}
+  }
   .blog-slider {
     width: 100%;
     padding: 0 15px;

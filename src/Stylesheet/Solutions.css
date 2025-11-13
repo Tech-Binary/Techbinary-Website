@@ -77,6 +77,72 @@ h2 {
   word-spacing: 7px;
 }
 
+/* ========= Discover More Button ========= */
+/* 🔹 Align heading and button in one row */
+.solution-header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* so it adjusts on small screens */
+}
+
+/* Button styling */
+.solution-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 9px 11px;
+  border: 1.5px solid #000;
+  border-radius: 50px;
+  color: #000;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-top: 63px;
+}
+
+.solution-btn-outline:hover {
+  background-color: #229dd6;
+  color: #fff;
+  border-color: #229dd6;
+}
+
+/* arrow image hover effect */
+.solution-btn-arow {
+  width: 16px;
+  height: 16px;
+  filter: brightness(0) invert(0);
+  transition: filter 0.3s ease;
+}
+
+.solution-btn-outline:hover .solution-btn-arow {
+  filter: brightness(0) invert(1);
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .solution-header-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .solution-btn-outline {
+    margin-top: 15px;
+  }
+}
+
+
+
+
+
+
 /* Responsive */
 
 /*  1000px – 1200px (Small desktop / Large tablet) */
@@ -90,7 +156,7 @@ h2 {
   }
 
   .solutions-cards {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 25px;
   }
 
@@ -108,20 +174,29 @@ h2 {
 }
 
 /*  800px – 600px (Tablets & Small Laptops) */
+/*  800px – 600px (Tablets & Small Laptops) */
+/*  800px – 600px (Tablets & Small Laptops) */
 @media (max-width: 1000px) and (min-width: 600px) {
   .solutions-container {
     padding: 50px 30px;
   }
 
-  .solutions-header {
-    flex-direction: column;
+  /* ✅ Fix: Heading left & button right */
+  .solution-header-top {
+    display: flex;
     align-items: center;
-    text-align: center;
-    gap: 10px;
+    justify-content: space-between;
+    flex-direction: row; /* force them to stay side by side */
+    text-align: left;
   }
 
   .solutions-header h2 {
     font-size: 1.7rem;
+    text-align: left;
+  }
+
+  .solution-btn-outline {
+    margin-top: 0; /* remove extra top margin */
   }
 
   .solutions-cards {
@@ -142,6 +217,8 @@ h2 {
     line-height: 1.5;
   }
 }
+
+
 
 /*  600px – 300px (Mobile Devices) */
 /* 600px – 300px (Mobile Devices) */

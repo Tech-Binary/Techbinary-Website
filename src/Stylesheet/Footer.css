@@ -22,10 +22,10 @@
 }
 
 .footer-logo {
-    height: 67px;
-    width: 229px;
-    position: absolute;
-    top: 2px;
+  height: 67px;
+  width: 229px;
+  position: absolute;
+  top: 2px;
 }
 
 /* Footer Columns */
@@ -59,15 +59,15 @@
   cursor: pointer;
   transition: color 0.3s ease;
   line-height: 25px;
+  font-family: "Roboto Flex";
 }
 
 .footer-column ul li svg {
   margin-right: 8px;
   color: #fcfcfc;
   flex-shrink: 0;
-  font-family: "Jost";
+  font-family: "Roboto Flex";
 }
-
 
 .footer-column ul li:hover {
   color: #00bcd4;
@@ -94,29 +94,29 @@
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.75);
   line-height: 1.6;
-  font-family: "Jost";
-  display: flex;              /* Make it flex container */
+  font-family: "Roboto Flex";
+  display: flex; /* Make it flex container */
   justify-content: space-between; /* Spread items left & right */
-  align-items: center;        /* Vertically center them */
-  flex-wrap: wrap;            /* Wrap on very small screens */
+  align-items: center; /* Vertically center them */
+  flex-wrap: wrap; /* Wrap on very small screens */
 }
 
 .footer-bottom p:first-child {
-font-size: 12px;
-    font-weight: 100;
-    color: rgba(255, 255, 255, 0.75);
-    letter-spacing: 0.5px;
-    margin-top: -30px;
-    font-family: "Jost";       
+  font-size: 12px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 0.5px;
+  margin-top: -30px;
+  font-family: "Roboto Flex";
 }
 
 .footer-bottom p:last-child {
- font-size: 12px;
-    font-weight: 100;
-    color: rgba(255, 255, 255, 0.75);
-    letter-spacing: 0.5px;
-    margin-top: -30px;
-    font-family: "Jost";
+  font-size: 12px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 0.5px;
+  margin-top: -30px;
+  font-family: "Roboto Flex";
 }
 
 /* ==================== MEDIA QUERIES ==================== */
@@ -215,4 +215,3 @@ font-size: 12px;
     gap: 25px;
   }
 }
-

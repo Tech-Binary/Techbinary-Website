@@ -89,7 +89,7 @@ const Services = () => {
     responsive: [
       {
         breakpoint: 1024, // tablets
-        settings: { slidesToShow: 2 },
+        settings: { slidesToShow: 3 },
       },
       {
         breakpoint: 600, // mobile
@@ -129,7 +129,7 @@ const Services = () => {
 
       {/* Cards Wrapper */}
       <div className="services-cards container"></div>
-      <Slider {...settings} className="services-cards-slider w-100">
+      <Slider {...settings} className="services-cards-slider">
         {array.map((service, index) => (
           <div className="service-card" key={index} data-color={service.color}>
             <div
