@@ -68,11 +68,11 @@
 @media screen and (max-width: 600px) and (min-width: 300px) {
   .top-bar {
     flex-direction: column;
-    padding: 6px 20px;
+    padding: 6px 6px;
     text-align: center;
     height: auto;
     font-size: 10px;
-    gap: 5px;
+    gap: 3px;
   }
 
   .top-bar-center {
@@ -162,6 +162,39 @@
   filter: brightness(0) invert(1); /* Turns white on hover */
 }
 
+/* 🔹 HAMBURGER MENU STYLE 🔹 */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 26px;
+  height: 20px;
+  cursor: pointer;
+  position: sticky;
+  right: 35px;
+  top: 30px;
+  z-index: 1200;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Animate hamburger into an X */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translateY(7px);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-7px);
+}
+
 /* ============= 🔹 RESPONSIVENESS 🔹 ============= */
 
 @media (max-width: 1200px) and (min-width: 1000px) {
@@ -189,35 +222,37 @@
 
 @media (max-width: 800px) and (min-width: 600px) {
   .navbar .container {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 8px;
   }
 
   .nav-links {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.8rem;
+    gap: 10px;
+    margin-top: 17px;
+    margin-right: 24px;
   }
 
   .nav-links a {
     font-size: 0.9rem;
   }
-
   .btn-nav {
-    padding: 0.5rem 0.7rem;
-    font-size: 0.9rem;
+    padding: 3px 3px;
+    font-size: 11px;
   }
 
   .logo-img {
-    height: 50px;
+    height: 47px;
   }
 }
 
 @media (max-width: 600px) and (min-width: 300px) {
   .navbar .container {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 12px;
+    position: sticky;
   }
 
   .nav-links {
@@ -236,8 +271,47 @@
   }
 
   .logo-img {
-    height: 45px;
+    height: 38px;
+  }
+  .hamburger {
+    display: flex;
+    width: 24px;
+    height: 13px;
+    margin-left: 120px;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 75px;
+    right: 0;
+    background: white;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    gap: 1rem;
+    border-top: 1px solid #ddd;
+  }
+
+  .nav-links.open {
+    display: flex;
+    animation: slideDown 0.3s ease;
+  }
+
+  .btn-nav {
+    display: none;
   }
 }
 
-
+/* 🔹 Slide-down animation for mobile menu */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

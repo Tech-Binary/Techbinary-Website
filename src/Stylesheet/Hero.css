@@ -303,10 +303,15 @@
 
   .hero-content {
     left: 50%;
-    top: 45%;
+    top: 43%;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 90%;
+  }
+  .hero-hh {
+    bottom: 113px;
+    right: 15px;
+    height: 184px;
   }
 
   .tagline-box {
@@ -330,17 +335,23 @@
     height: 36px;
     font-size: 12px;
     margin: 0 auto;
+    padding: 0 7px;
   }
 
   .hero-logo {
-    height: 55px;
-    right: 20px;
+    height: 64px;
+    right: 16px;
     bottom: 25px;
   }
 
   .watermark {
-    font-size: 3.5rem;
+    font-size: 36px;
     letter-spacing: 8px;
     bottom: 0;
   }
+  .overlay {
+    border-bottom-right-radius: 54px;
+}
+
+
 }

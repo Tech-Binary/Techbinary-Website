@@ -282,4 +282,12 @@
   .blog-content p {
     font-size: 0.9rem;
   }
+  .blog-section {
+    padding: 9px 0;
+  }
+  
+.slick-dots {
+  bottom: revert;
+}
+
 }
