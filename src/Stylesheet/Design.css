@@ -48,9 +48,6 @@
   transition: all 0.3s ease;
 }
 
-/* .phase-card:hover {
-  transform: translateY(-5px);
-} */
 .down span {
   height: 5px;
   background-color: black;
@@ -158,6 +155,11 @@
     padding: 70px;
   }
 
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+
   .phase-title {
     font-size: 2rem;
     margin-bottom: 50px;
@@ -169,18 +171,32 @@
 
   .phase-card {
     padding: 25px 20px;
+    width: 35%;
+    height: 220px;
+  }
+  .phase-card-header {
+    gap: 1px;
   }
 
   .phase-card h3 {
-    font-size: 1rem;
+    font-size: 13px;
   }
 
   .phase-card p {
     font-size: 0.85rem;
+    margin-top: -30px;
   }
 
   .step-number {
     font-size: 1.8rem;
+  }
+  .connector-line {
+    left: 13%;
+    right: 14%;
+    top: 50%;
+  }
+  .vertical-line {
+    left: 46%;
   }
 }
 
@@ -223,11 +239,11 @@
   .top-row {
     margin-bottom: 70px;
     width: 100%;
-}
- .bottom-row {
-    width:100%;
-   margin-left :0;
-  } 
+  }
+  .bottom-row {
+    width: 100%;
+    margin-left: 0;
+  }
   .connector-line,
   .vertical-line {
     display: none;
