@@ -24,7 +24,6 @@ h2 {
   margin-bottom: 10px;
   gap: 13px;
   margin-left: 3px;
-
 }
 .Solution-header .highlight {
   color: #229dd6;
@@ -138,11 +137,6 @@ h2 {
   }
 }
 
-
-
-
-
-
 /* Responsive */
 
 /*  1000px – 1200px (Small desktop / Large tablet) */
@@ -173,9 +167,6 @@ h2 {
   }
 }
 
-/*  800px – 600px (Tablets & Small Laptops) */
-/*  800px – 600px (Tablets & Small Laptops) */
-/*  800px – 600px (Tablets & Small Laptops) */
 @media (max-width: 1000px) and (min-width: 600px) {
   .solutions-container {
     padding: 50px 30px;
@@ -218,9 +209,6 @@ h2 {
   }
 }
 
-
-
-/*  600px – 300px (Mobile Devices) */
 /* 600px – 300px (Mobile Devices) */
 @media (max-width: 600px) {
   .solutions-container {
@@ -254,10 +242,23 @@ h2 {
   }
 
   .solution-card h3 {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .solution-card p {
     font-size: 11.5px;
+  }
+  .Solution-header h5 {
+    margin-left: 45px;
+  }
+  h2 {
+    line-height: 32px;
+    font-size: 25px;
+  }
+  .solution-btn-outline {
+    margin-top: -3px;
+    margin-bottom: 18px;
+    padding: 7px 8px;
+    font-size: 12px;
   }
 }

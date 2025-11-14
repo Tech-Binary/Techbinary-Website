@@ -65,6 +65,9 @@ padding: 0px 40px 55px;
   .partner-logo {
     width: 60px;
   }
+  .trusted-partners {
+    padding: 0px 14px 55px;
+  }
 
   .trusted-title {
     font-size: 1.4rem;

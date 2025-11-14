@@ -1,15 +1,12 @@
+/* SECTION */
 .portfolio-tech-section {
   width: 100%;
-  background-color: #f9fafc; /* Light section background */
+  background-color: #f9fafc;
   padding: 45px 0;
   font-family: "Poppins", sans-serif;
 }
 
-.portfolio-tech-header {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
+/* HEADER */
 .linetech-img {
   display: block;
   margin: 0px 0 -11px 578px;
@@ -18,7 +15,7 @@
 .portfolio-tech-subtitle {
   font-size: 0.9rem;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 1);
+  color: #000;
   font-weight: 500;
   letter-spacing: 1px;
   margin-bottom: 8px;
@@ -39,7 +36,6 @@
   align-items: stretch;
   gap: 30px;
   flex-wrap: wrap;
-  width: 90%;
   width: 1397px;
   margin: 29px auto;
 }
@@ -52,10 +48,7 @@
   border-radius: 20px;
   padding: 50px 40px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  transition: 0.3s ease;
 }
 
 .portfolio-tech-card:hover {
@@ -64,93 +57,99 @@
 }
 
 .portfolio-tech-card h3 {
-  font-size: 1.3rem;
-  font-weight: 500;
-  color: rgba(0, 32, 70, 1);
-  margin-bottom: 40px;
   text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.3rem;
+  color: rgba(0, 32, 70, 1);
 }
 
 /* GRID */
 .portfolio-tech-grid {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 50px 10px;
   align-items: center;
   justify-items: center;
 }
 
+/* ITEM */
 .portfolio-tech-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  transition: transform 0.3s ease;
-}
-.portfolio-tech__divider {
-  width: 1px;
-  height: 50px;
-  background-color: #e0e0e0;
-  margin: 0 15px;
+  position: relative;
+  padding-right: 20px;
 }
 
+/* Pseudo-element divider (instead of <div class="divider">) */
+.portfolio-tech-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 50px;
+  background: #e0e0e0;
+}
+
+/* HOVER EFFECT */
 .portfolio-tech-item:hover {
   transform: translateY(-5px);
 }
 
-.portfolio-tech-item p {
-  font-size: 0.95rem;
-  color: #1d1d1d;
-  margin: 0;
-}
-
-/* ICON COLORS */
-.portfolio-tech-icon {
-  font-size: 2.6rem;
-}
-
-/* .react { color: #61dafb; }
-.node { color: #5faa45; }
-.python { color: #f4c542; }
-.aws { color: #f4992d; }
-.mongo { color: #a855f7; }
-.blockchain { color: #0066ff; }
-
-.health { color: #ff4f5a; }
-.edu { color: #3266cc; }
-.fintech { color: #22c55e; }
-.retail { color: #a855f7; }
-.logistics { color: #ff8a00; }
-.smart { color: #374151; } */
-
 /* RESPONSIVE */
-@media (max-width: 1024px) {
+/* 1200px */
+@media (max-width: 1200px) {
+  .portfolio-tech-wrapper {
+    width: 100%;
+    gap: 25px;
+  }
+  .portfolio-tech-card {
+    width: 48%;
+    min-width: auto;
+  }
+  .portfolio-tech-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .linetech-img {
+    margin: 0px 0px -11px 210px;
+  }
+}
+
+/* 700px */
+@media (max-width: 700px) {
   .portfolio-tech-wrapper {
     flex-direction: column;
-    align-items: center;
+    width: 100%;
+    padding: 0 20px;
   }
-
   .portfolio-tech-card {
     width: 100%;
-    max-width: 600px;
+    padding: 35px 25px;
   }
-
   .portfolio-tech-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
+/* 600px */
 @media (max-width: 600px) {
   .portfolio-tech-title {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
-
+  .portfolio-tech-card {
+    padding: 30px 20px;
+  }
   .portfolio-tech-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
   }
-
-  .portfolio-tech-card {
-    padding: 40px 25px;
+  .linetech-img {
+    margin: 0 auto -10px 10px;
+    width: 24px;
+  }
+  .portfolio-do {
+    flex-direction: column;
   }
 }

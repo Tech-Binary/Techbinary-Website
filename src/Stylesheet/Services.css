@@ -349,7 +349,6 @@
     padding: 2px 1px;
   }
 
-
   .services-header {
     flex-direction: column;
     align-items: center;
@@ -359,8 +358,8 @@
 
   .services-header h2 {
     font-size: 2rem;
-        margin-left: 81px;
-        margin-bottom: -12px;
+    margin-left: 81px;
+    margin-bottom: -12px;
   }
 
   .services-subtext {
@@ -483,5 +482,8 @@
   }
   .services-header h5 {
     margin-left: 3px;
+  }
+  .slick-dots {
+    bottom: revert;
   }
 }

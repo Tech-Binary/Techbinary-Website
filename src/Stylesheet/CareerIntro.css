@@ -54,7 +54,7 @@
 /* Small tablets (up to 768px) */
 @media (max-width: 768px) {
   .career-banner {
-    min-height: 60vh;
+    min-height: 36vh;
     background-position: center top;
   }
 
