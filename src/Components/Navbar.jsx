@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "../Stylesheet/global.css";
 import "../Stylesheet/Navbar.css";
 
@@ -51,20 +52,73 @@ const Navbar = () => {
           {/* Navigation Links */}
           <nav className="nav-menu">
             <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about-us">About Us</a></li>
-              <li className="dropdown"><a href="/Services">Services ▾</a></li>
-              <li><a href="/Portfolio">Portfolio</a></li>
-              <li><a href="/Career">Careers</a></li>
-              <li><a href="/Blog">Blog</a></li>
+
+              <li>
+                <NavLink 
+                  to="/" 
+                  className={({ isActive }) => (isActive ? "active-link" : "")}
+                >
+                  Home
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink 
+                  to="/about-us"
+                  className={({ isActive }) => (isActive ? "active-link" : "")}
+                >
+                  About Us
+                </NavLink>
+              </li>
+
+              <li className="dropdown">
+                <NavLink
+                  to="/Services"
+                  className={({ isActive }) => (isActive ? "active-link" : "")}
+                >
+                  Services
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
+                  to="/Portfolio"
+                  className={({ isActive }) => (isActive ? "active-link" : "")}
+                >
+                  Portfolio
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
+                  to="/Career"
+                  className={({ isActive }) => (isActive ? "active-link" : "")}
+                >
+                  Careers
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
+                  to="/Blog"
+                  className={({ isActive }) => (isActive ? "active-link" : "")}
+                >
+                  Blog
+                </NavLink>
+              </li>
             </ul>
           </nav>
 
           {/* CTA Button */}
-          <a href="/Get-In-Touch" className="btn-nav">
+          <NavLink
+            to="/Get-In-Touch"
+            className={({ isActive }) =>
+              isActive ? "btn-nav active-link" : "btn-nav"
+            }
+          >
             Get In Touch
             <img src="/images/arrow2.png" alt="arrow" className="btn-navbar" />
-          </a>
+          </NavLink>
         </div>
       </header>
     </>

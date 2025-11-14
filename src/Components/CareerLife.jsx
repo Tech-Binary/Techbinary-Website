@@ -26,8 +26,7 @@ const CareerLife = () => {
         </p>
 
         <h2 className="careerlife-title">
-          Explore Life at <br />
-          <span>Techbinary</span>
+          Explore Life at <span> Techbinary</span>
         </h2>
 
         <div className="careerlife-desc">

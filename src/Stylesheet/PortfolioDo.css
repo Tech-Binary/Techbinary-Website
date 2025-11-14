@@ -110,12 +110,11 @@
   transform: translateX(5px); /* optional: arrow slides right */
 }
 
-
 /* ================= RESPONSIVE BREAKPOINTS ================= */
 
 @media (max-width: 1024px) {
   .portfolio-do {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
     padding: 3rem 3rem;
@@ -134,10 +133,15 @@
 
   .portfolio-do-title {
     text-align: center;
+    font-size: 26px;
   }
 
   .portfolio-do-desc p {
     text-align: center;
+  }
+  .portfolio-do-img {
+    width: 498px;
+    height: 542px;
   }
 }
 
@@ -148,12 +152,12 @@
   }
 
   .portfolio-do-img {
-    width: 90%;
+    width: 106%;
     margin-left: 0;
   }
 
   .portfolio-do-title {
-    font-size: 1.8rem;
+    font-size: 25px;
   }
 
   .portfolio-do-right {
@@ -179,8 +183,8 @@
   }
 
   .portfolio-do-title {
-    font-size: 1.5rem;
-    line-height: 1.3;
+    font-size: 21px;
+    line-height: 1.2;
   }
 
   .portfolio-do-desc p {
@@ -197,18 +201,7 @@
     font-size: 0.8rem;
     padding: 0.6rem 1.2rem;
   }
-}
-
-@media (max-width: 360px) {
-  .portfolio-do-title {
-    font-size: 1.3rem;
-  }
-
-  .portfolio-do-desc p {
-    font-size: 12px;
-  }
-
-  .portfolio-do-img {
-    max-width: 270px;
+  .portfolio-do-subtitle {
+    margin-left: 67px;
   }
 }

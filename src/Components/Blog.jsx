@@ -58,11 +58,9 @@ const BlogSection = () => {
     <section className="blog-section">
       {/* === Blog Header === */}
       <div className="blog-header">
-        {/* 🟩 Left Side (Heading + Line image) */}
+     
         <div className="blog-header-left">
-          {/* Decorative line image */}
-          
-          {/* Heading section */}
+         
           <h5>
             <img src="/images/Frame.png" alt="line" className="line2-img" />
             BLOGS

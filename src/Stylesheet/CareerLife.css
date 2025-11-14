@@ -76,8 +76,6 @@
   font-family: "Roboto Flex", sans-serif;
 }
 
-
-
 /* RESPONSIVE BREAKPOINTS */
 
 @media (max-width: 1200px) {
@@ -87,68 +85,65 @@
   }
 
   .careerlife-right {
-    margin-right: 4rem;
+    margin-right: -3rem;
   }
 
   .careerlife-img {
-    margin-left: 2rem;
+    margin-left: -3rem;
+    width: 452px;
+    height: 386px;
   }
 }
 
-/* Tablets */
-@media (max-width: 992px) {
+
+
+/* ----- EXACT FIX FOR 700px ----- */
+@media (max-width: 800px) {
   .careerlife-section {
-    flex-direction: column; 
+    flex-direction: row;       
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 3rem;
-    height: auto; 
+    padding: 2rem 2rem;
+    height: auto;
+    gap: 20px !important;
+        flex-wrap: nowrap;
+
+  }
+
+  .careerlife-left,
+  .careerlife-right {
+    width: 50%;                 
+  }
+
+  .careerlife-img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
   }
 
   .careerlife-right {
     margin-right: 0;
-    max-width: 80%;
-    margin-top: 2rem;  
-  }
-
-  .careerlife-img {
-    width: 80%;
-    margin-left: 0;
   }
 }
 
-/* Small Tablets */
-@media (max-width: 768px) {
-  .careerlife-section {
-    padding: 2.5rem 2rem;
-  }
-
-  .careerlife-title {
-    font-size: 1.7rem;
-  }
-
-  .careerlife-desc {
-    font-size: 0.9rem;
-  }
-
-  .careerlife-btn {
-    padding: 0.7rem 1.4rem;
-  }
-}
 
 /* Mobile */
 @media (max-width: 576px) {
   .careerlife-section {
     padding: 2rem 1rem;
-    flex-direction: column; 
+    flex-direction: column;
     height: auto;
   }
-
+    .careerlife-left, .careerlife-right {
+        width: 80%;
+    }
   .careerlife-img {
-          width: 100%;
-        height: 222px;
-        margin: 0 auto 1.5rem;
-  }
+    width: 195%;
+    height: 222px;
+    align-items: center;
+    margin: -21px 10px 43px 10px;
+    }
+  
 
   .careerlife-subtitle {
     font-size: 0.7rem;
@@ -168,9 +163,9 @@
     padding: 0.6rem 1.2rem;
     font-size: 0.8rem;
   }
-      .careerlife-right {
-        margin-right: 0;
-        max-width: 80%;
-        margin-top: -54px;
-    }
+  .careerlife-right {
+    margin-right: 0;
+    max-width: 80%;
+    margin-top: -54px;
+  }
 }

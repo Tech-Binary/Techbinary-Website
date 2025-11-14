@@ -239,7 +239,7 @@
 
   .btn-out {
     margin: 0 auto; /* centers button horizontally */
-    display: inline-flex; /* keep flex properties if you want icon + text */
+    display: inline-flex; 
     justify-content: center;
   }
 }

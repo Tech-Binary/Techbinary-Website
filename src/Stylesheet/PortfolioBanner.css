@@ -70,7 +70,7 @@
 .portfolio-banner-btn:hover {
   background: #0078c4;
   color: #fff;
-   border-color: #0078c4;
+  border-color: #0078c4;
   transform: scale(1.05);
 }
 
@@ -110,5 +110,12 @@
   .portfolio-banner-btn {
     font-size: 0.9rem;
     padding: 0.6rem 1.4rem;
+  }
+  .portfolio-banner-content p {
+    margin: 15px auto 1rem auto;
+  }
+  .portfolio-banner-content h1 {
+    font-size: 20px;
+    margin-top: -27px;
   }
 }
