@@ -150,7 +150,7 @@
 }
 
 /* 💻 1000px – 1200px */
-@media (max-width: 1200px) and (min-width: 1000px) {
+@media (max-width: 1500px) and (min-width: 1000px) {
   .phase-section {
     padding: 70px;
   }
@@ -192,11 +192,11 @@
   }
   .connector-line {
     left: 13%;
-    right: 14%;
+    right: 18.5%;
     top: 50%;
   }
   .vertical-line {
-    left: 46%;
+    left: 45%;
   }
 }
 

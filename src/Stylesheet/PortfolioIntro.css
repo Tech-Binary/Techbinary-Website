@@ -31,11 +31,10 @@
   margin-bottom: 20px;
 }
 
-/* 📱 Responsive Breakpoints */
 
-/* 📱 Responsive Breakpoints */
 
 /* Large screens (up to 1200px) */
+
 @media (max-width: 1200px) {
   .portfoliointro-banner {
     min-height: 45vh;

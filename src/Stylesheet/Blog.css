@@ -5,6 +5,7 @@
   padding: 0 100px;
   flex-wrap: wrap; /* helps it adjust on smaller screens */
   /* gap: 30px; */
+ 
 }
 
 .blog-header-left {
@@ -20,7 +21,7 @@
   color: #000;
   margin-bottom: 10px;
   gap: 10px;
-  margin-left: -13px;
+  margin-left: 19px;
 }
 
 .line-inline {
@@ -53,14 +54,18 @@
 
 .blog-section {
   text-align: center;
-  padding: 80px 0;
+  padding: 150px 0 110px 0;
+    /* background-image: url(/public/images/Line.png);
+  background-size: 1160px auto;
+background-position: center 48px; 
+  background-repeat: no-repeat; */
   /* background: #f9f9f9; */
 }
 
 .blog-header h2 {
   font-size: 2.2rem;
   margin-bottom: 15px;
-  margin-left: 105px;
+  margin-left: 132px;
 }
 
 .blog-header .highlight {
@@ -161,7 +166,7 @@
 
 /*  MEDIA QUERIES  */
 
-@media (max-width: 1200px) and (min-width: 1000px) {
+@media (max-width: 1300px) and (min-width: 1000px) {
   .blog-header {
     padding: 0 80px;
     gap: 20px;
@@ -223,7 +228,7 @@
 
   .blog-header-left h2 {
     margin-left: 0;
-    font-size: 1.8rem;
+    font-size: 39px;
   }
 
   .blog-header-right {

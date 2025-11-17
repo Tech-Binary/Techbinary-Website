@@ -44,8 +44,9 @@ const TestimonialSection = () => {
     cssEase: "ease-in-out",
     focusOnSelect: true,
     responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 2 } },
-      { breakpoint: 600, settings: { slidesToShow: 1 } },
+      { breakpoint: 1024, settings: { slidesToShow: 3 } },
+      // { breakpoint: 1023, settings: { slidesToShow: 3 } },
+      { breakpoint: 800, settings: { slidesToShow: 1 } },
     ],
   };
 

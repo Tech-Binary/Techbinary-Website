@@ -2,8 +2,13 @@
 .solutions-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 20px;
+  padding: 74px 20px 48px 20px;
   font-family: "Archivo", sans-serif;
+  /* background-image: url(/public/images/solutionbg.png);
+  background-size: 300px auto;
+  background-position: right -40px; 
+  background-repeat: no-repeat; */
+  overflow: hidden;
 }
 
 h2 {
@@ -188,6 +193,9 @@ h2 {
 
   .solution-btn-outline {
     margin-top: 0; /* remove extra top margin */
+  }
+  h2 {
+    font-size: 32px;
   }
 
   .solutions-cards {
