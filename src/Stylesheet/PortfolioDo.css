@@ -59,7 +59,7 @@
 }
 
 .portfolio-do-title {
-  font-size: clamp(1.8rem, 3vw, 2.3rem);
+  font-size: 36px;
   color: rgba(0, 32, 70, 1);
   line-height: 1.4;
   margin-bottom: 0px;
@@ -110,14 +110,31 @@
   transform: translateX(5px); /* optional: arrow slides right */
 }
 
-/* ================= RESPONSIVE BREAKPOINTS ================= */
+/* ==============================
+   1500px
+============================== */
+@media (max-width: 1500px) {
+  .portfolio-do-title {
+    font-size: 32px;
+  }
+  .portfolio-do-right {
+    margin-right: 5rem;
+  }
+  .portfolio-do-img {
+    width: 500px;
+    height: auto;
+  }
+}
 
-@media (max-width: 1024px) {
+/* ==============================
+   1300px
+============================== */
+@media (max-width: 1300px) {
   .portfolio-do {
+    padding: 3rem 3rem;
     flex-direction: row;
     align-items: center;
     text-align: center;
-    padding: 3rem 3rem;
     gap: 40px;
   }
 
@@ -127,24 +144,50 @@
 
   .portfolio-do-right {
     order: 2;
-    margin: 0;
-    text-align: center;
+    max-width: 100%;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .portfolio-do-img {
+    width: 480px;
+    height: auto;
+    margin-left: 0;
   }
 
   .portfolio-do-title {
-    text-align: center;
-    font-size: 26px;
-  }
-
-  .portfolio-do-desc p {
-    text-align: center;
-  }
-  .portfolio-do-img {
-    width: 498px;
-    height: 542px;
+    font-size: 30px;
   }
 }
 
+/* ==============================
+   1024px (Tablet landscape)
+============================== */
+@media (max-width: 1024px) {
+  .portfolio-do {
+    padding: 3rem 2rem;
+    gap: 35px;
+  }
+
+  .portfolio-do-img {
+    width: 430px;
+  }
+
+  .portfolio-do-title {
+    font-size: 24px;
+  }
+  .portfolio-do {
+    padding: 3rem 3rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+}
+
+/* ==============================
+   768px (Tablet)
+============================== */
 @media (max-width: 768px) {
   .portfolio-do {
     padding: 2.5rem 2rem;
@@ -152,39 +195,57 @@
   }
 
   .portfolio-do-img {
-    width: 106%;
-    margin-left: 0;
+    width: 100%;
+    max-width: 420px;
   }
 
   .portfolio-do-title {
     font-size: 25px;
   }
 
-  .portfolio-do-right {
-    text-align: center;
-    margin-right: 0;
+  .portfolio-do-desc p {
+    font-size: 13.5px;
   }
 
   .portfolio-do-btn {
     padding: 0.7rem 1.4rem;
   }
+    .portfolio-do {
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
 }
 
-@media (max-width: 480px) {
+/* 600px (Large Mobile) */
+@media (max-width: 600px) {
   .portfolio-do {
-    padding: 2rem 1.2rem;
-    gap: 25px;
-  }
-
-  .portfolio-do-left,
-  .portfolio-do-right {
-    max-width: 100%;
-    text-align: center;
+    padding: 2rem 1.5rem;
   }
 
   .portfolio-do-title {
-    font-size: 21px;
-    line-height: 1.2;
+    font-size: 24px;
+  }
+
+  .portfolio-do-img {
+    max-width: 360px;
+  }
+}
+
+/* ==============================
+   480px (Mobile)
+============================== */
+@media (max-width: 480px) {
+  .portfolio-do {
+    padding: 2rem 1rem;
+    gap: 25px;
+  }
+
+  .portfolio-do-title {
+    font-size: 22px;
+    line-height: 1.3;
   }
 
   .portfolio-do-desc p {
@@ -193,15 +254,38 @@
 
   .portfolio-do-img {
     width: 100%;
-    max-width: 320px;
+    max-width: 300px;
     height: auto;
+    margin-left: 0;
   }
 
   .portfolio-do-btn {
-    font-size: 0.8rem;
-    padding: 0.6rem 1.2rem;
+    font-size: 0.75rem;
+    padding: 0.6rem 1.1rem;
   }
+
   .portfolio-do-subtitle {
-    margin-left: 67px;
+    justify-content: center;
+  }
+}
+
+/* ==============================
+   375px (Small mobile)
+============================== */
+@media (max-width: 375px) {
+  .portfolio-do {
+    padding: 1.6rem 0.8rem;
+  }
+
+  .portfolio-do-title {
+    font-size: 20px;
+  }
+
+  .portfolio-do-desc p {
+    font-size: 12px;
+  }
+
+  .portfolio-do-img {
+    max-width: 260px;
   }
 }

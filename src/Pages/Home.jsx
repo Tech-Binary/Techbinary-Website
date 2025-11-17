@@ -15,8 +15,21 @@ const Home = () => {
     <Hero/>
     <AboutUs/>
     <Services/>
-    <Solutions/>
-    <Banner/>
+ 
+
+{/* <div
+  style={{
+    backgroundImage: 'url("/images/solutionbg.png")',
+    backgroundSize: "cover",
+     bbackgroundPosition: "right 30px",
+    backgroundRepeat: "no-repeat",
+    width: "100%",
+    height: "80px",   // change height as needed
+  }}
+></div> */}
+
+  <Solutions />
+     <Banner />
     <Blog/>
     <Testimonal/>
     <Design/>

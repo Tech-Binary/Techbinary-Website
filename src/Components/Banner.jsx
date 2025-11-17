@@ -32,24 +32,42 @@ const Banner = () => {
 
         {/* Right Side Numbers */}
         <div className="banner-numbers">
-          <div className="number-box" style={{ backgroundColor: "White", color:"#263238"  }}>
+          <div
+            className="number-box"
+            style={{ backgroundColor: "White", color: "#263238" }}
+          >
             <h2>50+</h2>
-            <p style={{  color:"#263238"  }}>Happy Clients</p>
+            <p style={{ color: "#263238" }}>Happy Clients</p>
           </div>
 
-          <div className="number-box" style={{  color: "white" , border: "1px solid rgba(255, 255, 255, 0.5)"}}>
-            <h2 >500+</h2>
-            <p style={{ color: "white"  }}>Enterprise Projects</p>
+          <div
+            className="number-box"
+            style={{
+              color: "white",
+              border: "1px solid rgba(255, 255, 255, 0.5)",
+            }}
+          >
+            <h2>500+</h2>
+            <p style={{ color: "white" }}>Enterprise Projects</p>
           </div>
 
-          <div className="number-box" style={{ color: "white", border: "1px solid rgba(255, 255, 255, 0.5)"  }}>
-            <h2 >100</h2>
-            <p style={{ color: "white"  }}>Specialists</p>
+          <div
+            className="number-box"
+            style={{
+              color: "white",
+              border: "1px solid rgba(255, 255, 255, 0.5)",
+            }}
+          >
+            <h2>100</h2>
+            <p style={{ color: "white" }}>Specialists</p>
           </div>
 
-          <div className="number-box" style={{ backgroundColor: "white", color:"#263238"  }}>
+          <div
+            className="number-box"
+            style={{ backgroundColor: "white", color: "#263238" }}
+          >
             <h2>80+</h2>
-            <p style={{  color:"#263238"  }}> Our Team</p>
+            <p style={{ color: "#263238" }}> Our Team</p>
           </div>
         </div>
       </div>

@@ -123,6 +123,7 @@
 
 /* ====== Responsive ====== */
 
+
 @media (max-width: 1200px) and (min-width: 1000px) {
   .intro-banner {
     width: calc(100% - 80px);

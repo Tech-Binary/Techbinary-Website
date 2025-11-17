@@ -177,7 +177,7 @@ font-size: 12px;
 }
 
 /* ===== Responsive ===== */
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .getintouch-section {
     flex-direction: column;
   }
@@ -188,5 +188,131 @@ font-size: 12px;
 
   .info-grid {
     grid-template-columns: 1fr;
+  }
+} */
+/* ===========================
+   RESPONSIVENESS IMPROVEMENTS
+=========================== */
+
+/* ----- Tablet (below 900px) ----- */
+@media (max-width: 900px) {
+  .getintouch-section {
+    flex-direction: column;
+    padding: 60px 5%;
+  }
+
+  .form-container, 
+  .info-container {
+    flex: 1 1 100%;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-container {
+    padding: 30px;
+  }
+}
+
+
+/* ----- Mobile (below 600px) ----- */
+@media (max-width: 600px) {
+
+  .getintouch-section {
+    padding: 40px 5%;
+    gap: 20px;
+  }
+
+  /* Title sizes */
+  .form-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .info-container h3 {
+    font-size: 1.2rem;
+  }
+
+  /* Form rows stack */
+  .form-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* Inputs */
+  input, textarea {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+  }
+
+  /* Info cards */
+  .info-card {
+    padding: 12px;
+  }
+
+  .info-card h4 {
+    font-size: 13px;
+  }
+
+  .info-card p {
+    font-size: 11px;
+  }
+
+  .social-icons a {
+    font-size: 1rem;
+  }
+
+  .map iframe {
+    height: 200px;
+  }
+}
+
+
+/* ----- Extra Small Mobile (below 450px) ----- */
+@media (max-width: 450px) {
+
+  .getintouch-section {
+    padding: 35px 4%;
+  }
+
+  .form-container {
+    padding: 25px;
+  }
+
+  .form-container h2 {
+    font-size: 1.15rem;
+  }
+
+  .form-container p {
+    font-size: 0.85rem;
+  }
+
+  /* Info grid tighter */
+  .info-grid {
+    gap: 12px;
+  }
+
+  .info-card img {
+    width: 32px;
+    height: 32px;
+  }
+
+  input, textarea {
+    font-size: 0.85rem;
+  }
+
+  .submit-btn {
+    padding: 10px 18px;
+    font-size: 0.9rem;
+  }
+
+  .map iframe {
+    height: 180px;
   }
 }

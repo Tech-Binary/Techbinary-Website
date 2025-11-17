@@ -3,16 +3,21 @@
 
 .testimonial-section {
   text-align: center;
-  padding: 100px 0;
-  background: #fff;
+  padding: 40px 0 66px 0;
+  background:rgba(250, 250, 250, 1);
   overflow: hidden;
   perspective: 1200px;
+   background-image: url(/public/images/map.png);
+  background-size: 939px auto;
+  background-position:  center;
+  background-repeat: no-repeat;
+  
 }
 
 .testimonial-header {
   margin-bottom: 60px;
 }
-
+ 
 .testimonial-label {
   display: flex;
   justify-content: center;
@@ -75,6 +80,10 @@
   opacity: 1;
   z-index: 3;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+   background-image: url(/public/images/map.png);
+  background-size: 1164px auto;
+  background-position:  center;
+  background-repeat: no-repeat;
 }
 
 .testimonial-box {

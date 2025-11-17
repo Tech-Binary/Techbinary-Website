@@ -36,7 +36,7 @@ const BlogSection = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 600,
+    speed: 700,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,

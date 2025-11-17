@@ -48,8 +48,8 @@
 }
 .image-overlay {
   position: absolute;
-  bottom: 81px;
-  left: 426px;
+  bottom: 15%;
+  right: 2%;
   display: flex;
   align-items: center;
   background: #fff;
@@ -194,7 +194,55 @@
   transform: translateX(5px);
 }
 
-/* --- Large Tablets (1000px - 1200px) --- */
+@media (max-width: 1500px) and (min-width: 1200px) {
+  .why-choose-us {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 3rem 4rem;
+  }
+
+  .why-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-img {
+    width: 95%;
+    margin-left: 0;
+  }
+
+  .why-right {
+    flex: 1;
+    max-width: 45%;
+  }
+
+  .features {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+
+  .features ul {
+    width: 50%;
+  }
+  /* .image-overlay {
+    bottom: 97px;
+    left: 355px;
+    display: flex;
+    padding: 1px 10px;
+  } */
+  .overlay-text h4 {
+    font-size: 14px;
+  }
+  .overlay-text p {
+    font-size: 9px;
+  }
+}
+
 @media (max-width: 1200px) and (min-width: 1000px) {
   .why-choose-us {
     flex-direction: row;
@@ -230,19 +278,18 @@
   .features ul {
     width: 50%;
   }
-  .image-overlay {
+  /* .image-overlay {
     bottom: 45px;
     left: 227px;
     display: flex;
     padding: 1px 10px;
-}
-.overlay-text h4 {
+  } */
+  .overlay-text h4 {
     font-size: 14px;
-}
-.overlay-text p {
+  }
+  .overlay-text p {
     font-size: 9px;
-
-}
+  }
 }
 
 /* --- Tablets (600px - 1000px) --- */
@@ -308,12 +355,12 @@
   .contact-btn {
     padding: 0.7rem 1.6rem;
   }
-  .image-overlay {
+  /* .image-overlay {
     width: 122px;
     bottom: 72px;
     left: 286px;
     padding: 5px 12px;
-  }
+  } */
   .overlay-text p {
     font-size: 8px;
   }
@@ -392,8 +439,8 @@
   }
 
   .image-overlay {
-    bottom: 32px;
-    left: 82%;
+    bottom: 15%;
+    left: 73%;
     transform: translateX(-50%);
     border-radius: 27px;
     width: 119px;
