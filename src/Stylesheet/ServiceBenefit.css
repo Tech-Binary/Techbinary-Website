@@ -92,7 +92,7 @@
 }
 
 /* Responsiveness */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .servicebenefit-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -115,5 +115,72 @@
 
   .servicebenefit-icon {
     margin: 0 auto 20px auto;
+  }
+} */
+ /* 1300px and below */
+@media (max-width: 1500px) {
+  .servicebenefit-wrapper {
+    width: 85%;
+    gap: 15px;
+  }
+  
+  .servicebenefit-card {
+    width: 100%;
+    height: auto;
+    padding: 25px 20px;
+  }
+}
+
+/* Tablets (992px and below) */
+@media (max-width: 992px) {
+  .servicebenefit-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+  }
+
+  .servicebenefit-header h5 {
+    font-size: 28px;
+  }
+
+  .servicebenefit-header p {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Large Phones / Small Tablets (768px and below) */
+@media (max-width: 768px) {
+  .servicebenefit-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .servicebenefit-card h3 {
+    font-size: 15px;
+  }
+
+  .servicebenefit-card p {
+    font-size: 12px;
+  }
+}
+
+/* Mobile Devices (600px and below) */
+@media (max-width: 600px) {
+  .servicebenefit-wrapper {
+    grid-template-columns: 1fr;
+    width: 95%;
+  }
+
+  .servicebenefit-card {
+    text-align: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .servicebenefit-icon {
+    margin: 0 auto 20px auto;
+  }
+  .servicebenefit-icon img {
+    width: 60%;
   }
 }

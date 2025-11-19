@@ -178,7 +178,7 @@
 .active-link {
   color: #229dd6 !important;
   font-weight: 600;
-  border-bottom: 2px solid #229dd6;
+  /* border-bottom: 2px solid #229dd6; */
 }
 
 .hamburger span {
@@ -304,15 +304,23 @@
 
   .logo-img {
     height: 38px;
-      margin-left: 0px;
-
+    margin-left: 0px;
   }
-  .hamburger {
+  /* .hamburger {
     display: flex;
     width: 24px;
     height: 13px;
-    /* margin-left: 120px; */
-  }
+            margin-left: 501px;
+    margin-left: 254px; 
+  } */
+   .hamburger { display: flex;
+  width: 26px;
+  height: 13px;
+  position: absolute;  
+  right: 20px;         
+  top: 13px;           
+  cursor: pointer;
+   }
 
   .nav-links {
     display: none;
@@ -331,14 +339,18 @@
   .nav-links.open {
     display: flex;
     animation: slideDown 0.3s ease;
+    width: 50%;
+    top: 47px;
+    border: none;
+    right: 0;
   }
 
   .btn-nav {
     display: none;
   }
-  .nav-menu{
-    display: none;
-  }
+  /* .nav-menu {
+     display: none; 
+  } */
 }
 
 /* 🔹 Slide-down animation for mobile menu */

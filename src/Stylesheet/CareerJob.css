@@ -1,6 +1,6 @@
 .jobs-section {
   width: 90%;
-  margin: 80px auto;
+  margin: 76px auto;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
@@ -9,7 +9,7 @@
   font-size: 2.2rem;
   color: rgba(0, 32, 70, 1);
   font-weight: 500;
-  margin-bottom: 50px;
+  margin-bottom: 38px;
 }
 
 .jobs-grid {
@@ -29,7 +29,6 @@
 }
 
 .job-card:hover {
-
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
@@ -97,6 +96,7 @@
   align-items: center;
   gap: 5px;
   transition: color 0.2s;
+  margin-top: -23px;
 }
 
 .job-link:hover {
@@ -120,9 +120,9 @@
 }
 
 .view-more button:hover {
-   background: #0078c4;
+  background: #0078c4;
   color: #fff;
-   border-color: #0078c4;
+  border-color: #0078c4;
 }
 
 /* RESPONSIVE DESIGN */

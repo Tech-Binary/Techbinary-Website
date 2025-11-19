@@ -1,6 +1,6 @@
 .servicescard-section {
   width: 99%;
-  padding: 80px 0;
+  padding: 78px 0;
   background: #f9f9f9;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -24,19 +24,17 @@
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
-  gap: 20px; /* spacing between cards */
-  margin-top: 40px;
+  gap: 15px; /* spacing between cards */
   width: 100%;
-  max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1325px;
+  margin: -20px auto 18px;
 }
 
 /* ---- Card ---- */
 .servicescard-item {
   position: relative;
   border-radius: 20px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 49px rgba(0, 0, 0, 0.03);
   padding: 30px;
   width: calc(23% - 20px);
   min-height: 366px;
@@ -49,9 +47,8 @@
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
-  overflow: visible; 
-    background-position: top right -82px;
-
+  overflow: visible;
+  background-position: top right -43px;
 }
 
 /* --- Ripple background expanding on hover --- */

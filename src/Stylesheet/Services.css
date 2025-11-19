@@ -96,9 +96,9 @@
   margin-bottom: 20px;
   padding: 2rem 1.5rem;
   color: #7b8492;
-  /* box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08); */
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
   flex: 1 1 250px;
-  max-width: 290px;
+  max-width: 280px;
   transition: 0.4s ease-in-out;
   text-align: left;
   font-size: 15px;
@@ -110,7 +110,7 @@
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: top right -82px;
+  background-position: top right -61px;
 
 }
 
@@ -594,7 +594,7 @@
     margin-left: 3px;
   }
   .slick-dots {
-    bottom: -34px;
+    bottom: -46px !important;
   }
   /* .card-arrow img{
     width: 40px !important;

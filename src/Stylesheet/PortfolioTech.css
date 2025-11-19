@@ -2,7 +2,7 @@
 .portfolio-tech-section {
   width: 100%;
   background-color: #f9fafc;
-  padding: 45px 0;
+  padding: 81px 0 0 0;
   font-family: "Poppins", sans-serif;
 }
 
@@ -47,7 +47,7 @@
   background: rgba(229, 231, 235, 0.4);
   border-radius: 20px;
   padding: 50px 40px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05); */
   transition: 0.3s ease;
 }
 
@@ -100,9 +100,7 @@
 }
 
 
-/* ==========================================
-   1500px
-========================================== */
+/* 1500px*/
 @media (max-width: 1500px) {
   .portfolio-tech-wrapper {
     width: 95%;
