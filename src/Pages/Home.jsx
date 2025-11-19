@@ -8,33 +8,46 @@ import Banner from "../Components/Banner";
 import Blog from "../Components/Blog";
 import Testimonal from "../Components/Testimonal";
 import Design from "../Components/Design";
+import { BiColor } from "react-icons/bi";
 
 const Home = () => {
   return (
     <>
-    <Hero/>
-    <AboutUs/>
-    <Services/>
- 
+      <Hero />
+      <AboutUs />
+      {/* <Services /> */}
 
-{/* <div
-  style={{
-    backgroundImage: 'url("/images/solutionbg.png")',
-    backgroundSize: "cover",
-     bbackgroundPosition: "right 30px",
-    backgroundRepeat: "no-repeat",
-    width: "100%",
-    height: "80px",   // change height as needed
-  }}
-></div> */}
+      <div className="solutions-wrapper">
+        <Services />
+        <Solutions />
+      </div>
 
-  <Solutions />
-     <Banner />
-    <Blog/>
-    <Testimonal/>
-    <Design/>
+      <Banner />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          margin: "75px 0 0 0",
+        }}
+      >
+        <img
+          src="/images/Line.png"
+          alt="section divider"
+          className="divider-img"
+          style={{
+            width: "100%", // Automatically adjusts
+            maxWidth: "1161px", // Original size limit
+            height: "auto",
+            display: "block", // Removes bottom extra space
+            margin: "0 auto",
+          }}
+        />
+      </div>
+      <Blog />
+      <Testimonal />
+      <Design />
     </>
-  )
+  );
 };
 
 export default Home;

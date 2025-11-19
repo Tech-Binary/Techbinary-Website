@@ -2,13 +2,33 @@
 .solutions-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 74px 20px 48px 20px;
+  padding: 77px 20px 48px 20px;
   font-family: "Archivo", sans-serif;
   /* background-image: url(/public/images/solutionbg.png);
   background-size: 300px auto;
   background-position: right -40px; 
   background-repeat: no-repeat; */
   overflow: hidden;
+}
+.solutions-wrapper {
+  position: relative;
+  background: #fff;               /* White BG optional */
+  overflow: hidden;               /* bg image bahar na nikle */
+}
+
+/* Right Corner Background */
+.solutions-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 400px;
+  right: -300px;                 /* adjust to move inside */
+  width: 600px;                  /* adjust size */
+  height: 600px;
+  background-image: url("/public/images/solutionbg.png");  /* dotted + curve image */
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* opacity: 0.7;         */
+  pointer-events: none;          /* click affect na ho */
 }
 
 h2 {

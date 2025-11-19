@@ -16,7 +16,7 @@
 .careerpartners-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 50px 60px;
+  gap: 12px 42px;
   justify-items: center;
   align-items: center;
   width: 74%;

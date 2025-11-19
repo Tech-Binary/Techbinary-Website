@@ -5,7 +5,6 @@
   padding: 0 100px;
   flex-wrap: wrap; /* helps it adjust on smaller screens */
   /* gap: 30px; */
- 
 }
 
 .blog-header-left {
@@ -54,8 +53,8 @@
 
 .blog-section {
   text-align: center;
-  padding: 150px 0 110px 0;
-    /* background-image: url(/public/images/Line.png);
+  padding: 75px 0 108px 0;
+  /* background-image: url(/public/images/Line.png);
   background-size: 1160px auto;
 background-position: center 48px; 
   background-repeat: no-repeat; */
@@ -89,9 +88,12 @@ background-position: center 48px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   margin: 0 10px;
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
+  /* border: 1px solid rgba(0, 0, 0, 0.15);  */
+  /* outline: 1px solid rgba(0, 0, 0, 0.15);
+   outline-offset: 10px; */
 }
 
 .blog-slider .slick-list {
@@ -170,7 +172,7 @@ background-position: center 48px;
   .blog-header {
     padding: 0 80px;
     gap: 20px;
-    align-items: center; 
+    align-items: center;
   }
 
   .blog-header-left {
@@ -179,8 +181,8 @@ background-position: center 48px;
 
   .blog-header-right {
     flex: 1;
-    text-align: right; 
-    align-self: center; 
+    text-align: right;
+    align-self: center;
   }
 
   .blog-header-right p {
@@ -290,9 +292,8 @@ background-position: center 48px;
   .blog-section {
     padding: 9px 0;
   }
-  
-.slick-dots {
-  bottom: revert;
-}
 
+  .slick-dots {
+    bottom: revert;
+  }
 }

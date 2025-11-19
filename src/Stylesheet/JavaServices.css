@@ -93,7 +93,7 @@
 }
 
 /* Responsive */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .java-services {
     flex-direction: column;
     padding: 60px 40px;
@@ -112,5 +112,147 @@
 
   .java-point {
     justify-content: center;
+  }
+} */
+
+/* From 1300px width and below */
+@media (max-width: 1300px) {
+  .java-services {
+    padding: 70px 100px;   /* Thoda kam padding */
+    gap: 50px;
+  }
+
+  .java-services-left h2 {
+    font-size: 1.9rem;     /* Heading thoda responsive ho */
+  }
+
+  .java-group-img {
+    max-width: 450px;      /* Image size thoda chota */
+  }
+}
+
+@media (max-width: 992px) {
+  .java-services {
+    flex-direction: column;
+    padding: 60px 40px;
+    text-align: center;
+  }
+
+  .java-services-left,
+  .java-services-right {
+    flex: 1 1 100%;
+  }
+
+  .java-point {
+    justify-content: center;
+  }
+
+  .java-group-img {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+}
+
+/* Small Tablets & Large Phones (below 768px) */
+@media (max-width: 768px) {
+  .java-services {
+    padding: 50px 30px;
+    gap: 40px;
+  }
+
+  .java-services-left h2 {
+    font-size: 1.6rem;
+  }
+
+  .java-services-left p {
+    font-size: 0.9rem;
+  }
+
+  .java-point h4 {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile Screens (below 576px) */
+@media (max-width: 576px) {
+  .java-services {
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .java-services-left h2 {
+    font-size: 1.4rem;
+  }
+
+  .java-group-img {
+    max-width: 90%;
+  }
+
+  .java-btn {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+  }
+}
+/* Tablets (below 992px) */
+@media (max-width: 992px) {
+  .java-services {
+    flex-direction: column;
+    padding: 60px 40px;
+    text-align: center;
+  }
+
+  .java-services-left,
+  .java-services-right {
+    flex: 1 1 100%;
+  }
+
+  .java-point {
+    justify-content: center;
+  }
+
+  .java-group-img {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+}
+
+/* Small Tablets & Large Phones (below 768px) */
+@media (max-width: 768px) {
+  .java-services {
+    padding: 50px 30px;
+    gap: 40px;
+  }
+
+  .java-services-left h2 {
+    font-size: 1.6rem;
+  }
+
+  .java-services-left p {
+    font-size: 0.9rem;
+  }
+
+  .java-point h4 {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile Screens (below 576px) */
+@media (max-width: 576px) {
+  .java-services {
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .java-services-left h2 {
+    font-size: 1.4rem;
+  }
+
+  .java-group-img {
+    max-width: 90%;
+  }
+
+  .java-btn {
+    padding: 8px 18px;
+    font-size: 0.85rem;
   }
 }
