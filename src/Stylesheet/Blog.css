@@ -2,9 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0 100px;
-  flex-wrap: wrap; /* helps it adjust on smaller screens */
-  /* gap: 30px; */
+  flex-wrap: wrap; 
+
 }
 
 .blog-header-left {
@@ -20,7 +19,6 @@
   color: #000;
   margin-bottom: 10px;
   gap: 10px;
-  margin-left: 19px;
 }
 
 .line-inline {
@@ -53,18 +51,12 @@
 
 .blog-section {
   text-align: center;
-  padding: 75px 0 108px 0;
-  /* background-image: url(/public/images/Line.png);
-  background-size: 1160px auto;
-background-position: center 48px; 
-  background-repeat: no-repeat; */
-  /* background: #f9f9f9; */
+ 
 }
 
 .blog-header h2 {
   font-size: 2.2rem;
   margin-bottom: 15px;
-  margin-left: 132px;
 }
 
 .blog-header .highlight {
@@ -79,9 +71,8 @@ background-position: center 48px;
 
 .blog-slider {
   position: relative;
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 110px;
 }
 
 .blog-card {
@@ -143,7 +134,6 @@ background-position: center 48px;
 .line2-img {
   width: 29px;
   height: auto;
-  margin-left: 118px;
 }
 
 .blog-slider {
@@ -170,7 +160,6 @@ background-position: center 48px;
 
 @media (max-width: 1300px) and (min-width: 1000px) {
   .blog-header {
-    padding: 0 80px;
     gap: 20px;
     align-items: center;
   }
@@ -190,23 +179,19 @@ background-position: center 48px;
     margin: 0;
     font-size: 1rem;
     line-height: 1.5;
-    text-align: right;
-    margin-right: 41px;
   }
 
   .blog-header-left h5 {
     font-size: 0.85rem;
-    margin-left: -57px;
   }
 
   .blog-header-left h2 {
     font-size: 29px;
-    margin-left: 57px;
   }
 
   .blog-slider {
-    width: 90%;
-    padding: 0 80px;
+    width: 100%;
+    /* padding: 0 80px; */
   }
 
   .blog-card img {
@@ -216,11 +201,14 @@ background-position: center 48px;
 
 /*  800px – 600px (Tablets) */
 @media (max-width: 1000px) and (min-width: 600px) {
+  .section-padding {
+    padding: 40px 40px;
+}
   .blog-header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0 50px;
+
   }
 
   .blog-header-left h5 {
@@ -243,8 +231,7 @@ background-position: center 48px;
   }
 
   .blog-slider {
-    width: 95%;
-    padding: 0 40px;
+    width: 100%;
   }
 
   .blog-card img {
@@ -267,12 +254,12 @@ background-position: center 48px;
 
   .blog-header-left h2 {
     font-size: 1.5rem;
-    margin-left: 0;
+
   }
 
   .blog-header-right p {
     font-size: 0.85rem;
-    text-align: center;
+    text-align: center !important;
   }
   .blog-header-left {
     width: 100%;

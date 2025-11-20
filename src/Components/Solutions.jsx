@@ -4,7 +4,7 @@ import "../Stylesheet/Solutions.css";
 
 const Solutions = () => {
   return (
-    <div className="solutions-container">
+    <div className="solutions-container section-padding">
       {/* Header Section */}
       <div className="Solution-header">
         <div className="solution-header-top">

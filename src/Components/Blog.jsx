@@ -55,7 +55,7 @@ const BlogSection = () => {
   };
 
   return (
-    <section className="blog-section">
+    <section className="blog-section section-padding">
       {/* === Blog Header === */}
       <div className="blog-header">
      
