@@ -165,7 +165,7 @@
 @media (max-width: 1500px) and (min-width: 1280px) {
   .about::before {
     font-size: 79px;
-    top: 77px;
+    top: 30px;
     left: 69%;
     transform: translateX(-50%);
   }
@@ -197,7 +197,7 @@
 @media (max-width: 1280px) and (min-width: 1000px) {
   .about::before {
     font-size: 79px;
-    top: 77px;
+    top: 0px;
     left: 74%;
     transform: translateX(-50%);
   }
@@ -286,7 +286,7 @@
 
   .about::before {
     font-size: 80px;
-    top: 482px;
+    top: 428px;
     left: 52%;
     transform: translateX(-50%);
   }
@@ -339,7 +339,7 @@
 
   .about::before {
     font-size: 52px;
-    top: 234px;
+    top: 164px;
     left: 50%;
     transform: translateX(-50%);
   }

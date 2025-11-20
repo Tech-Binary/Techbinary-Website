@@ -95,7 +95,7 @@ const Services = () => {
       },
       {
         breakpoint: 1024, 
-        settings: { slidesToShow: 2 },
+        settings: { slidesToShow: 3 },
       },
       {
         breakpoint: 800, 
@@ -109,8 +109,7 @@ const Services = () => {
   };
   return (
     <section className="services-section">
-      <div className="services-banner">
-        <div className="container">
+      <div className="services-banner section-padding">
           <div className="services-header ">
             <div>
               <h5 className="sect-tag">
@@ -133,13 +132,12 @@ const Services = () => {
               <span style={{ fontSize: "1.2rem" }}></span>
             </a>
           </div>
-        </div>
         <h1 className="services-watermark">OUR SERVICES</h1>
       </div>
 
       {/* Cards Wrapper */}
       <div className="services-cards container"></div>
-      <Slider {...settings} className="services-cards-slider">
+      <Slider {...settings} className="services-cards-slider section-padding">
         {array.map((service, index) => (
           <div className="service-card" key={index} data-color={service.color}>
             <div

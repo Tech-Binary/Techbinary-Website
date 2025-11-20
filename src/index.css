@@ -5,6 +5,9 @@
   --font-roboto: "Roboto Flex", sans-serif;
   --font-jost: "Jost", sans-serif;
 }
+.section-padding{
+  padding: 50px 182px;
+}
 
 .slick-dots li button:before {
   display: none;
