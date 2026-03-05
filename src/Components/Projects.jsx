@@ -8,39 +8,45 @@ const Projects = () => {
     <section className="projects-section">
       <p className="section-subtitle">
         <img src="/images/Frame.png" alt="line" className="frame-img" />
-        OUR PROJECTS
+        OUR LIVE PROJECTS 
         </p>
 
       <h2 className="section-ptitle">
-        Our Latest Works For Your <br />
-        <span>Web Business</span>
+      Tech Solutions We’ve Built for <br />
+        <span>Modern Businesses</span>
       </h2>
 
       <div className="projects-grid">
         <div className="project-card">
           <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/About%20US/our%20projects%201.png" alt="Project 1" />
           <div className="overlayer">
-            <p>Project Name</p>
+            <p>HRMS/CRM </p>
           </div>
         </div>
 
         <div className="project-card">
           <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/About%20US/our%20projects%202.png" alt="Project 2" />
           <div className="overlayer">
-            <p>Project Name</p>
+            <p>ESIM Portal </p>
           </div>
         </div>
 
         <div className="project-card">
           <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/About%20US/our%20projects%203.png" alt="Project 3" />
           <div className="overlayer">
-            <p>Project Name</p>
+            <p>Car Rental </p>
+          </div>
+        </div>
+        <div className="project-card">
+          <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/About%20US/our%20projects%203.png" alt="Project 3" />
+          <div className="overlayer">
+            <p>Travel CRM  </p>
           </div>
         </div>
       </div>
 
       <a href="/Portfolio" className="view-more-btn">
-        View More <img src="/images/arrow2.png" alt="arrow" className="arrow-icon" />
+      Explore Projects <img src="/images/arrow2.png" alt="arrow" className="arrow-icon" />
       </a>
     </section>
   );

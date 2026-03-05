@@ -11,18 +11,18 @@ const Solutions = () => {
           <div>
             <h5>
               <img src="/images/Frame.png" alt="line" className="line1-img" />
-              SOLUTIONS
+              SOLUTIONS FOR GROWTH 
             </h5>
             <h2>
-              Innovative Solutions for <br />
-              <span className="highlight">Tomorrow's Challenges</span>
+             Smart Solutions That Simplify <br />
+              <span className="highlight">Complex Operations</span>
             </h2>
           </div>
 
           {/* 🔹 Button on Right Side */}
           <div className="solutions-btn-wrapper">
             <a href="/Services" className="solution-btn-outline">
-              Discover More
+              There’s More
               <img
                 src="/images/arrow.png"
                 alt="arrow"
@@ -40,10 +40,9 @@ const Solutions = () => {
             src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/e-HR%20(HRMS).png"
             alt="Solution 1"
           />
-          <h3>e-HR(HRMS)</h3>
+          <h3>HRMS/CRM Platform </h3>
           <p>
-            In publishing and graphic design, Lorem ipsum is a placeholder text
-            commonly used to demonstrate the visual form of a document
+            Manage employees and customer relationships through one unified platform. Track attendance, payroll, leave, and more with organized dashboards and real-time data. 
           </p>
         </div>
 
@@ -52,10 +51,9 @@ const Solutions = () => {
             src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/e-MAPS%20(ERP).png"
             alt="Solution 2"
           />
-          <h3>e-MAPS(ERP)</h3>
+          <h3>Transportation Application </h3>
           <p>
-            In publishing and graphic design, Lorem ipsum is a placeholder text
-            commonly used to demonstrate the visual form of a document.
+         A smart system to manage fleet operations, driver assignments, and trip tracking. Businesses gain better control over scheduling, routes, and daily transport activities. 
           </p>
         </div>
 
@@ -64,10 +62,9 @@ const Solutions = () => {
             src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/edusys.png"
             alt="Solution 3"
           />
-          <h3>Edusys</h3>
+          <h3>Car Rental System </h3>
           <p>
-            In publishing and graphic design, Lorem ipsum is a placeholder text
-            commonly used to demonstrate the visual form of a document.
+           Handle vehicle inventory, reservations, and customer bookings from a single platform. Simplifies rental operations while keeping vehicle availability and payments organized. 
           </p>
         </div>
 
@@ -76,11 +73,21 @@ const Solutions = () => {
             src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Banking%20Products%20And%20Services.png"
             alt="Solution 4"
           />
-          <h3>Banking Product And Services</h3>
+          <h3>E-SIM Portal </h3>
           <p>
-            In publishing and graphic design, Lorem ipsum is a placeholder text
-            commonly used to demonstrate the visual form of a document.
+           A centralized portal for managing digital SIM plans, activations, and customer access. Helps telecom and travel businesses distribute eSIM services quickly and efficiently. 
           </p>
+        </div>
+
+         <div className="solution-card">
+          <img
+            src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Banking%20Products%20And%20Services.png"
+            alt="Solution 4"
+          />
+          <h3>Traveler App </h3>
+          <p>
+        A mobile platform that keeps travelers connected with their trips. Users can access itineraries, booking details, updates, and support directly from their phones. 
+           </p>
         </div>
       </div>
     </div>

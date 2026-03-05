@@ -22,21 +22,21 @@ const Hero = () => {
       {/* Main hero content */}
       <div className="hero-content">
         <div className="tagline-box">
-          <span className="white-text">WELCOME TO </span>
-          <span className="blue-text">TECHBINARY</span>
+          <span className="white-text">BUILDING DIGITAL   </span>
+          <span className="blue-text">FUTURES</span>
         </div>
 
         <h1>
-          Software Engineering <br />
-          And <span className="highlight">IT Consulting</span>
+          Smart Technology Built   <br />
+          for <span className="highlight">Ambitious Brands </span>
         </h1>
 
         <p className="subtext">
-          With the online text generator you can process your personal Lorem Ipsum enriching it with html elements that define its structure, with the possibility to insert external links, but not only.
+      Tech Binary brings together elite developers, UI/UX thinkers, and digital strategists to build intelligent platforms, powerful brands, and future-ready digital ecosystems. 
         </p>
 
         <a href="#" className="btn-hero">
-          Discover More
+         Discover Our Capabilities
            <img
             src="/images/arrow.png"
             alt="arrow"

@@ -116,6 +116,7 @@
   color: #999;
   display: block;
   margin-bottom: 10px;
+  min-height: 45px;
 }
 
 .blog-content strong {

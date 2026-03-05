@@ -18,24 +18,16 @@ const AboutUs = () => {
           <h5 className="about-tag"> ABOUT US</h5>
 
           <h2>
-            Empowering Your Digital <br />
-            <span className="highlight">Transformation Journey</span>
+           The Minds Behind Modern <br />
+            <span className="highlight">Digital Experiences </span>
           </h2>
 
           <p>
-            At Techninary, we believe technology is more than just code—it’s the
-            foundation of growth and innovation. We are a passionate team of
-            developers, designers, and strategists dedicated to creating
-            powerful websites, user-friendly apps, and custom IT solutions that
-            transform businesses. From startups to enterprises, we’ve helped
-            brands build their digital identity, streamline operations, and
-            reach new customers. With a strong focus on quality, creativity, and
-            reliability, we partner with you to turn your ideas into impactful
-            digital experiences.
+           Great digital products rarely happen by chance. Tech Binary brings together front-end developers, back-end engineers, UI/UX designers, branding experts, and digital marketing specialists who collaborate to build powerful digital ecosystems. Every project moves through an amazing process shaped by creativity, technical precision, and strategic thinking, ensuring businesses receive solutions that not just function seamlessly but also drive engagement, efficiency, and measurable growth. 
           </p>
 
           <a href="/about-us" className="btn-out">
-            Read More
+            Know More
             <img src="/images/arrow2.png" alt="arrow" className="btn-arrow" />
           </a>
         </div>
