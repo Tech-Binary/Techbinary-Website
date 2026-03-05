@@ -16,17 +16,11 @@ const Banner = () => {
         {/* Left Side Text */}
         <div className="banner-text">
           <h2>
-            You share your idea <br />
-            <span className="highlight">We get it done</span>
+           You Bring the Idea. <br />
+            <span className="highlight">We Build the Technology.</span>
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+           Every successful digital product starts with a clear understanding of the problem to solve it immediately. At Tech Binary, ideas move through a structured process that includes discovery, design, development, and testing. This approach allows businesses to transform concepts into reliable digital platforms while ensuring performance, scalability, and long-term usability. 
           </p>
         </div>
 
@@ -48,7 +42,7 @@ const Banner = () => {
             }}
           >
             <h2>500+</h2>
-            <p style={{ color: "white" }}>Enterprise Projects</p>
+            <p style={{ color: "white" }}>Projects Delivered </p>
           </div>
 
           <div
@@ -59,7 +53,7 @@ const Banner = () => {
             }}
           >
             <h2>100</h2>
-            <p style={{ color: "white" }}>Specialists</p>
+            <p style={{ color: "white" }}>Technology Specialists </p>
           </div>
 
           <div
@@ -67,7 +61,7 @@ const Banner = () => {
             style={{ backgroundColor: "white", color: "#263238" }}
           >
             <h2>80+</h2>
-            <p style={{ color: "#263238" }}> Our Team</p>
+            <p style={{ color: "#263238" }}>Team Members </p>
           </div>
         </div>
       </div>

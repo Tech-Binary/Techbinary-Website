@@ -37,34 +37,31 @@ const Chooseus = () => {
         </p>
 
         <h2 className="section-title">
-          Driving Business Growth <br />
-          <span>Through Next-Gen IT Solutions</span>
+        Tech Expertise That <br />
+          <span>Turns Ideas into Reliable Digital Systems</span>
         </h2>
 
         <p className="section-desc">
-          At <strong>Techbinary</strong>, we believe technology is more than just code — it’s
-          the foundation of growth and innovation. We are a passionate team of developers,
-          designers, and strategists dedicated to creating powerful websites, user-friendly
-          apps, and custom IT solutions that transform businesses.
+           <strong>Tech Binary </strong> uses structured development practices, cloud infrastructure, modern frameworks, and data-driven insights for reliable, scalable, and easy-to-manage applications. Each project is supported with proper documentation, testing environments, and deployment strategies to ensure the solution performs efficiently even as business demands grow.
         </p>
 
         <div className="features">
           <ul>
-            <li>Crafting Digital World</li>
-            <li>Advancing Technology</li>
-            <li>Technology That Power</li>
-            <li>Digital Solution</li>
+            <li>Agile Development </li>
+            <li>Cloud Infrastructure </li>
+            <li>API Integrations </li>
+            <li>Data Structuring </li>
           </ul>
           <ul>
-            <li>Innovative Minds</li>
-            <li>Next-Level IT</li>
-            <li>Art of Technology</li>
-            <li>Accelerate with Cutting</li>
+            <li>Secure Frameworks </li>
+            <li>Performance Testing </li>
+            <li>CI/CD Deployment </li>
+            <li>System Monitoring </li>
           </ul>
         </div>
 
         <a href="/Get-In-Touch" className="contact-btn">
-          Get In Touch
+         Discuss Your Project
           <img src="/images/Arrow2.png" alt="arrow" className="btn-arrow" />
         </a>
       </div>

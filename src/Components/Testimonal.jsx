@@ -7,29 +7,24 @@ const TestimonialSection = () => {
   const testimonials = [
     {
       img: "/images/test.png",
-      name: "John Doe",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
+      name: "Arjun Mehta – Operations Manager",
+      desc:"Tech Binary helped us build a system that streamlined several of our internal processes. The team was responsive, understood our requirements clearly, and delivered a solution that has improved our daily operations." },
     {
       img: "/images/test.png",
-      name: "Jane Smith",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..",
-    },
+      name: "Sara Khan – Product Lead",
+      desc: "Our experience working with Tech Binary was very positive. The developers and designers collaborated closely with our team to create a platform that is both functional and easy to use." },
     {
       img: "/images/test.png",
-      name: "Michael Lee",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
+      name: "Rohit Sharma – Business Director",
+      desc: "The team demonstrated strong technical expertise throughout the project. They delivered a reliable platform that performs well and supports our growing business requirements."  },
     {
       img: "/images/test.png",
-      name: "Sara White",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
+      name: "Aisha Rahman – Marketing Manager",
+      desc: "What stood out was their attention to detail and commitment to delivering quality work. The final product matched our expectations and has helped improve how our customers interact with our services."},
     {
       img: "/images/test.png",
-      name: "Tom Hanks",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
+      name: "Daniel Thomas – Founder",
+      desc: "Tech Binary approached our project with a clear understanding of the business challenges we were facing. Their structured development process and ongoing support made the entire experience smooth." },
   ];
 
   const settings = {
@@ -55,10 +50,10 @@ const TestimonialSection = () => {
       <div className="testimonial-header">
         <div className="testimonial-label">
           <img src="/images/Frame.png" alt="line" className="line-img" />
-          <h5>TESTIMONIAL</h5>
+          <h5>CLIENT VOICES </h5>
         </div>
         <h2>
-          Client <span className="highlight">Success Stories</span>
+          Trusted by <span className="highlight"> Our Clients</span>
         </h2>
       </div>
 

@@ -9,28 +9,28 @@ const BlogSection = () => {
   const blogs = [
     {
       img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Blogs%201.png",
-      tag: "EVENTS",
+      tag: "Why UI/UX Matters ",
       date: "19 October 2023",
-      desc: "Lorem ipsum is a dummy or placeholder text commonly used in graphic design.",
+      desc: "A closer look at how thoughtful design improves usability, engagement, and overall user experience. ",
     },
     {
       img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Blogs%202.png",
-      tag: "PRODUCT UPDATES",
+      tag: "DevOps and Faster Software Delivery ",
       date: "19 October 2023",
-      desc: "Lorem ipsum is a dummy or placeholder text commonly used in graphic design.",
+      desc: "How modern development workflows help teams build, test, and deploy applications more efficiently. ",
     },
     {
       img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Blogs%203.png",
-      tag: "INDUSTRY NEWS",
+      tag: "Automation in Modern Workflows ",
       date: "19 October 2023",
-      desc: "Lorem ipsum is a dummy or placeholder text commonly used in graphic design.",
+      desc: "How automation tools are simplifying business processes and improving operational efficiency. ",
     },
-    {
-      img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Blogs%202.png",
-      tag: "INSIGHTS",
-      date: "22 October 2023",
-      desc: "Latest updates and analysis of enterprise trends in software and tech.",
-    },
+    // {
+    //   img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Blogs%202.png",
+    //   tag: "INSIGHTS",
+    //   date: "22 October 2023",
+    //   desc: "Latest updates and analysis of enterprise trends in software and tech.",
+    // },
   ];
 
   const settings = {
@@ -63,20 +63,18 @@ const BlogSection = () => {
          
           <h5>
             <img src="/images/Frame.png" alt="line" className="line2-img" />
-            BLOGS
+            TECH INSIGHTS 
             </h5>
           <h2>
-            Latest Insights & <span className="highlight">Industry</span> <br />
-            <span className="highlight">Trends</span>
+           Latest Articles & <span className="highlight">Industry</span> <br />
+            <span className="highlight">Perspectives</span>
           </h2>
         </div>
 
         {/* 🟦 Right Side (Subtext paragraph) */}
         <div className="blog-header-right">
           <p>
-            Lorem ipsum dolor sit amet. Qui corrupti officia sed labore veritatis
-            aut obcaecati porro aut consequatur sint in explicabo rerum quo
-            corporis eveniet. Vel tempora nihil est minus nisi ab laboriosam ipsa.
+          Explore articles covering product development, emerging technologies, and digital strategies that influence how businesses build and scale today. 
           </p>
         </div>
       </div>

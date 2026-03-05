@@ -24,7 +24,8 @@
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
-  gap: 15px; /* spacing between cards */
+  gap: 15px;
+  /* spacing between cards */
   width: 100%;
   max-width: 1325px;
   margin: -20px auto 18px;
@@ -49,6 +50,7 @@
   background-repeat: no-repeat;
   overflow: visible;
   background-position: top right -43px;
+  margin-top: 20px;
 }
 
 /* --- Ripple background expanding on hover --- */
@@ -73,7 +75,7 @@
 }
 
 /* Keep all content above ripple layer */
-.servicescard-item > * {
+.servicescard-item>* {
   position: relative;
   z-index: 2;
 }
@@ -165,14 +167,16 @@
 /* ---- Responsive ---- */
 @media (max-width: 1200px) {
   .servicescard-item {
-    width: calc(33.33% - 20px); /* 3 per row */
+    width: calc(33.33% - 20px);
+    /* 3 per row */
     min-height: 380px;
   }
 }
 
 @media (max-width: 992px) {
   .servicescard-item {
-    width: calc(50% - 20px); /* 2 per row */
+    width: calc(50% - 20px);
+    /* 2 per row */
     min-height: 360px;
   }
 }
@@ -186,9 +190,11 @@
   .servicescard-header p {
     font-size: 1.4rem;
   }
+
   .servicescard-footer {
     justify-content: end;
   }
+
   .servicescard-arrow {
     position: unset;
   }

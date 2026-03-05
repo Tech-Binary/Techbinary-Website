@@ -81,7 +81,7 @@ const ServicesCard = () => {
     <section className="servicescard-section">
       <div className="servicescard-header">
         <p>
-          Empowering Businesses with Next-Gen <br /> Software Solutions
+          Comprehensive Technology Services for Growing <br /> Digital Businesses
         </p>
       </div>
 

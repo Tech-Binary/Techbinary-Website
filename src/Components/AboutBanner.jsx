@@ -11,11 +11,11 @@ const AboutBanner = () => {
 
       <div className="about-banner-content">
         <h1>
-          Better IT Solutions & Services at <br /> your Fingertips
+        Have a Project in Mind? Let’s Build It <br /> Together
         </h1>
 
         <a href="/Get-In-Touch" className="about-banner-btn">
-          Get In Touch
+           Start Your Project
           <img src="/images/arrow.png" alt="arrow" className="btn-arrow" />
         </a>
       </div>

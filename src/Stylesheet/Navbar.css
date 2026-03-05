@@ -43,8 +43,8 @@
 }
 
 .flag-icon {
-  width: 20px;
-  height: 20px;
+    width: 25px;
+    height: auto;
 }
 
 /* 🔹 TopBar Responsive */
@@ -96,8 +96,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 90% !important;
   margin: auto;
+  padding: 0;
+  max-width: none !important;
 }
 
 .logo-img {

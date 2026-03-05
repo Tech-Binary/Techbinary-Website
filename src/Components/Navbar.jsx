@@ -32,11 +32,13 @@ const Navbar = () => {
         <div className="container">
           {/* Logo Section */}
           <div className="logo">
+          <a href="/" style={{cursor:'pointer'}}>
             <img
               src="/images/logo.png"
               alt="TechBinary Logo"
               className="logo-img"
             />
+            </a>
           </div>
 
           {/* 🔹 Hamburger Icon */}
