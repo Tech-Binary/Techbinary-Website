@@ -7,8 +7,8 @@ const PortfolioTech = () => {
       <div>
         <img src="/images/Frame.png" alt="line" className="linetech-img" />
 
-        <h4 className="portfolio-tech-subtitle">Technologies & Industries</h4>
-        <h2 className="portfolio-tech-title">Technologies & Industries</h2>
+        <h4 className="portfolio-tech-subtitle">TECH & INDUSTRIES </h4>
+        <h2 className="portfolio-tech-title">Our Technology Expertise </h2>
       </div>
 
       <div className="portfolio-tech-wrapper">

@@ -7,103 +7,103 @@ import Development from "../Components/Development";
 const ServiceInnerAndroid = () => {
   const javaData = [
     {
-      title: "Why Choose Our Java Development Services?",
+      title: "Android Platforms Built for Real Business Use ",
       description:
-        "With over 10 years of experience in the Java ecosystem, we deliver enterprise-grade solutions that scale with your business. Our team specializes in modern Java frameworks and cloud-native architectures.",
+        "Android applications today must support diverse devices, evolving OS versions, and high user expectations. Our development team builds Android platforms using Kotlin-based architecture, modular code structures, and secure API connectivity. ",
       image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Why%20Choose%20Our%20Java%20Development%20Services_.png",
-      buttonText: "Get In Touch",
+      buttonText: "Consult Our Team",
       points: [
         {
-          title: "Enterprise-Grade Security",
-          desc: "Implement robust security measures and best practices for your applications.",
+          title: "Modern Android Architecture",
+          desc: "Applications built using Kotlin & Jetpack libraries to maintain performance across Android versions.",
         },
         {
-          title: "Scalable Architecture",
-          desc: "Design systems that grow with your business needs and handle increasing loads.",
+          title: "Device Compatibility Engineerin",
+          desc: "Apps are optimized for multiple screen sizes, hardware capabilities, and Android OS updates.",
         },
         {
-          title: "24/7 Support & Maintenance",
-          desc: "Continuous monitoring and support to ensure optimal performance.",
+          title: "Backend & Cloud Connectivity",
+          desc: "Secure integration with API and cloud infrastructure to support data-driven mobile applications.",
         },
       ],
     },
   ];
 
   const serviceData = {
-    sectionTitle: "Key Benefit",
+    sectionTitle: "Key Benefits of Android Development  ",
     sectionDesc:
-      "Discover why businesses choose our Java development expertise for their critical applications.",
+      "Android provides the technical capabilities to build scalable mobile applications for diverse devices. ",
     services: [
       {
-        title: "High Performance",
+        title: "Wide Device Ecosystem ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/High%20Performance.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Android applications can run across a large range of devices including smartphones, tablets, and specialized handheld hardware. This helps businesses reach a wider audience without limiting accessibility. ",
       },
       {
-        title: "Secure & Reliable",
+        title: "Secure Data Handling ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Secure%20&%20Reliable.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Security features such as encrypted communication, permission-based access, and secure authentication help protect sensitive user and business data within Android applications. ",
       },
       {
-        title: "Highly Scalable",
+        title: "Scalable Mobile Platforms ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Highly%20Scalable.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Android applications can be expanded with additional features, integrations, and system capabilities as business needs evolve and user demand increases. ",
       },
       {
-        title: "Fast Delivery",
+        title: "Background Processing ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Fast%20Delivery.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Android supports background services that allow applications to handle tasks such as data synchronization, notifications, and updates without interrupting user activity. ",
       },
       {
-        title: "Expert Team",
+        title: "Integration with GS ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Expert%20Team.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Android applications can integrate easily with Google Maps, Firebase, authentication systems, and analytics tools. These integrations enhance application functionality and improve user experience. ",
       },
       {
-        title: "24/7 Support",
+        title: "Flexible Customization ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/7%20Support.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Android allows developers to customize application features, user interfaces, etc., based on business requirements. This flexibility is suitable for building both consumer apps and internal business platforms. ",
       },
     ],
   };
 
   const frameworkData = {
-    sectionTitle: "Frameworks We Use",
+    sectionTitle: "Android Development Stack ",
     sectionDesc:
-      "We leverage cutting-edge Java technologies and frameworks to build modern, efficient applications.",
+      "Modern Android frameworks and development tools to build high-performance mobile applications. ",
     frameworks: [
       { title: "Java", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Java.png" },
-      { title: "Spring Boot", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Spring%20Boot.png" },
-      { title: "AWS", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/AWS.png" },
-      { title: "Azure", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Azure.png" },
-      { title: "Docker", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Docker.png" },
-      { title: "PostgreSQL", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/PostgreSQL.png" },
+      { title: "Kotlin ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Spring%20Boot.png" },
+      { title: "Android Studio ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/AWS.png" },
+      { title: "Firebase ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Azure.png" },
+      { title: "Jatpack ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Docker.png" },
+      { title: "Google Cloud ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/PostgreSQL.png" },
     ],
   };
 
   const devData = {
-    sectionTitle: "Our Development Process",
+    sectionTitle: "Our Android Engineering Process ",
     sectionDesc:
-      "A proven methodology that ensures successful project delivery from concept to deployment.",
+      "A structured development workflow focused on building performance-driven Android applications. ",
     steps: [
       {
-        title: "Discovery & Planning",
-        desc: "Analyze requirements, define scope, and create detailed project roadmap.",
+        title: "Product Planning",
+        desc: "Defining application objectives, feature requirements, and backend connectivity. ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Discovery%20&%20Planning.png",
       },
       {
-        title: "UI/UX Design",
-        desc: "Design scalable system architecture and choose optimal technology stack.",
+        title: "Application Design",
+        desc: "Designing app using Kotlin, Android Jetpack components to ensure maintainability. ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/UX%20Design.png",
       },
       {
-        title: "Development & Testing",
-        desc: "Agile development with continuous integration and comprehensive testing.",
+        title: "Android Development",
+        desc: "Developing app modules, integrating APIs, implementing, and optimizing performance. ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Development%20&%20Testing.png",
       },
       {
-        title: "Deployment & Support",
-        desc: "Smooth deployment to production with ongoing maintenance and support.",
+        title: "Testing & Deployment",
+        desc: "Testing the application across Android versions and devices before Google Play Store deployment.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Deployment%20&%20Support.png",
       },
     ],

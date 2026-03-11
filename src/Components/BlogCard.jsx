@@ -1,86 +1,55 @@
 import React from "react";
 import "../Stylesheet/BlogCard.css";
 
-
-
-
-
-
 const blogPosts = [
   {
     image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781.png",
-    title: "Digital Transformation in Accounting",
+    title: "Future of Cloud Business Applications",
     description:
-      "Discover how AI and automation are reshaping accounting workflows, reducing human error, and enabling smarter business decisions.",
+      "Cloud platforms continue to transform how companies build and scale digital systems. A closer look at how cloud infrastructure supports long-term growth. ",
     author: "Joanna Wellick",
     date: "June 28, 2025",
   },
   {
-    image:"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-1.png",
-    title: "The Future of Export Trade",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-1.png",
+    title: "Building Scalable Web Platforms",
     description:
-      "Learn how data-driven traceability and sustainable sourcing are redefining the global spice export market.",
+      "Scalable web applications allow businesses to grow without system limitations. Learn how structured development and architecture support great performance.",
     author: "Joanna Wellick",
     date: "June 28, 2025",
   },
   {
-    image:"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-2.png",
-    title: "Building Trust with Financial Transparency",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-2.png",
+    title: "DevOps in Modern Development ",
     description:
-      "Explore how clear documentation and audit readiness can strengthen client confidence and business credibility.",
+      "Modern development relies heavily on automation between development and operations teams. DevOps releases software faster while maintaining stability. ",
     author: "Joanna Wellick",
     date: "June 28, 2025",
   },
   {
     image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-3.png",
-    title: "Why UI Design Matters for Your Brand",
+    title: "Importance of API Integration",
     description:
-      "Great design isn’t just aesthetics—it drives engagement, builds trust, and turns visitors into loyal customers.",
+      "Modern software systems rely on APIs to connect multiple platforms. Integration allows data and services to work together seamlessly. ",
     author: "Joanna Wellick",
     date: "June 28, 2025",
   },
   {
     image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-4.png",
-    title: "How Digital Strategy Drives Business Growth",
+    title: "Cybersecurity in Digital Systems",
     description:
-      "Understand how integrating data analytics, automation, and digital tools can accelerate your company’s performance and profitability.",
+      "As businesses rely more on tech, protecting data becomes essential. Strong cybersecurity practices help prevent risks and maintain trust.",
     author: "Joanna Wellick",
     date: "June 28, 2025",
   },
   {
-    image:"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-5.png",
-    title: "The Power of Minimalist UI Design",
+    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-5.png",
+    title: "Mobile Apps for Businesses",
     description:
-      "Learn why simplicity in design improves usability, enhances focus, and creates a timeless digital experience for your audience.",
+      "Mobile applications help companies stay connected with users anytime. Well-built apps improve accessibility, engagement, and customer experience.",
     author: "Joanna Wellick",
     date: "June 28, 2025",
   },
-
-  {
-    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-6.png",
-    title: "The Power of Minimalist UI Design",
-    description:
-      "Learn why simplicity in design improves usability, enhances focus, and creates a timeless digital experience for your audience.",
-    author: "Joanna Wellick",
-    date: "June 28, 2025",
-  },
-  {
-    image:"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-7.png",
-    title: "The Power of Minimalist UI Design",
-    description:
-      "Learn why simplicity in design improves usability, enhances focus, and creates a timeless digital experience for your audience.",
-    author: "Joanna Wellick",
-    date: "June 28, 2025",
-  },
-  {
-    image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Blog/Rectangle%2022781-8.png",
-    title: "The Power of Minimalist UI Design",
-    description:
-      "Learn why simplicity in design improves usability, enhances focus, and creates a timeless digital experience for your audience.",
-    author: "Joanna Wellick",
-    date: "June 28, 2025",
-  },
-  
 ];
 
 const BlogCard = () => {

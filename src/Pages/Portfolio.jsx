@@ -6,20 +6,15 @@ import PortfolioBanner from "../Components/PortfolioBanner";
 import PortfolioTech from "../Components/PortfolioTech";
 import TrustedPartners from "../Components/TrustedPartners";
 
-
-
-
 const About = () => {
   return (
     <>
-    <PortfolioIntro/>
-    <PortfolioCard/>
-    <PortfolioDo/>
-    <PortfolioTech/>
-    <PortfolioBanner/>
-    <TrustedPartners/>'
-    '
-    
+      <PortfolioIntro />
+      <PortfolioCard />
+      <PortfolioDo />
+      <PortfolioTech />
+      <PortfolioBanner />
+      <TrustedPartners />
     </>
   );
 };

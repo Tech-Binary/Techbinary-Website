@@ -37,7 +37,7 @@ const TrustedPartners = () => {
 
   return (
     <section className="trusted-partners">
-      <h2 className="trusted-title">Our Trusted Partner</h2>
+      <h2 className="trusted-title">Our Trusted Partners</h2>
       <div className="slider-container">
         <Slider {...settings}>
           {partners.map((partner) => (

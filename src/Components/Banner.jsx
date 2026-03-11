@@ -52,7 +52,7 @@ const Banner = () => {
               border: "1px solid rgba(255, 255, 255, 0.5)",
             }}
           >
-            <h2>100</h2>
+            <h2>100+</h2>
             <p style={{ color: "white" }}>Technology Specialists </p>
           </div>
 

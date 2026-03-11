@@ -58,7 +58,7 @@ const CareerPartners = () => {
   return (
     <section className="careerpartners-section">
       <h4 className="careerpartners-heading">
-        At Techbinary, you can work on projects for the world's top brands
+    Work on Technology Projects for Leading Global Brands 
       </h4>
 
       <div className="careerpartners-grid">

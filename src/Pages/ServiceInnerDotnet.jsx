@@ -7,103 +7,103 @@ import Development from "../Components/Development";
 const ServiceInnerDotnet = () => {
    const javaData = [
     {
-      title: "Why Choose Our Java Development Services?",
+      title: "Looking for a Reliable .NET Development Team? ",
       description:
-        "With over 10 years of experience in the Java ecosystem, we deliver enterprise-grade solutions that scale with your business. Our team specializes in modern Java frameworks and cloud-native architectures.",
+        ".NET is widely used to build secure, scalable enterprise applications. Our team develops web platforms, internal systems, and APIs using modern .NET frameworks designed for performance and long-term maintainability. ",
       image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Why%20Choose%20Our%20Java%20Development%20Services_.png",
-      buttonText: "Get In Touch",
+      buttonText: "Talk to Experts",
       points: [
         {
-          title: "Enterprise-Grade Security",
-          desc: "Implement robust security measures and best practices for your applications.",
+          title: "Enterprise Application Expertise",
+          desc: "Experience in building business applications, management systems, and enterprise software.",
         },
         {
-          title: "Scalable Architecture",
-          desc: "Design systems that grow with your business needs and handle increasing loads.",
+          title: "Structured Development Approach",
+          desc: "Clean architecture and modular coding practices for scalable applications.",
         },
         {
-          title: "24/7 Support & Maintenance",
-          desc: "Continuous monitoring and support to ensure optimal performance.",
+          title: "Integration Ready Systems",
+          desc: "Applications built to integrate smoothly with APIs, databases, and external systems. ",
         },
       ],
     },
   ];
 
   const serviceData = {
-    sectionTitle: "Key Benefit",
+    sectionTitle: "Advantages of .NET Development ",
     sectionDesc:
-      "Discover why businesses choose our Java development expertise for their critical applications.",
+      ".NET enables businesses to build secure, high-performance applications for web, enterprise systems, and APIs. ",
     services: [
       {
-        title: "High Performance",
+        title: ".NET Core Performance",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/High%20Performance.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Applications built using ASP.NET Core are optimized for high-speed request processing and efficient server performance. The lightweight framework handles high user traffic while maintaining consistent response times.",
       },
       {
-        title: "Secure & Reliable",
+        title: "Integrated Security Framework",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Secure%20&%20Reliable.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: ".NET provides built-in authentication, authorization, and identity management through tools like ASP.NET Identity. This makes it easier to implement secure login systems, role management, and data protection.",
       },
       {
-        title: "Highly Scalable",
+        title: "Strong Microsoft Ecosystem",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Highly%20Scalable.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: ".NET applications integrate easily with Microsoft technologies such as Azure, SQL Server, and Active Directory. This ecosystem support helps businesses build stable enterprise-grade systems.",
       },
       {
-        title: "Fast Delivery",
+        title: "API & Microservices Support",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Fast%20Delivery.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: ".NET is widely used to build REST APIs and microservices using ASP.NET Core. These services allow different applications and platforms to communicate efficiently within complex systems. ",
       },
       {
-        title: "Expert Team",
+        title: "Efficient Database Management",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Expert%20Team.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Using Entity Framework, developers can manage databases with structured models and simplified queries. This improves data handling, reduces development complexity, and keeps systems easier to maintain. ",
       },
       {
-        title: "24/7 Support",
+        title: "Enterprise Application Stability",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/7%20Support.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: ".NET has long been used for large-scale enterprise platforms such as ERP systems, internal management tools, and business portals. The framework supports structured architecture and long-term system reliability.",
       },
     ],
   };
 
   const frameworkData = {
-    sectionTitle: "Frameworks We Use",
+    sectionTitle: ".NET Technologies We Use ",
     sectionDesc:
-      "We leverage cutting-edge Java technologies and frameworks to build modern, efficient applications.",
+      "Modern frameworks and tools used to build scalable, secure, and high-performance .NET applications. ",
     frameworks: [
-      { title: "Java", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Java.png" },
-      { title: "Spring Boot", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Spring%20Boot.png" },
-      { title: "AWS", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/AWS.png" },
-      { title: "Azure", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Azure.png" },
-      { title: "Docker", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Docker.png" },
-      { title: "PostgreSQL", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/PostgreSQL.png" },
+      { title: "ASP.NET Core ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Java.png" },
+      { title: ".NET 8 ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Spring%20Boot.png" },
+      { title: "Blazer ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/AWS.png" },
+      { title: "DevOps ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Azure.png" },
+      { title: "SQL Server ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Docker.png" },
+      { title: "SignalR ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/PostgreSQL.png" },
     ],
   };
 
   const devData = {
-    sectionTitle: "Our Development Process",
+    sectionTitle: "How We Build .NET Applications ",
     sectionDesc:
-      "A proven methodology that ensures successful project delivery from concept to deployment.",
+      "A structured development approach to build stable and scalable .NET systems. ",
     steps: [
       {
-        title: "Discovery & Planning",
-        desc: "Analyze requirements, define scope, and create detailed project roadmap.",
+        title: "Requirement & Mapping",
+        desc: "Understanding business workflows to define the right application architecture for a .NET platform.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Discovery%20&%20Planning.png",
       },
       {
-        title: "UI/UX Design",
-        desc: "Design scalable system architecture and choose optimal technology stack.",
+        title: ".NET Frameworks Design",
+        desc: "Designing backend architecture using ASP.NET Core, planning database models with Entity Framework.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/UX%20Design.png",
       },
       {
-        title: "Development & Testing",
-        desc: "Agile development with continuous integration and comprehensive testing.",
+        title: "Application Development",
+        desc: "Building application modules, APIs, and business logic using C#, .NET Core, and third-party systems.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Development%20&%20Testing.png",
       },
       {
-        title: "Deployment & Support",
-        desc: "Smooth deployment to production with ongoing maintenance and support.",
+        title: "Testing & Azure Deployment",
+        desc: "Performing application testing and deploying the platform securely on cloud such as Microsoft Azure.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Deployment%20&%20Support.png",
       },
     ],
@@ -115,7 +115,7 @@ const ServiceInnerDotnet = () => {
 
   return (
     <>
-      <PageIntro title={"Java"} bgImage={"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Banner%20Description.png"} />
+      <PageIntro title={"DotNet"} bgImage={"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Banner%20Description.png"} />
       <JavaServices data={javaData} />
       <ServiceBenefit data={serviceData} />
       <Frameworks data={frameworkData} />
