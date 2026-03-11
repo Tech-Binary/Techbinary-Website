@@ -4,7 +4,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
-import Sop from "./Pages/Sop";
 import About from "./Pages/About";
 import Portfolio from "./Pages/Portfolio";
 import Career from "./Pages/Career";
@@ -46,7 +45,6 @@ function App() {
         <Route path="Service-inner-ui" element={<ServiceInnerUI />}></Route>
         <Route path="Service-inner-web" element={<ServiceInnerWeb />}></Route>
          <Route path="/Get-In-Touch" element={<GetInTouch />} />
-         <Route path="/sop" element={<Sop />} />
       </Routes>
       <Footer />
     </BrowserRouter>
