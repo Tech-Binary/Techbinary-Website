@@ -13,14 +13,14 @@ const PortfolioBanner = () => {
 >
   <div className="portfolio-banner-content">
     <h1>
-      Ready To Make  <span>Your Brand</span> <br />
-        Legendary?    </h1>
+    Planning a New  <span>Digital Product</span> <br />
+        or Platform?    </h1>
     <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown <br/>printer took a galley of type and scrambled it to make a type specimen book.
+  Share your requirements with our engineers and discover how structured development and modern tools can bring your platform to life. 
     </p>
 
     <a href="/Get-In-Touch" className="portfolio-banner-btn">
-      Let's Talk
+     Start Your Project
       <img
         src="/images/arrow.png"
         alt="arrow"

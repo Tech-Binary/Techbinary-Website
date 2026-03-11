@@ -33,7 +33,7 @@
   overflow: hidden;
   transition: all 0.3s ease;
   width: 439px;
-  height: 367px;
+  height: auto;
   margin: auto;
 }
 
@@ -68,6 +68,7 @@
   color: #555;
   line-height: 1.6;
   margin-bottom: 18px;
+  min-height:70px;
 }
 
 /* TAGS */
@@ -120,7 +121,9 @@
   .portfolio-section h2 {
     font-size: 1.8rem;
   }
-
+.portfolio-info p {
+  min-height:fit-content;
+}
   .portfolio-card {
     width: 100%;
     max-width: 100%;   /* full width on mobile */

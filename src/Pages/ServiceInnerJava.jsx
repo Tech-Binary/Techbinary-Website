@@ -7,110 +7,110 @@ import Development from "../Components/Development";
 const ServiceInnerJava = () => {
   const javaData = [
     {
-      title: "Why Choose Our Java Development Services?",
+      title: "Why Do Businesses Choose Java for Enterprise Applications? ",
       description:
-        "With over 10 years of experience in the Java ecosystem, we deliver enterprise-grade solutions that scale with your business. Our team specializes in modern Java frameworks and cloud-native architectures.",
+        "Java is widely used for enterprise platforms because of its stability, security, and ability to support complex systems. At Tech Binary, we develop Java applications using frameworks like Spring Boot and Hibernate to build structured backend services and scalable APIs. ",
       image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Why%20Choose%20Our%20Java%20Development%20Services_.png",
       buttonText: "Get In Touch",
       points: [
         {
-          title: "Enterprise-Grade Security",
-          desc: "Implement robust security measures and best practices for your applications.",
+          title: "Microservices Architecture ",
+          desc: "Applications are structured into independent services using Spring Boot. ",
         },
         {
-          title: "Scalable Architecture",
-          desc: "Design systems that grow with your business needs and handle increasing loads.",
+          title: "API & System Integrations ",
+          desc: "RESTful APIs enabling smooth integration with business platforms and third-party services.",
         },
         {
-          title: "24/7 Support & Maintenance",
-          desc: "Continuous monitoring and support to ensure optimal performance.",
+          title: "Performance Optimization",
+          desc: "Efficient database structuring and backend optimization for handling large volumes of data.",
         },
       ],
     },
   ];
 
   const serviceData = {
-    sectionTitle: "Key Benefit",
+    sectionTitle: "Core Advantages of Java Development ",
     sectionDesc:
-      "Discover why businesses choose our Java development expertise for their critical applications.",
+      "Java provides the stability and performance to build enterprise systems to handle complex operations. ",
     services: [
       {
-        title: "High Performance",
+        title: "High Performance Systems ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/High%20Performance.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Java applications are designed to manage heavy workloads and large numbers of users simultaneously. With optimized memory management and efficient processing, they perform reliably even in data-heavy environments. ",
       },
       {
-        title: "Secure & Reliable",
+        title: "Enterprise-Level Security ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Secure%20&%20Reliable.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "IJava provides strong security mechanisms such as authentication frameworks, secure APIs, and built-in protection features. These capabilities help safeguard applications that handle sensitive business or user data. ",
       },
       {
-        title: "Highly Scalable",
+        title: "Platform Independence ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Highly%20Scalable.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Java’s “write once, run anywhere” approach allows applications to operate across different operating systems. This flexibility makes it easier to deploy systems across diverse environments without major redevelopment. ",
       },
       {
-        title: "Fast Delivery",
+        title: "Scalable Architecture ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Fast%20Delivery.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Java supports modular development and microservices architecture, making it suitable for applications that need to grow over time. Systems can be expanded by adding new services without disrupting existing functionality. ",
       },
       {
-        title: "Expert Team",
+        title: "Robust Framework Ecosystem ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Expert%20Team.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Popular frameworks such as Spring Boot and Hibernate accelerate development and simplify backend architecture. These tools help developers build maintainable applications with well-structured code. ",
       },
       {
-        title: "24/7 Support",
+        title: "Strong Community Support ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/7%20Support.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Java has one of the largest developer communities in the world. Continuous updates, extensive documentation, and community-driven improvements help maintain its reliability and long-term relevance. ",
       },
     ],
   };
 
   const frameworkData = {
-    sectionTitle: "Frameworks We Use",
+    sectionTitle: "Java Frameworks We Use ",
     sectionDesc:
-      "We leverage cutting-edge Java technologies and frameworks to build modern, efficient applications.",
+      "We use proven Java frameworks to build structured, secure, and scalable backend applications. ",
     frameworks: [
-      { title: "Java", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Java.png" },
+      { title: "Hibernate ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Java.png" },
       { title: "Spring Boot", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Spring%20Boot.png" },
-      { title: "AWS", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/AWS.png" },
-      { title: "Azure", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Azure.png" },
-      { title: "Docker", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Docker.png" },
-      { title: "PostgreSQL", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/PostgreSQL.png" },
+      { title: "JSF ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/AWS.png" },
+      { title: "Apache Maven ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Azure.png" },
+      { title: "Gradle ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Docker.png" },
+      { title: "JUnit ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/PostgreSQL.png" },
     ],
   };
 
   const devData = {
-    sectionTitle: "Our Development Process",
+    sectionTitle: "How We Build Java Applications ",
     sectionDesc:
-      "A proven methodology that ensures successful project delivery from concept to deployment.",
+      "A structured approach to design, develop, and deliver reliable Java applications. ",
     steps: [
       {
-        title: "Discovery & Planning",
-        desc: "Analyze requirements, define scope, and create detailed project roadmap.",
+        title: "Requirement Analysis",
+        desc: "Understanding business workflows, technical requirements, and system integrations needed for the application.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Discovery%20&%20Planning.png",
       },
       {
-        title: "UI/UX Design",
-        desc: "Design scalable system architecture and choose optimal technology stack.",
+        title: "System Architecture",
+        desc: "Designing application architecture, database structure, and selecting the right Java frameworks.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/UX%20Design.png",
       },
       {
-        title: "Development & Testing",
-        desc: "Agile development with continuous integration and comprehensive testing.",
+        title: "Development & Integration",
+        desc: "Building backend services, APIs, and business logic while integrating required third-party systems.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Development%20&%20Testing.png",
       },
       {
-        title: "Deployment & Support",
-        desc: "Smooth deployment to production with ongoing maintenance and support.",
+        title: "Testing & Deployment",
+        desc: "Conducting performance testing, security checks, and deploying the application in a stable environment. ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Deployment%20&%20Support.png",
       },
     ],
-    ctaTitle: "Ready to Start Your Java Project?",
+    ctaTitle: "Have a Software Project in Mind? ",
     ctaDesc:
-      "Let's discuss your requirements and build something amazing together. Our expert team is ready to turn your ideas into reality.",
-    ctaButtonText: "Get In Touch",
+      "Our engineers work with businesses to design and build applications that handle real workflows and growing user demands. Let’s discuss the system you’re planning to build. ",
+    ctaButtonText: " Start Your Project",
   };
 
   return (

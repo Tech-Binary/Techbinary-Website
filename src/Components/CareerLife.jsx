@@ -26,29 +26,20 @@ const CareerLife = () => {
         </p>
 
         <h2 className="careerlife-title">
-          Explore Life at <span> Techbinary</span>
+          Work Culture at <span> Tech Binary</span>
         </h2>
 
         <div className="careerlife-desc">
           <p>
-            At Techbinary, innovation meets passion. We’re a dynamic team of
-            developers, designers, and strategists committed to crafting digital
-            experiences that make a difference. Our mission goes beyond building
-            code — we create solutions that help businesses grow, connect, and
-            thrive in the digital era.
+            At Tech Binary, work goes beyond writing code or delivering projects. Teams collaborate to solve real business challenges, experiment with new technologies, and build digital platforms that make a difference for businesses. 
           </p>
 
           <p>
-            From startups taking their first step online to global enterprises
-            expanding their reach, we bring creativity, precision, and
-            technology together to deliver results. We believe in collaboration,
-            continuous learning, and pushing boundaries to transform ideas into
-            impactful realities.
+            The culture encourages curiosity and continuous learning. Engineers explore modern frameworks, designers refine user experiences, and marketers test new digital strategies.  
           </p>
 
           <p>
-            Join us as we shape the future of technology — one project, one
-            innovation, and one success story at a time.
+           Alongside project work, informal discussions, shared learning, and occasional team activities create a balanced environment where people stay focused on delivering quality work while enjoying the process of building something meaningful together. 
           </p>
         </div>
 

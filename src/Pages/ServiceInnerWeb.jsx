@@ -7,32 +7,32 @@ import Development from "../Components/Development";
 const ServiceInnerWeb = () => {
    const javaData = [
     {
-      title: "Why Choose Our Java Development Services?",
+      title: "Powering Digital Experiences Through Web Engineering ",
       description:
-        "With over 10 years of experience in the Java ecosystem, we deliver enterprise-grade solutions that scale with your business. Our team specializes in modern Java frameworks and cloud-native architectures.",
+        "Web applications today support everything from customer portals to enterprise dashboards. Our development team builds custom web systems using frontend frameworks, backend technologies, and structured database systems. ",
       image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Why%20Choose%20Our%20Java%20Development%20Services_.png",
-      buttonText: "Get In Touch",
+      buttonText: " Discuss Your Project",
       points: [
         {
-          title: "Enterprise-Grade Security",
-          desc: "Implement robust security measures and best practices for your applications.",
+          title: "Full-Stack Engineering Expertise",
+          desc: "Development across frontend frameworks, backend services, and database architecture. ",
         },
         {
-          title: "Scalable Architecture",
-          desc: "Design systems that grow with your business needs and handle increasing loads.",
+          title: "Integration-Ready Platforms",
+          desc: "Web systems connect with APIs, third-party tools, payment gateways, and enterprise software.",
         },
         {
-          title: "24/7 Support & Maintenance",
-          desc: "Continuous monitoring and support to ensure optimal performance.",
+          title: "Performance-Driven Development",
+          desc: "Applications optimized for fast load times, efficient queries, and reliable system performance.",
         },
       ],
     },
   ];
 
   const serviceData = {
-    sectionTitle: "Key Benefit",
+    sectionTitle: "Business Value of Web Applications ",
     sectionDesc:
-      "Discover why businesses choose our Java development expertise for their critical applications.",
+      "Well-structured web applications support business operations, user engagement, and system integrations. ",
     services: [
       {
         title: "High Performance",

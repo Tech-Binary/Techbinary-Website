@@ -3,46 +3,46 @@ import "../Stylesheet/PortfolioCard.css";
 
 const portfolioItems = [
   {
-    title: "Education LMS",
+    title: "HRMS/CRM Platform ",
     description:
-      "Empowering universities with an interactive learning management system that simplifies teaching and boosts student engagement.",
+      "Enterprise platform to manage employees, client relationships, workflows, and operational data from a unified system. ",
     image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/Education%20LMS.png",
     tags: ["Angular", ".NET", "Azure"],
   },
   {
-    title: "E-Commerce Platform",
+    title: "Transportation Management System ",
     description:
-      "A scalable and intelligent retail solution that enhances shopping experiences through data-driven insights and automation.",
+      "Smart platform for transport quotations, vendor selection, route management, and operational reporting. ",
     image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/E-Commerce%20Platform.png",
-    tags: ["Angular", ".NET", "Azure"],
+    tags: ["React ", "Node.js ", "MongoDB "],
   },
   {
-    title: "FinTech Mobile App",
+    title: "Travel CRM System ",
     description:
-      "Transforming digital banking with AI-powered analytics for smarter financial decisions and personalized customer experiences.",
+      "Centralized CRM platform helping travel teams manage leads, bookings, follow-ups, and customer interactions. ",
     image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/FinTech%20Mobile%20App.png",
-    tags: ["Angular", ".NET", "Azure"],
+    tags: ["Angular", "Spring Boot ", "MySQL "],
   },
   {
-    title: "IoT Smart Platform",
+    title: "HRMS Mobile App ",
     description:
-      "Empowering enterprises with smart monitoring systems that simplify operations and boost performance efficiency.",
+      "Employee mobile app for attendance tracking, leave management, payroll access, and company communication. ",
     image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/IoT%20Smart%20Platform.png",
-    tags: ["Go", "Docker", "Flutter"],
+    tags: [" React Native", " .NET API", " Azure"],
   },
   {
-    title: "AI Analytics Suite",
+    title: "eSIM Portal ",
     description:
-      "A scalable and intelligent analytics suite that enhances insights through data visualization and AI automation.",
+      "Digital platform enabling users to purchase, activate, and manage global eSIM connectivity instantly. ",
     image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/AI%20Analytics%20Suite.png",
-    tags: ["React", "TensorFlow", "GCP"],
+    tags: ["React", " Node.js", "AWS"],
   },
   {
-    title: "Blockchain Exchange",
+    title: "Room Design Tool ",
     description:
-      "Transforming digital trading with AI-powered analytics for smarter financial decisions and personalized customer experiences.",
+      "Interactive 3D platform allowing users to design rooms using customizable blocks and layout configurations. ",
     image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Portfolio/Blockchain%20Exchange.png",
-    tags: ["Solidity", "Web3", "Ethereum"],
+    tags: ["Three.js", "React", "WebGL"],
   },
 ];
 
@@ -80,7 +80,7 @@ const PortfolioCard = () => {
   return (
     <section className="portfolio-section">
       <h2>
-        Explore The Range Of <span>Completed Projects</span>
+        Digital Products We’ve <span>Designed & Built</span>
       </h2>
 
       <div className="portfolio-grid">

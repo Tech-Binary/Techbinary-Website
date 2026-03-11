@@ -6,74 +6,77 @@ import { TbArrowUpRight } from "react-icons/tb";
 const jobs = [
   {
     icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Wordpress.png",
+    date: "10 MARCH, 2026 ",
+    desc: "Plan and execute digital campaigns across SEO, social media, and email channels to improve brand visibility and generate quality leads. ",
     title: "Digital Marketer",
     type: "FULL TIME",
-    salary: "₹20K–₹30K",
+    salary: " ₹25K–₹35K",
     location: "Jaipur, Rajasthan, India",
   },
   {
     icon:"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/App%20store.png",
-    title: "Lead Product Designer",
+    title: "Lead Product Designer ",
+    date: "11 MARCH, 2026 ",
+    desc: "Lead product design initiatives by creating intuitive user experiences, wireframes, and visual interfaces for web and mobile applications. ",
     type: "FULL TIME",
-    salary: "₹20K–₹30K",
+    salary: "₹45K–₹65K ",
     location: "Jaipur, Rajasthan, India",
   },
   {
     icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Slack.png",
     title: "Full-Stack Developer",
+    date: "8 MARCH, 2026  ",
+    desc: "Develop and maintain scalable web applications by working on both front-end interfaces and back-end system architecture. ",
     type: "FULL TIME",
-    salary: "₹20K–₹30K",
+    salary: "₹50K–₹70K ",
     location: "Jaipur, Rajasthan, India",
   },
   {
     icon:  "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Figma.png",
     title: "UI/UX Designer",
+    date: "11 MARCH, 2026 ",
+    desc: "",
     type: "FULL TIME",
-    salary: "₹20K–₹30K",
+    salary: "₹30K–₹45K",
     location: "Jaipur, Rajasthan, India",
   },
   {
     icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Marketing%20&%20Communication.png",
-    title: "Marketing & Communication",
+    title: "Marketing & Communication Executive ",
+    date: "11 MARCH, 2026 ",
+    desc: "Develop marketing strategies, manage brand communication, and coordinate campaigns across digital platforms and marketing channels. ",
     type: "FULL TIME",
-    salary: "₹20K–₹30K",
+    salary: " ₹28K–₹40K",
     location: "Jaipur, Rajasthan, India",
   },
   {
     icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Finance%20Management.png",
-    title: "Finance Management",
+    title: "Finance Management Executive ",
+    date: "13 MARCH, 2026 ",
+    desc: "Handle financial records, budgeting processes, and reporting while supporting overall financial operations and compliance. ",
     type: "FULL TIME",
-    salary: "₹20K–₹30K",
+    salary: " ₹35K–₹50K",
     location: "Jaipur, Rajasthan, India",
   },
   {
     icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Slack.png",
-    title: "Full-Stack Developer",
+    title: "Senior Full-Stack Developer ",
+    date: "8 MARCH, 2026 ",
+    desc: "Work on building scalable applications using modern frameworks, APIs, and database technologies for high-performance systems. ",
     type: "FULL TIME",
-    salary: "₹20K–₹30K",
+    salary: " ₹55K–₹75K",
     location: "Jaipur, Rajasthan, India",
   },
   {
     icon:  "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Figma.png",
-    title: "UI/UX Designer",
+    title: "Senior UI/UX Designer ",
+    date: "12 MARCH, 2026 ",
+    desc: "Create user-centered designs, interactive prototypes, and visually consistent interfaces for complex digital products. ",
     type: "FULL TIME",
-    salary: "₹20K–₹30K",
+    salary: " ₹40K–₹55K",
     location: "Jaipur, Rajasthan, India",
   },
-  {
-    icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Marketing%20&%20Communication.png",
-    title: "Marketing & Communication",
-    type: "FULL TIME",
-    salary: "₹20K–₹30K",
-    location: "Jaipur, Rajasthan, India",
-  },
-  {
-    icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Finance%20Management.png",
-    title: "Finance Management",
-    type: "FULL TIME",
-    salary: "₹20K–₹30K",
-    location: "Jaipur, Rajasthan, India",
-  },
+  
 ];
 
 const CareerJob = () => {
@@ -87,7 +90,7 @@ const CareerJob = () => {
 
   return (
     <section className="jobs-section">
-      <h2 className="jobs-heading">Latest Jobs Post</h2>
+      <h2 className="jobs-heading">Current Openings </h2>
 
       <div className="jobs-grid">
         {jobs.slice(0, visibleCount).map((job, index) => (
@@ -96,7 +99,7 @@ const CareerJob = () => {
               <div className="job-meta-box">
                 <p className="job-meta">
                   APPLY BEFORE
-                  <br /> <strong>8 NOV, 2025</strong>
+                  <br /> <strong>{job.date}</strong>
                 </p>
               </div>
               <div className="divider"></div>
@@ -121,8 +124,7 @@ const CareerJob = () => {
                 <h3>{job.title}</h3>
               </div>
               <p className="job-desc">
-                Lorem ipsum is a dummy or placeholder text commonly used in
-                graphic design, publishing, and web development.
+              {job.desc}
               </p>
             </div>
 

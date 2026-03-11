@@ -14,32 +14,25 @@ const PortfolioDo = () => {
       <div className="portfolio-do-right">
         <p className="portfolio-do-subtitle">
           <img src="/images/Frame.png" alt="line" className="portfolio-do-frame" />
-          WHAT WE DO
+         OUR CAPABILITIES 
         </p>
 
         <h2 className="portfolio-do-title">
-          A Smarter Website Delivers a <br />
-          <span>Seamless User Experience</span>
+          Building Technology Systems for 
+          <span> Real Business Operations</span>
         </h2>
 
  <div className="portfolio-do-desc">
   <p>
-    At TechBinary, we believe a powerful website is more than just pixels and code — 
-    it’s an experience built around your users. Our team crafts seamless, 
-    high-performing digital platforms that drive interaction, trust, and measurable results.
+Businesses today rely on technology to manage data, streamline operations, and deliver better user experiences. Tech Binary works with organizations to design and develop digital platforms that simplify complex processes and support everyday business activities. 
   </p>
 
   <p>
-    A better website isn’t just about great design — it’s about creating intuitive, 
-    engaging experiences that connect users with your brand effortlessly. 
-    At TechBinary, we combine creativity and technology to craft websites 
-    that are fast, responsive, and built to deliver measurable results.
+   Our teams build web & mobile applications, and enterprise systems using modern development frameworks, cloud infrastructure, and API-driven architecture. Each platform is designed to handle growing data volumes, integrate with existing tools, and maintain consistent performance as usage increases. 
   </p>
 
   <p>
-    Great design meets great experience. We build websites that not only look exceptional 
-    but also deliver smooth navigation, fast performance, and user journeys 
-    that leave a lasting impression.
+  Beyond development, we believe in building reliable systems that businesses can operate and scale with confidence. Careful planning, structured development practices, and continuous optimization ensure every solution remains secure and relevant as business evolves. 
   </p>
 </div>
 
