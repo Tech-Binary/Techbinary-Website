@@ -5,105 +5,107 @@ import ServiceBenefit from "../Components/ServiceBenefit";
 import Frameworks from "../Components/FrameWork";
 import Development from "../Components/Development";
 const ServiceInnerDev = () => {
-   const javaData = [
+  const javaData = [
     {
-      title: "Why Choose Our Java Development Services?",
+      title: "DevOps Engineering for Modern Software Delivery ",
       description:
-        "With over 10 years of experience in the Java ecosystem, we deliver enterprise-grade solutions that scale with your business. Our team specializes in modern Java frameworks and cloud-native architectures.",
+        "Modern applications require faster releases, stable infrastructure, and reliable deployment pipelines. DevOps practices help development and operations teams work within a unified workflow supported by automation and continuous delivery tools. ",
       image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Why%20Choose%20Our%20Java%20Development%20Services_.png",
-      buttonText: "Get In Touch",
+      buttonText: " Talk to Experts",
       points: [
         {
-          title: "Enterprise-Grade Security",
-          desc: "Implement robust security measures and best practices for your applications.",
+          title: "CI/CD Pipeline Implementation",
+          desc: "Setting up automated build, testing, and deployment pipelines to simplify software delivery.",
         },
         {
-          title: "Scalable Architecture",
-          desc: "Design systems that grow with your business needs and handle increasing loads.",
+          title: "Infrastructure Automation",
+          desc: "Using infrastructure-as-code tools to manage servers, environments, and cloud infrastructure efficiently.",
         },
         {
-          title: "24/7 Support & Maintenance",
-          desc: "Continuous monitoring and support to ensure optimal performance.",
+          title: "Continuous Monitoring Systems",
+          desc: "Implementing monitoring and logging tools to track system performance and application health.",
         },
       ],
     },
   ];
 
   const serviceData = {
-    sectionTitle: "Key Benefit",
+    sectionTitle: "Operational Benefits of DevOps ",
     sectionDesc:
-      "Discover why businesses choose our Java development expertise for their critical applications.",
+      "DevOps practices improve software delivery speed and infrastructure stability. ",
     services: [
       {
-        title: "High Performance",
+        title: "Improved System Reliability",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/High%20Performance.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "DevOps introduces monitoring, automated testing, and controlled deployment processes that reduce the chances of system failures during releases.",
       },
       {
-        title: "Secure & Reliable",
+        title: "Infrastructure Consistency",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Secure%20&%20Reliable.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Using infrastructure-as-code tools ensures servers and environments are configured consistently across development, testing, and production systems. ",
       },
       {
-        title: "Highly Scalable",
+        title: "Scalable Cloud Infrastructure",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Highly%20Scalable.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "DevOps practices support scalable infrastructure management across cloud environments, allowing applications to handle growth in users or workloads.",
       },
       {
-        title: "Fast Delivery",
+        title: "Faster Software Releases",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Fast%20Delivery.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Automated CI/CD pipelines allow development teams to push updates, features, and fixes more frequently without manual deployment processes. This helps businesses deliver improvements to users faster.",
       },
       {
-        title: "Expert Team",
+        title: "Better Collaboration",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Expert%20Team.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "DevOps encourages shared workflows between development, operations, and QA teams, helping organizations reduce communication gaps and streamline software delivery.",
       },
       {
-        title: "24/7 Support",
+        title: "Performance Monitoring",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/7%20Support.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Monitoring tools provide real-time insights into application performance, system health, and infrastructure usage, enabling teams to quickly detect and resolve issues. ",
       },
     ],
   };
 
   const frameworkData = {
-    sectionTitle: "Frameworks We Use",
+    sectionTitle: "DevOps Technology Stack ",
     sectionDesc:
-      "We leverage cutting-edge Java technologies and frameworks to build modern, efficient applications.",
+      "Industry-standard tools to automate deployments, manage infrastructure, and monitor application performance. ",
     frameworks: [
-      { title: "Java", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Java.png" },
-      { title: "Spring Boot", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Spring%20Boot.png" },
-      { title: "AWS", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/AWS.png" },
-      { title: "Azure", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Azure.png" },
+      { title: "Kubernetes ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Java.png" },
+      { title: "Jenkins ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Spring%20Boot.png" },
+      { title: "Terrafrom ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/AWS.png" },
+      { title: "Jenkins  ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Azure.png" },
       { title: "Docker", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Docker.png" },
-      { title: "PostgreSQL", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/PostgreSQL.png" },
+      { title: "Prometheus ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/PostgreSQL.png" },
+      { tile: "Grafana ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/PostgreSQL.png" },
+
     ],
   };
 
   const devData = {
-    sectionTitle: "Our Development Process",
+    sectionTitle: "Our DevOps Implementation Process ",
     sectionDesc:
-      "A proven methodology that ensures successful project delivery from concept to deployment.",
+      "A structured approach to streamline deployments and maintain reliable infrastructure operations. ",
     steps: [
       {
-        title: "Discovery & Planning",
-        desc: "Analyze requirements, define scope, and create detailed project roadmap.",
+        title: "Infrastructure & Assessment",
+        desc: "Evaluating existing development workflows, deployment processes, and infrastructure setup.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Discovery%20&%20Planning.png",
       },
       {
-        title: "UI/UX Design",
-        desc: "Design scalable system architecture and choose optimal technology stack.",
+        title: "CI/CD Pipeline Setup",
+        desc: "Designing automated pipelines for code integration, testing, and deployment to reduce manual effort.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/UX%20Design.png",
       },
       {
-        title: "Development & Testing",
-        desc: "Agile development with continuous integration and comprehensive testing.",
+        title: "Infrastructure Automation",
+        desc: "Implementing infrastructure practices to automate cloud resource management and configuration.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Development%20&%20Testing.png",
       },
       {
-        title: "Deployment & Support",
-        desc: "Smooth deployment to production with ongoing maintenance and support.",
+        title: "Monitoring & Optimization",
+        desc: "Setting up monitoring tools and dashboards to track system performance and detect issues early. ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Deployment%20&%20Support.png",
       },
     ],
@@ -115,7 +117,7 @@ const ServiceInnerDev = () => {
 
   return (
     <>
-      <PageIntro title={"Java"} bgImage={"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Banner%20Description.png"} />
+      <PageIntro title={"DevOps "} bgImage={"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Banner%20Description.png"} />
       <JavaServices data={javaData} />
       <ServiceBenefit data={serviceData} />
       <Frameworks data={frameworkData} />
