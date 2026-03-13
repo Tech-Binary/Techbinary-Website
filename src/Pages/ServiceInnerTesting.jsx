@@ -7,103 +7,103 @@ import Development from "../Components/Development";
 const ServiceInnerTesting = () => {
    const javaData = [
     {
-      title: "Why Choose Our Java Development Services?",
+      title: "Quality Assurance for Modern Software Systems ",
       description:
-        "With over 10 years of experience in the Java ecosystem, we deliver enterprise-grade solutions that scale with your business. Our team specializes in modern Java frameworks and cloud-native architectures.",
+        "Software applications must operate reliably across different environments, devices, and user scenarios. Our testing services focus on identifying defects, validating application behavior, and ensuring system stability before releases. ",
       image: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Why%20Choose%20Our%20Java%20Development%20Services_.png",
-      buttonText: "Get In Touch",
+      buttonText: "Start QA Consultation",
       points: [
         {
-          title: "Enterprise-Grade Security",
-          desc: "Implement robust security measures and best practices for your applications.",
+          title: "Structured QA Processes",
+          desc: "Defined testing workflows that ensure consistent validation across application modules. ",
         },
         {
-          title: "Scalable Architecture",
-          desc: "Design systems that grow with your business needs and handle increasing loads.",
+          title: "Automation Testing Capability",
+          desc: "Automated test scripts reduce repetitive testing efforts and improve release speed. ",
         },
         {
-          title: "24/7 Support & Maintenance",
-          desc: "Continuous monitoring and support to ensure optimal performance.",
+          title: "Multi-Environment Testing",
+          desc: "Applications tested across browsers, devices, and operating environments to ensure compatibility.",
         },
       ],
     },
   ];
 
   const serviceData = {
-    sectionTitle: "Key Benefit",
+    sectionTitle: "Quality Assurance Advantages ",
     sectionDesc:
-      "Discover why businesses choose our Java development expertise for their critical applications.",
+      "Software testing helps organizations detect defects early and deliver reliable digital products. ",
     services: [
       {
-        title: "High Performance",
+        title: "Performance Validation ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/High%20Performance.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Load and stress tests simulate real-world usage by generating concurrent user traffic. This helps identify bottlenecks in servers, APIs, or databases before the application is exposed to actual users. ",
       },
       {
-        title: "Secure & Reliable",
+        title: "Readiness Verification ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Secure%20&%20Reliable.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Before deployment, regression testing and validation checks confirm that new updates have not affected previously working features. This step helps development teams release updates with greater confidence. ",
       },
       {
-        title: "Highly Scalable",
+        title: "Early Defect Identification ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Highly%20Scalable.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Identifying defects at this stage prevents issues from reaching staging or production environments, where fixes become more complex and time-consuming. ",
       },
       {
-        title: "Fast Delivery",
+        title: "User Flow & Testing ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Fast%20Delivery.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "QA teams validate critical user journeys such as login, transactions, and form submissions. This ensures users can complete tasks smoothly without encountering UI errors or unexpected system responses. ",
       },
       {
-        title: "Expert Team",
+        title: "Device Compatibility ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Expert%20Team.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Applications are tested across different browsers, operating systems to verify consistent functionality. This ensures the platform performs reliably regardless of the user's environment. ",
       },
       {
-        title: "24/7 Support",
+        title: "Application Stability ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/7%20Support.png",
-        desc: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.",
+        desc: "Testing verifies that application features behave consistently across different user scenarios. This ensures updates or new features do not break existing functionality within the application. ",
       },
     ],
   };
 
   const frameworkData = {
-    sectionTitle: "Frameworks We Use",
+    sectionTitle: "Automation & Testing Platforms ",
     sectionDesc:
-      "We leverage cutting-edge Java technologies and frameworks to build modern, efficient applications.",
+      "Industry-standard tools used to perform automated, functional, and performance testing. ",
     frameworks: [
-      { title: "Java", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Java.png" },
-      { title: "Spring Boot", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Spring%20Boot.png" },
-      { title: "AWS", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/AWS.png" },
-      { title: "Azure", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Azure.png" },
-      { title: "Docker", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Docker.png" },
-      { title: "PostgreSQL", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/PostgreSQL.png" },
+      { title: "Selenium ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Java.png" },
+      { title: "Cypress ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Spring%20Boot.png" },
+      { title: "JUnit ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/AWS.png" },
+      { title: "Postman ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Azure.png" },
+      { title: "JMeter ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Docker.png" },
+      { title: "TestNG ", icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/PostgreSQL.png" },
     ],
   };
 
   const devData = {
-    sectionTitle: "Our Development Process",
+    sectionTitle: "Quality Assurance Workflow ",
     sectionDesc:
-      "A proven methodology that ensures successful project delivery from concept to deployment.",
+      "A structured testing process designed to validate functionality, performance, and system reliability. ",
     steps: [
       {
-        title: "Discovery & Planning",
-        desc: "Analyze requirements, define scope, and create detailed project roadmap.",
+        title: "Test Planning",
+        desc: "Analyzing application features, user workflows, and technical specifications to define testing objectives. ",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Discovery%20&%20Planning.png",
       },
       {
-        title: "UI/UX Design",
-        desc: "Design scalable system architecture and choose optimal technology stack.",
+        title: "Test Case Development",
+        desc: "Creating structured test cases and automation scripts that validate application functionality.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/UX%20Design.png",
       },
       {
-        title: "Development & Testing",
-        desc: "Agile development with continuous integration and comprehensive testing.",
+        title: "Performance Testing",
+        desc: "Executing manual and automated tests to detect defects and evaluate application performance.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Development%20&%20Testing.png",
       },
       {
-        title: "Deployment & Support",
-        desc: "Smooth deployment to production with ongoing maintenance and support.",
+        title: "Reporting & Release Validation",
+        desc: "Documenting testing results, identifying issues, and confirming application readiness before production deployment.",
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Deployment%20&%20Support.png",
       },
     ],
@@ -115,7 +115,7 @@ const ServiceInnerTesting = () => {
 
   return (
     <>
-      <PageIntro title={"Java"} bgImage={"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Banner%20Description.png"} />
+      <PageIntro title={"Software Testing"} bgImage={"https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/Banner%20Description.png"} />
       <JavaServices data={javaData} />
       <ServiceBenefit data={serviceData} />
       <Frameworks data={frameworkData} />
