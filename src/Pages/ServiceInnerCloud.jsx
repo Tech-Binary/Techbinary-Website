@@ -107,10 +107,10 @@ const ServiceInnerCloud = () => {
         icon: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/services/icons/Deployment%20&%20Support.png",
       },
     ],
-    ctaTitle: "Ready to Start Your Java Project?",
+   ctaTitle: "Have a Software Project in Mind? ",
     ctaDesc:
-      "Let's discuss your requirements and build something amazing together. Our expert team is ready to turn your ideas into reality.",
-    ctaButtonText: "Get In Touch",
+      "Our engineers work with businesses to design and build applications that handle real workflows and growing user demands. Let’s discuss the system you’re planning to build. ",
+    ctaButtonText: " Start Your Project",
   };
 
   return (
