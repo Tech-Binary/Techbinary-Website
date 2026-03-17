@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Roboto+Flex:wght@400;500;600&family=Jost:wght@400;500;600;700&display=swap");
+
 :root {
   --font-archivo: "Archivo", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;
   --font-roboto: "Roboto Flex", sans-serif;
   --font-jost: "Jost", sans-serif;
 }
-.section-padding{
+
+.section-padding {
   padding: 50px 182px;
 }
 
@@ -16,14 +18,16 @@
 .slick-dots li.slick-active button:before {
   display: none;
 }
+
 .slick-dots li.slick-active button {
-  width: 30px !important;
-  height: 3px !important;
+  width: 13px !important;
+  height: 13px !important;
   border-radius: 20px !important;
-  border: 1px solid black !important;
-  outline: black !important;
+  border: 1px solid #37B4B1 !important;
+  outline: #37B4B1 !important;
   background-color: transparent !important;
 }
+
 .slick-dots li button {
   padding: 4px !important;
   width: 1px !important;
@@ -31,9 +35,9 @@
   border-radius: 20px !important;
   border: none !important;
   outline: black !important;
-  background-color: #229dd6 !important;
+  background-color: #37B4B14D !important
 }
 
 .slick-dots li {
-    width: auto !important;
+  width: auto !important;
 }

@@ -15,7 +15,7 @@ const Banner = () => {
       <div className="banner-content">
         {/* Left Side Text */}
         <div className="banner-text">
-          <h2>
+          <h2 style={{lineHeight:'55px'}}>
            You Bring the Idea. <br />
             <span className="highlight">We Build the Technology.</span>
           </h2>

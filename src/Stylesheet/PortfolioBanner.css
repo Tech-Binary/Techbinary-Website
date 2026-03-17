@@ -71,7 +71,7 @@
   background: #0078c4;
   color: #fff;
   border-color: #0078c4;
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 }
 
 .btn-arrow {
@@ -80,7 +80,7 @@
 }
 
 .portfolio-banner-btn:hover .btn-arrow {
-  transform: translateX(6px);
+  /* transform: translateX(6px); */
 }
 
 /* ===== RESPONSIVE ===== */

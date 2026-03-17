@@ -86,13 +86,13 @@ const ServicesCard = () => {
       </div>
 
       {/* Cards */}
-      <div className="servicescard-footer">
+      {/* <div className="servicescard-footer">
         <img
           src="/images/servicebg.png"
           alt="arrow"
           className="servicescard-arrow"
         />
-      </div>
+      </div> */}
       <div className="servicescard-wrapper container">
         {array.map((service, index) => (
           <div className="servicescard-item" key={index}>

@@ -35,7 +35,7 @@ const jobs = [
     icon:  "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/careers/Figma.png",
     title: "UI/UX Designer",
     date: "11 MARCH, 2026 ",
-    desc: "",
+    desc: "Design engaging user interfaces and improve digital experiences through user research, wireframing, prototyping, and usability testing. ",
     type: "FULL TIME",
     salary: "₹30K–₹45K",
     location: "Jaipur, Rajasthan, India",
@@ -97,23 +97,29 @@ const CareerJob = () => {
           <div className="job-card" key={index}>
             <div className="job-top">
               <div className="job-meta-box">
-                <p className="job-meta">
+                 <p className="job-meta2">
                   APPLY BEFORE
-                  <br /> <strong>{job.date}</strong>
+                </p>
+                <p className="job-meta">
+                 <strong>{job.date}</strong>
                 </p>
               </div>
               <div className="divider"></div>
               <div className="job-meta-box">
-                <p className="job-meta">
+                 <p className="job-meta2">
                   JOB TYPE
-                  <br /> <strong>{job.type}</strong>
+                </p>
+                <p className="job-meta">
+                 <strong>{job.type}</strong>
                 </p>
               </div>
               <div className="divider"></div>
               <div className="job-meta-box">
-                <p className="job-meta">
+                 <p className="job-meta2">
                   SALARY
-                  <br /> <strong>{job.salary}</strong>
+                </p>
+                <p className="job-meta">
+                 <strong>{job.salary}</strong>
                 </p>
               </div>
             </div>

@@ -37,12 +37,12 @@ const Projects = () => {
             <p>Car Rental </p>
           </div>
         </div>
-        <div className="project-card">
+        {/* <div className="project-card">
           <img src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/About%20US/our%20projects%203.png" alt="Project 3" />
           <div className="overlayer">
             <p>Travel CRM  </p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <a href="/Portfolio" className="view-more-btn">

@@ -15,13 +15,13 @@ const BlogSection = () => {
     },
     {
       img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Blogs%202.png",
-      tag: "DevOps and Faster Software Delivery ",
+      tag: "DevOps Delivery ",
       date: "19 October 2023",
       desc: "How modern development workflows help teams build, test, and deploy applications more efficiently. ",
     },
     {
       img: "https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/Blogs%203.png",
-      tag: "Automation in Modern Workflows ",
+      tag: "Workflow Automation",
       date: "19 October 2023",
       desc: "How automation tools are simplifying business processes and improving operational efficiency. ",
     },
@@ -82,14 +82,14 @@ const BlogSection = () => {
       {/* === Blog Slider === */}
       <Slider {...settings} className="blog-slider">
         {blogs.map((blog, index) => (
-          <div className="blog-card" key={index}>
+          <div className="blog-card2" key={index}>
             {/* Blog Image */}
             <img src={blog.img} alt={blog.tag} />
 
             {/* Blog Content */}
-            <div className="blog-content">
+            <div className="blog-content2">
               <span className="meta">
-                <strong>{blog.tag}</strong> <span>{blog.date}</span>
+            <img src="/images/black-devider.svg" alt="line" style={{width:'22px', height:'2px'}} /><strong>{blog.tag}</strong> <span style={{fontWeight:'400', fontSize:'12px'}}>{blog.date}</span>
               </span>
               <p>{blog.desc}</p>
             </div>

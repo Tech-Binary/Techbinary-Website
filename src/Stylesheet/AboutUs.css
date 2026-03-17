@@ -156,8 +156,8 @@
 .btn-out:hover img,
 .btn-out:hover svg {
   filter: brightness(0) invert(1);
-  transform: translateX(5px);
-  transition: all 0.3s ease;
+  /* transform: translateX(5px); */
+  /* transition: all 0.3s ease; */
 }
 
 /* Responsive */

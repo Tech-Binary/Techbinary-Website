@@ -11,9 +11,9 @@
 .form-container {
   flex: 1 1 42%;
   background: #fff;
-    padding: 40px;
+  padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .form-container h2 {
@@ -42,7 +42,8 @@
   flex: 1;
 }
 
-input, textarea {
+input,
+textarea {
   /* width: 100%; */
   padding: 12px 15px;
   border-radius: 10px;
@@ -50,11 +51,13 @@ input, textarea {
   font-size: 0.95rem;
   outline: none;
   transition: 0.3s;
+  background: #F5F5F7;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border-color: #229dd6;
-  box-shadow: 0 0 0 3px rgba(34,157,214,0.15);
+  box-shadow: 0 0 0 3px rgba(34, 157, 214, 0.15);
 }
 
 textarea {
@@ -121,7 +124,7 @@ textarea {
   gap: 13px;
   align-items: flex-start;
   padding: 15px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .info-card img {
@@ -132,14 +135,14 @@ textarea {
 .info-card h4 {
   margin: 0;
   color: #002d72;
-  font-size:14px;
+  font-size: 14px;
   font-weight: 500;
 }
 
 .info-card p {
   margin: 2px 0 0;
   color: #555;
-font-size: 12px;
+  font-size: 12px;
 }
 
 .note {
@@ -150,18 +153,31 @@ font-size: 12px;
 /* ===== Socials ===== */
 .followus {
   margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
-
+.followus h4 {
+  margin-bottom: 0;
+}
 .social-icons {
   display: flex;
   gap: 15px;
-  margin-top: 8px;
+  margin-top: 0px;
 }
 
 .social-icons a {
   color: #002d72;
   font-size: 1.1rem;
   transition: 0.3s;
+  border: 1px solid #1025664D;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .social-icons a:hover {
@@ -201,7 +217,7 @@ font-size: 12px;
     padding: 60px 5%;
   }
 
-  .form-container, 
+  .form-container,
   .info-container {
     flex: 1 1 100%;
   }
@@ -240,7 +256,8 @@ font-size: 12px;
   }
 
   /* Inputs */
-  input, textarea {
+  input,
+  textarea {
     font-size: 0.9rem;
     padding: 12px;
   }
@@ -303,7 +320,8 @@ font-size: 12px;
     height: 32px;
   }
 
-  input, textarea {
+  input,
+  textarea {
     font-size: 0.85rem;
   }
 

@@ -58,7 +58,7 @@ const Design = () => {
   return (
     <section className="phase-section">
       <h2 className="phase-title">
-       From Idea to<span>Implementation</span>
+       From Idea to <span> Implementation</span>
       </h2>
 
       <div className="phase-container">

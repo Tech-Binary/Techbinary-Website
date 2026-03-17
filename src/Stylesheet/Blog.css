@@ -74,14 +74,14 @@
   margin: 0 auto;
 }
 
-.blog-card {
-  background: #fff;
+.blog-card2 {
+  background: transparent;
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.3s ease;
-  margin: 0 10px;
+  padding: 10px;
   /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
-  /* border: 1px solid rgba(0, 0, 0, 0.15);  */
+  border: 1px solid rgba(0, 0, 0, 0.15);
   /* outline: 1px solid rgba(0, 0, 0, 0.15);
    outline-offset: 10px; */
 }
@@ -91,45 +91,55 @@
 }
 
 .blog-slider .slick-slide>div {
-  padding: 0 15px;
+  padding: 0 5px;
 }
 
-.blog-card:hover {
-  transform: translateY(-5px);
+.blog-card2:hover {
+  /* transform: translateY(-5px); */
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
-.blog-card img {
+.blog-card2 img {
   width: 100%;
   height: 220px;
+  border-radius: 10px;
   object-fit: cover;
 }
 
-.blog-content {
-  padding: 20px;
+.blog-content2 {
+  padding: 1.2rem 5px 0;
   text-align: left;
 }
 
-.blog-content .meta {
+.blog-content2 .meta {
   font-size: 0.9rem;
-  color: #999;
+  color: #000000;
   display: block;
   margin-bottom: 10px;
-  min-height: 45px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  min-height: auto;
 }
 
-.blog-content strong {
-  color: rgba(0, 0, 0, 1);
+.blog-content2 strong {
+  color: #000000;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
-.blog-content p {
-  color: #333;
-  font-size: 1rem;
-  line-height: 1.5;
+.blog-content2 p {
+  color: #292929;
+  font-size: 16px;
+  padding-left: 32px;
+  /* line-height: 1.5; */
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  font-weight: 500;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  font-family: 'Roboto Flex';
 }
 
 .slick-dots li button:before {
@@ -199,7 +209,7 @@
     /* padding: 0 80px; */
   }
 
-  .blog-card img {
+  .blog-card2 img {
     height: 200px;
   }
 }
@@ -240,7 +250,7 @@
     width: 100%;
   }
 
-  .blog-card img {
+  .blog-card2 img {
     height: 180px;
   }
 }
@@ -277,11 +287,11 @@
     padding: 0 15px;
   }
 
-  .blog-card img {
+  .blog-card2 img {
     height: 160px;
   }
 
-  .blog-content p {
+  .blog-content2 p {
     font-size: 0.9rem;
   }
 
