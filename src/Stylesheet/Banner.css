@@ -67,7 +67,7 @@
   color: rgba(38, 50, 56, 1);
   border-radius: 10px;
   width: 220px;
-  height: 180px;
+  height: 145px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,15 +78,16 @@
 }
 
 .number-box h2 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 0;
+     font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+    font-family: inherit;
 }
 
 .number-box p {
-  font-size: 1rem;
-  color: #555;
-  margin: 5px 0 0;
+    font-size: 17px;
+    color: #555;
+    margin: 12px 0 0;
 }
 
 .number-box:hover {

@@ -45,13 +45,29 @@
 }
 
 .intro-watermark {
-  font-size: 7rem;
-  font-weight: 800;
-  color: rgba(0, 0, 0, 0.04);
-  letter-spacing: 8px;
-  margin-bottom: 2rem;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    line-height: 0.8;
+    font-size: 128px;
+    font-weight: 600;
+    letter-spacing: 4px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(0, 32, 70, 0.08) 0%,
+    rgba(0, 32, 70, 0.03) 40%,
+    rgba(0, 32, 70, 0) 90%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  pointer-events: none;
   user-select: none;
-  margin-top: -40px;
 }
 
 .intro-title {
@@ -61,7 +77,7 @@
   color: #0a1a33;
   text-align: center;
   line-height: 1.2;
-  margin-top: -61px;
+  margin-top: 20px;
 }
 
 .intro-title .highlight {
@@ -106,7 +122,8 @@
   width: 16px;
   height: 16px;
   transition: all 0.3s ease;
-  filter: brightness(0) invert(1); /* makes arrow white */
+  filter: brightness(0) invert(1);
+  /* makes arrow white */
 }
 
 /* Hover effect — same as .btn-outline */
@@ -117,8 +134,10 @@
 }
 
 .btn-intro:hover img {
-  filter: brightness(0) invert(1); /* keeps arrow white */
-  transform: translateX(5px); /* optional: arrow slides right */
+  filter: brightness(0) invert(1);
+  /* keeps arrow white */
+  /* transform: translateX(5px); */
+  /* optional: arrow slides right */
 }
 
 /* ====== Responsive ====== */

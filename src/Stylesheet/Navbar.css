@@ -157,7 +157,8 @@
 /* Arrow image color change on hover */
 .btn-nav img {
   filter: brightness(0) invert(0);
-  transition: filter 0.3s ease;
+      width: 20px;
+    height: auto;
 }
 
 .btn-nav:hover img {

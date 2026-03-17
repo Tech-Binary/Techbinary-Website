@@ -38,7 +38,13 @@
   justify-content: space-between;
   /* border-bottom: 1px solid #eee; */
   padding-bottom: 10px;
-  margin-bottom: 20px;
+}
+
+.job-meta2 {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #8B81D0;
+  margin-bottom: 2px;
 }
 
 .job-meta {
@@ -55,7 +61,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .job-title h3 {
@@ -71,26 +77,33 @@
 }
 
 .job-desc {
-  color: rgba(61, 88, 155, 1);
+  color: #3D589B;
   font-size: 0.9rem;
   line-height: 1.5;
+  min-height: 68px;
 }
 
 .job-footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   border-top: 1px solid #eee;
-  padding-top: 12px;
+  padding-top: 20px;
   font-size: 0.9rem;
 }
 
 .job-location {
   color: rgba(61, 88, 155, 1);
+  margin-bottom: 0;
+}
+
+.job-location svg {
+  width: 20px;
+  height: auto;
 }
 
 .job-link {
-  color: #002046;
+  color: #0C2E82;
   font-weight: 500;
   display: flex;
   align-items: center;

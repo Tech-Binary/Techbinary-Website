@@ -58,16 +58,16 @@
 
 .services-watermark {
   position: absolute;
+  position: absolute;
   top: 0%;
   left: 4%;
-  font-size: 6rem;
+  font-size: 7rem;
   font-family: "Archivo", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   background: linear-gradient(180deg, #ffffff 0%, rgba(118, 97, 16, 0) 109.13%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #00000073;
   background-clip: text;
-
   opacity: 0.2;
 }
 
@@ -185,8 +185,8 @@
 }
 
 .service-card .icon-circle img {
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: auto;
 }
 
 .service-card h3 {
@@ -239,20 +239,21 @@
   font-size: small;
   font-family: "Montserrat", sans-serif;
 }
-.btn-outline img{
-      width: 15px;
+
+.btn-outline img {
+  width: 15px;
 }
 
 .btn-outline:hover {
   background: #229dd6;
   color: #fff;
   border-color: #229dd6;
-  transform: translateY(-2px);
+  /* transform: translateY(-2px); */
 }
 
 .btn-outline:hover img {
   filter: brightness(0) invert(1);
-  transform: translateX(5px);
+  /* transform: translateX(5px); */
 }
 
 .service-card .card-arrow {
@@ -263,9 +264,14 @@
   height: 60px;
   padding: 10px;
   transition: 0.3s ease;
+  border: none !important;
   cursor: pointer;
 }
-
+.service-card .card-arrow:focus{
+  border: none !important;
+  outline-offset: 0px !important;
+  outline: none !important;
+}
 @media (max-width: 1500px) and (min-width: 1300px) {
   .services-header h2 {
     font-size: 2.3rem;

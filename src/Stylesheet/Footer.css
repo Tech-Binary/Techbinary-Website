@@ -90,7 +90,7 @@
 /* Bottom Section */
 .footer-bottom {
   border-top: 1px solid #1f1f1f;
-  padding-top: 20px;
+    padding-top: 50px;
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.75);
   line-height: 1.6;

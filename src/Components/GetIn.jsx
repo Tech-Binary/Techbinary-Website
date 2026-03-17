@@ -85,7 +85,7 @@ const GetInTouch = () => {
             <a href="#"><i className="fab fa-linkedin-in"></i></a>
             <a href="#"><i className="fab fa-facebook-f"></i></a>
             <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-x-twitter"></i></a>
+           {/* <a href="#"><i className="fa-brands fa-x-twitter"></i></a> */}
           </div>
         </div>
 
