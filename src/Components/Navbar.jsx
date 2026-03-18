@@ -32,12 +32,12 @@ const Navbar = () => {
         <div className="container">
           {/* Logo Section */}
           <div className="logo">
-          <a href="/" style={{cursor:'pointer'}}>
-            <img
-              src="/images/logo.png"
-              alt="TechBinary Logo"
-              className="logo-img"
-            />
+            <a href="/" style={{ cursor: 'pointer' }}>
+              <img
+                src="/images/logo.png"
+                alt="TechBinary Logo"
+                className="logo-img"
+              />
             </a>
           </div>
 
@@ -56,8 +56,8 @@ const Navbar = () => {
             <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
 
               <li>
-                <NavLink 
-                  to="/" 
+                <NavLink
+                  to="/"
                   className={({ isActive }) => (isActive ? "active-link" : "")}
                 >
                   Home
@@ -65,7 +65,7 @@ const Navbar = () => {
               </li>
 
               <li>
-                <NavLink 
+                <NavLink
                   to="/about-us"
                   className={({ isActive }) => (isActive ? "active-link" : "")}
                 >
@@ -112,14 +112,17 @@ const Navbar = () => {
           </nav>
 
           {/* CTA Button */}
-          <NavLink
-            to="/Get-In-Touch"
-            className={({ isActive }) =>
-              isActive ? "btn-nav active-link" : "btn-nav"
-            }
-          >
-            Get In Touch
-            <img src="/images/arrow2.png" alt="arrow" className="btn-navbar" />
+          <NavLink to="/Get-In-Touch">
+            {({ isActive }) => (
+              <span className={isActive ? "btn-nav active-link2" : "btn-nav"}>
+                Get In Touch
+                <img
+                  src={isActive ? "/images/white-arrow.svg" : "/images/arrow2.png"}
+                  alt="arrow"
+                  className="btn-navbar"
+                />
+              </span>
+            )}
           </NavLink>
         </div>
       </header>

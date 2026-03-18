@@ -67,7 +67,7 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="footer-bottom">
-        <span><p>techbinary Group © 2025 | All Rights Reserved</p> </span>
+        <span><p>techbinary Group © 2026 | All Rights Reserved</p> </span>
         <span><p>USA | UK | Canada | Australia | Norway | Germany | France | Sweden | Poland</p></span>
       </div>
     </footer>
