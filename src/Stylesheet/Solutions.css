@@ -81,6 +81,8 @@ h2 {
   text-align: left;
   transition: transform 0.3s ease;
   width: 95% !important;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #229DD6;
 }
 
 .solution-card:hover {
@@ -89,22 +91,27 @@ h2 {
 
 .solution-card img {
   width: 100%;
-  height: 200px;
+  height: 160px;
   object-fit: cover;
 }
 
 .solution-card h3 {
-  margin: 5px 9px 8px;
-  font-size: 15px;
-  color: rgba(0, 32, 70, 1);
+  margin: 20px 9px 8px;
+  font-size: 18px;
+  color: #002046;
 }
 
 .solution-card p {
-  font-size: 13px;
-  color: rgba(123, 132, 146, 1);
+  text-align: justify;
+  font-size: 14px;
+  color: #7B8492;
   font-family: "Roboto Flex";
-  padding: 8px 9px 20px;
+  padding: 8px 10px 0px;
   word-spacing: 7px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* ========= Discover More Button ========= */

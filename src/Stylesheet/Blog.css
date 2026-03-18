@@ -95,8 +95,8 @@
 }
 
 .blog-card2:hover {
-  /* transform: translateY(-5px); */
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  /* box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); */
 }
 
 .blog-card2 img {
