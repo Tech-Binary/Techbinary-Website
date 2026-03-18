@@ -370,11 +370,11 @@
   }
 
   .btn-hero {
-    width: 140px;
-    height: 36px;
-    font-size: 12px;
-    margin: 0 auto;
-    padding: 0 7px;
+          width: fit-content;
+        height: 36px;
+        font-size: 12px;
+        margin: 0 auto;
+        padding: 0 15px;
   }
 
   .hero-logo {

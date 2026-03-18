@@ -97,6 +97,7 @@
   height: 378px;
   background: #fff;
   border-radius: 15px;
+  margin-left: 5px;
   margin-bottom: 20px;
   padding: 2rem 1.5rem;
   color: #7b8492;
@@ -112,9 +113,9 @@
   z-index: 1;
   background-image: url("/public/images/servicebg.png");
   background-position: top;
-     background-size: 250px;
-    background-repeat: no-repeat;
-    background-position: top right;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .service-card {
@@ -185,8 +186,8 @@
 }
 
 .service-card .icon-circle img {
-    width: 30px;
-    height: auto;
+  width: 30px;
+  height: auto;
 }
 
 .service-card h3 {
@@ -267,11 +268,13 @@
   border: none !important;
   cursor: pointer;
 }
-.service-card .card-arrow:focus{
+
+.service-card .card-arrow:focus {
   border: none !important;
   outline-offset: 0px !important;
   outline: none !important;
 }
+
 @media (max-width: 1500px) and (min-width: 1300px) {
   .services-header h2 {
     font-size: 2.3rem;
@@ -323,7 +326,6 @@
     align-items: center;
     justify-content: center;
     gap: 0.8rem;
-    margin-bottom: 71px;
   }
 
   .services-header h2 {
@@ -383,6 +385,10 @@
     text-align: center;
   }
 
+  .services-cards-slider .slick-dots {
+    width: 100% !important;
+  }
+
   .services-header {
     flex-direction: column;
     align-items: center;
@@ -416,13 +422,16 @@
     width: 90%;
   }
 
+.services-section {
+    padding-bottom: 1rem;
+}
   .service-card {
     width: 100% !important;
-
     margin: 0 auto;
-
-    height: 384px;
+    height: fit-content;
     top: 104px;
+    position: static;
+    margin-bottom: 10px;
   }
 
   .service-card h3 {

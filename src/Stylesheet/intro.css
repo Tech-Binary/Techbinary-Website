@@ -209,7 +209,7 @@
 
 @media (max-width: 600px) {
   .intro-section {
-    padding-top: 2rem;
+    padding-top: 6rem;
   }
 
   .intro-watermark {
@@ -233,9 +233,16 @@
     max-width: 60ch;
   }
 
+  .video-img {
+    left: 30px;
+    bottom: 60px;
+    width:30px;
+    height:30px;
+  }
+
   .btn-intro {
-    right: 20px;
-    bottom: 47px;
+    right: 30px !important;
+    bottom: 60px;
     font-size: 9px;
     width: 115px;
     padding: 0.4rem 0.7rem;

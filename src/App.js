@@ -23,10 +23,11 @@ import ServiceInnerIos from "./Pages/ServiceInnerIos";
 import ServiceInnerTesting from "./Pages/ServiceInnerTesting";
 import ServiceInnerUI from "./Pages/ServiceInnerUI";
 import ServiceInnerWeb from "./Pages/ServiceInnerWeb";
-
+import ScrollToTop from "./Pages/ScrollToTop";
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -45,8 +46,8 @@ function App() {
         <Route path="Service-inner-testing" element={<ServiceInnerTesting />}></Route>
         <Route path="Service-inner-ui" element={<ServiceInnerUI />}></Route>
         <Route path="Service-inner-web" element={<ServiceInnerWeb />}></Route>
-         <Route path="/Get-In-Touch" element={<GetInTouch />} />
-         <Route path="/sop" element={<Sop />} />
+        <Route path="/Get-In-Touch" element={<GetInTouch />} />
+        <Route path="/sop" element={<Sop />} />
       </Routes>
       <Footer />
     </BrowserRouter>

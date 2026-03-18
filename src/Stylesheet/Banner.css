@@ -4,9 +4,7 @@
   overflow: hidden;
   margin: 2rem auto;
   max-width: 1410px;
-  height: 515px;
-
- 
+  height: 430px;
 }
 
 /* Background Image */
@@ -38,15 +36,15 @@
 .banner-text h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  margin-left: 60px;
+  margin-left: 0px;
 }
 
 .banner-text p {
   font-size: 15px;
   color: rgba(255, 255, 255, 1);
-  line-height: 2;
-  width: 70%;
-  margin-left: 64px;
+    line-height: 2;
+    width: 80%;
+    margin-left: 0;
   font-family: "Roboto Flex" sans-serif;
 }
 
@@ -58,7 +56,7 @@
   grid-gap: 1.5rem; /* space between boxes */
   justify-content: center; /* centers grid horizontally */
   align-items: center; /* centers vertically */
-  margin-top: 50px;
+  /* margin-top: 50px; */
   font-family: "Arsenal";
 }
 

@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="banner">
       {/* Background Image */}
       <img
-        src="https://blueberrydatastorage.blob.core.windows.net/websitesdata/TechBinary/Home%20Page/You%C2%A0share%20your%20idea%E2%80%A8We%20get%20it%20done.png"
+        src="/images/blue-bg.png"
         alt="Banner"
         className="banner-img"
       />

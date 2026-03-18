@@ -30,7 +30,7 @@ const GetInTouch = () => {
           </div>
 
           <button type="submit" className="submit-btn">
-            Read More <span className="arrow">→</span>
+            Read More  <img src="/images/white-arrow.svg" alt="arrow" className="btn-navbar" style={{marginLeft:'5px', width:'18px'}} />
           </button>
         </form>
       </div>

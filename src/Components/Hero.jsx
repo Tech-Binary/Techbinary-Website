@@ -41,7 +41,7 @@ const Hero = () => {
             src="/images/arrow.png"
             alt="arrow"
             className="btn-arow"
-          /> <span style={{ fontSize: "1.2rem" }}></span>
+          /> 
         </a>
       </div>
 

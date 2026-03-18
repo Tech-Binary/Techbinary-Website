@@ -83,6 +83,7 @@ h2 {
   width: 95% !important;
   margin-bottom: 15px;
   border-bottom: 2px solid #229DD6;
+  margin-left: 5px;
 }
 
 .solution-card:hover {
@@ -285,6 +286,7 @@ h2 {
   .solution-card {
     border-radius: 12px;
     padding: 1.2rem;
+        margin-bottom: 0;
   }
 
   .solution-card h3 {
@@ -303,7 +305,9 @@ h2 {
     line-height: 32px;
     font-size: 25px;
   }
-
+.solutions-cards {
+    padding-bottom: 0;
+}
   .solution-btn-outline {
     margin-top: -3px;
     margin-bottom: 18px;
