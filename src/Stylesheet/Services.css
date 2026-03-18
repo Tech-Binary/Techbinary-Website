@@ -112,9 +112,9 @@
   z-index: 1;
   background-image: url("/public/images/servicebg.png");
   background-position: top;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top right -61px;
+     background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .service-card {

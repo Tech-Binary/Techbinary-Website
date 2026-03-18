@@ -43,13 +43,13 @@
 .job-meta2 {
   font-size: 12px;
   line-height: 1.5;
-  color: #8B81D0;
+  color: #7B8492;
   margin-bottom: 2px;
 }
 
 .job-meta {
-  font-size: 0.85rem;
-  color: rgba(12, 46, 130, 1);
+  font-size: 15px;
+  color: #292929;
   line-height: 1.5;
 }
 
@@ -65,9 +65,10 @@
 }
 
 .job-title h3 {
-  font-size: 1.1rem;
-  color: rgba(11, 43, 130, 1);
+  font-size: 22px;
+  color: #002046;
   font-weight: 600;
+  margin-bottom: 0;
 }
 
 .job-icon {
@@ -77,8 +78,8 @@
 }
 
 .job-desc {
-  color: #3D589B;
-  font-size: 0.9rem;
+  color: #292929;
+  font-size: 16px;
   line-height: 1.5;
   min-height: 68px;
 }
@@ -93,7 +94,7 @@
 }
 
 .job-location {
-  color: rgba(61, 88, 155, 1);
+  color: #7B8492;
   margin-bottom: 0;
 }
 
@@ -103,7 +104,7 @@
 }
 
 .job-link {
-  color: #0C2E82;
+  color: #292929;
   font-weight: 500;
   display: flex;
   align-items: center;

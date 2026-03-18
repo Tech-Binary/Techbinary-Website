@@ -9,10 +9,10 @@ const Intro = () => {
 
       <div className="intro-content">
         <h1 className="intro-title">
-         Engineering Practical  <span className="highlight">Technology Solutions</span> for Businesses <br/> That Want to Grow Digitally
+          Engineering Practical  <span className="highlight">Technology Solutions</span> for Businesses <br /> That Want to Grow Digitally
         </h1>
         <p className="intro-text">
-           <strong>Tech Binary</strong> is a technology-driven company built around experienced engineers, designers, and digital specialists who understand how businesses operate behind the scenes. Rather than building generic software, Tech Binary focuses on creating solutions that solve real operational challenges, whether it is structuring large volumes of data, improving internal workflows, or developing platforms that support growing user bases. 
+          <strong>Tech Binary</strong> is a technology-driven company built around experienced engineers, designers, and digital specialists who understand how businesses operate behind the scenes. Rather than building generic software, Tech Binary focuses on creating solutions that solve real operational challenges, whether it is structuring large volumes of data, improving internal workflows, or developing platforms that support growing user bases.
         </p>
       </div>
 
@@ -23,7 +23,11 @@ const Intro = () => {
           className="intro-banner__gif"
         />
       </div>
-
+      <img
+        src="/images/video-img.png"
+        alt="video"
+        className="video-img"
+      />
       <a href="/Get-In-Touch" className="btn-intro">
         Get In Touch{" "}
         <img
@@ -40,7 +44,7 @@ export default Intro;
 
 
 
-//Video code 
+//Video code
 // import React, { useRef, useState } from "react";
 // import "../Stylesheet/global.css";
 // import "../Stylesheet/intro.css";

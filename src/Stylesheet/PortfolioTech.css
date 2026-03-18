@@ -1,7 +1,7 @@
 /* SECTION */
 .portfolio-tech-section {
   width: 100%;
-  background-color: #f9fafc;
+  /* background-color: #f9fafc; */
   padding: 81px 0 0 0;
   font-family: "Poppins", sans-serif;
 }
@@ -44,7 +44,7 @@
 .portfolio-tech-card {
   flex: 1;
   min-width: 500px;
-  background: rgba(229, 231, 235, 0.4);
+  background: #F9FAFB;
   border-radius: 20px;
   padding: 50px 40px;
   /* box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05); */
@@ -79,32 +79,35 @@
   align-items: center;
   gap: 10px;
   position: relative;
-  padding-right: 20px;
 }
 
 /* Pseudo-element divider (instead of <div class="divider">) */
-.portfolio-tech-item:not(:last-child)::after {
+.portfolio-tech-item:not(:nth-child(4)):not(:last-child)::after {
   content: "";
   position: absolute;
-  right: 0;
+  left: 110px;
   top: 50%;
   transform: translateY(-50%);
   width: 1px;
-  height: 50px;
-  background: #e0e0e0;
+  height: 80px;
+  background: #E5E7EB;
 }
 
 /* HOVER EFFECT */
-.portfolio-tech-item:hover {
-  transform: translateY(-5px);
+.portfolio-tech-item img {
+  transition: transform 0.3s ease;
 }
 
+.portfolio-tech-item img:hover {
+  transform: translateY(-5px);
+}
 
 /* 1500px*/
 @media (max-width: 1500px) {
   .portfolio-tech-wrapper {
     width: 95%;
   }
+
   .portfolio-tech-title {
     font-size: 2.2rem;
   }
@@ -117,9 +120,11 @@
   .portfolio-tech-wrapper {
     width: 100%;
   }
+
   .portfolio-tech-card {
     min-width: 450px;
   }
+
   .linetech-img {
     margin-left: 420px;
   }
@@ -130,9 +135,11 @@
   .portfolio-tech-card {
     min-width: 400px;
   }
+
   .portfolio-tech-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .linetech-img {
     margin-left: 35%;
   }
@@ -143,10 +150,12 @@
   .portfolio-tech-title {
     font-size: 2rem;
   }
+
   .portfolio-tech-card {
     min-width: 100%;
     padding: 40px 28px;
   }
+
   .portfolio-tech-grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -188,7 +197,8 @@
   }
 
   .portfolio-tech-item:not(:last-child)::after {
-    display: none; /* hide vertical divider */
+    display: none;
+    /* hide vertical divider */
   }
 
   .linetech-img {

@@ -80,6 +80,10 @@
   font-size: 0.9rem;
   color: #ccc;
   margin-bottom: 10px;
+  cursor: pointer;
+}
+.footer-column.contact p:hover {
+  color: #00bcd4;
 }
 
 .footer-column.contact svg {

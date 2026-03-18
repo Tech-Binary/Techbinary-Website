@@ -107,7 +107,7 @@ const Services = () => {
                 OUR EXPERTISE 
               </h5>
               {/* <h2>Solutions Designed for Digital Age </h2> */}
-              <h2>OOur Offered Services</h2>
+              <h2>Our Offered Services</h2>
             </div>
             <p className="services-subtext">
              Through development, design, and digital strategy, Tech Binary delivers solutions that improve performance, enhance engagement, and unlock new opportunities. 

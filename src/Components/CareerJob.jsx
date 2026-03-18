@@ -136,7 +136,7 @@ const CareerJob = () => {
 
             <div className="job-footer">
               <p className="job-location">
-                <CiLocationOn className="loc-icon" />
+                <img src="/images/location-icon.svg" alt="img" style={{marginRight:'5px', width:'18px', height:'auto'}}/>
                 {job.location}
               </p>
               <a href="#" className="job-link">
