@@ -34,11 +34,19 @@ const Footer = () => {
           <h3>Company</h3>
           <ul>
             <li><FaCaretRight /> Our Approach</li>
-            <li><FaCaretRight /> About Us</li>
+            <a href="/about-us" style={{textDecoration:'none'}}>
+              <li><FaCaretRight /> About Us</li>
+            </a>
             <li><FaCaretRight /> Meet the Team</li>
-            <li><FaCaretRight /> Careers</li>
-            <li><FaCaretRight /> News</li>
-            <li><FaCaretRight /> Contact Us</li>
+            <a href="/career" style={{textDecoration:'none'}}>
+              <li><FaCaretRight /> Careers</li>
+            </a>
+            <a href="/Blog" style={{textDecoration:'none'}}>
+              <li><FaCaretRight /> News</li>
+            </a>
+            <a href="/Get-In-Touch" style={{textDecoration:'none'}}>
+              <li><FaCaretRight /> Contact Us</li>
+            </a>
             <li><FaCaretRight /> Privacy Policy</li>
           </ul>
         </div>
@@ -68,7 +76,7 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="footer-bottom">
         <span><p>techbinary Group © 2026 | All Rights Reserved</p> </span>
-        <span><p>USA | UK | Canada | Australia | Norway | Germany | France | Sweden | Poland</p></span>
+        {/* <span><p>USA | UK | Canada | Australia | Norway | Germany | France | Sweden | Poland</p></span> */}
       </div>
     </footer>
   );
