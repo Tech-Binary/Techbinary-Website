@@ -100,7 +100,7 @@
   line-height: 1.6;
   font-family: "Roboto Flex";
   display: flex; /* Make it flex container */
-  justify-content: space-between; /* Spread items left & right */
+  justify-content: center; /* Spread items left & right */
   align-items: center; /* Vertically center them */
   flex-wrap: wrap; /* Wrap on very small screens */
 }
